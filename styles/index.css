@@ -17,5 +17,6 @@
     text-shadow: none;
   }
 }
+
 @tailwind components;
 @tailwind utilities;
