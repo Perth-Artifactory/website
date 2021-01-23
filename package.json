@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.4.0",
-    "autoprefixer": "^10.2.1",
+    "autoprefixer": "^10.2.3",
     "change-case": "^4.1.2",
     "classnames": "2.2.6",
     "date-fns": "2.16.1",
@@ -21,7 +21,7 @@
     "react-icons": "^4.1.0",
     "remark": "11.0.2",
     "remark-html": "10.0.0",
-    "simple-icons": "^4.6.0"
+    "simple-icons": "^4.7.0"
   },
   "devDependencies": {
     "postcss-preset-env": "^6.7.0",
