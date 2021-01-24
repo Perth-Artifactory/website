@@ -37,9 +37,3 @@ export default function BaseLayout({ children }) {
     </>
   );
 }
-
-export async function getStaticProps() {
-  return {
-    props: {},
-  };
-}
