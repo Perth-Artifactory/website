@@ -75,6 +75,22 @@ module.exports = {
         'secondary-3': '#90e0c9',
         'highlight-1': '#eaa844',
       },
+      // colors: {
+      //   success: '#0070f3',
+      //   cyan: '#79FFE1',
+      //   'accent-1': '#FAFAFA',
+      //   'accent-2': '#EAEAEA',
+      //   'accent-7': '#333',
+      //   //
+      //   'primary-1': '#321450',
+      //   'primary-2': '#29132E',
+      //   //
+      //   'secondary-1': '#DE004E',
+      //   'secondary-2': '#860029',
+      //   'secondary-3': '#f887FF',
+      //   //
+      //   'highlight-1': '#DE004E',
+      // },
       minWidth: {
         0: '0',
         '1/4': '25%',

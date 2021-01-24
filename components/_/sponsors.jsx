@@ -10,7 +10,7 @@ export default function Donations() {
           <li className="block border-2 border-secondary-1 p-6 mb-4 sm:mx-2 sm:flex-1/3">
             <a href="http://alby.beer/">
               {/* Donation Logo */}
-              <img className="block w-100 mb-4 mx-auto" src="https://via.placeholder.com/640x480" alt="#" />
+              <img className="block w-100 mb-4 mx-auto" src="/assets/site/alby.jpg" alt="#" />
               {/* Donation Title */}
               <span className="block w-100 mb-4 text-center">Alby Beer</span>
               {/* Donation Description */}
@@ -24,7 +24,7 @@ export default function Donations() {
           <li className="block border-2 border-secondary-1 p-6 mb-4 sm:mx-2 sm:flex-1/3">
             <a href="http://lotterywest.wa.gov.au/">
               {/* Donation Logo */}
-              <img className="block w-100 mb-4 mx-auto" src="https://via.placeholder.com/640x480" alt="#" />
+              <img className="block w-100 mb-4 mx-auto" src="/assets/site/lotterywest.jpg" alt="#" />
               {/* Donation Title */}
               <span className="block w-100 mb-4 text-center">LotteryWest</span>
               {/* Donation Description */}
@@ -37,7 +37,7 @@ export default function Donations() {
           <li className="block border-2 border-secondary-1 p-6 mb-4 sm:mx-2 sm:flex-1/3">
             <a href="https://pentanet.com.au/">
               {/* Donation Logo */}
-              <img className="block w-100 mb-4 mx-auto" src="https://via.placeholder.com/640x480" alt="#" />
+              <img className="block w-100 mb-4 mx-auto" src="/assets/site/pentanet.jpg" alt="#" />
               {/* Donation Title */}
               <span className="block w-100 mb-4 text-center">PentaNet</span>
               {/* Donation Description */}
@@ -48,9 +48,9 @@ export default function Donations() {
           </li>
           {/* Donation List Item */}
           <li className="block border-2 border-secondary-1 p-6 mb-4 sm:mx-2 sm:flex-1/3">
-            <a href="https://pentanet.com.au/">
+            <a href="#">
               {/* Donation Logo */}
-              <img className="block w-100 mb-4 mx-auto" src="https://via.placeholder.com/640x480" alt="#" />
+              <img className="block w-100 mb-4 mx-auto" src="/assets/site/supanova.jpg" alt="#" />
               {/* Donation Title */}
               <span className="block w-100 mb-4 text-center">Supanova</span>
               {/* Donation Description */}
@@ -64,7 +64,7 @@ export default function Donations() {
           <li className="block border-2 border-secondary-1 p-6 mb-4 sm:mx-2 sm:flex-1/3">
             <a href="http://www.webinabox.net.au/">
               {/* Donation Logo */}
-              <img className="block w-100 mb-4 mx-auto" src="https://via.placeholder.com/640x480" alt="#" />
+              <img className="block w-100 mb-4 mx-auto" src="/assets/site/webinabox.jpg" alt="#" />
               {/* Donation Title */}
               <span className="block w-100 mb-4 text-center">WebInABox</span>
               {/* Donation Description */}
