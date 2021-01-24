@@ -6,13 +6,13 @@ export default function Navigation() {
     <>
       <div
         id="menu-close"
-        className="fixed text-secondary-1 p-3 bg-primary-1 top-2 right-2 z-10 border-2 border-primary-2 shadow-xl"
+        className="fixed text-secondary-1 p-3 bg-primary-1 top-2 right-2 z-10 border-2 border-white shadow-xl"
         onClick={closeNavigation}>
         <AiOutlineClose />
       </div>
       <div
         id="menu-open"
-        className="fixed text-secondary-1 p-3 bg-primary-2 top-2 right-2 z-10 border-2 border-primary-1 shadow-xl"
+        className="fixed text-secondary-1 p-3 bg-primary-2 top-2 right-2 z-10 border-2 border-white shadow-xl"
         onClick={openNavigation}>
         <AiOutlineMenu />
       </div>
@@ -51,6 +51,7 @@ const openNavigation = function () {
   let menuNavigation = document.getElementById('menu-navigation');
   let menuClose = document.getElementById('menu-close');
   let menuOpen = document.getElementById('menu-open');
+  let body = document.getElementById('app');
   if (menuNavigation.classList.contains('hidden')) {
     menuNavigation.classList.remove('hidden');
     menuNavigation.classList.add('fixed');
@@ -60,6 +61,8 @@ const openNavigation = function () {
     //
     menuClose.classList.remove('hidden');
     menuClose.classList.add('fixed');
+    //
+    body.classList.add('overflow-hidden');
   }
 };
 
@@ -67,6 +70,7 @@ const closeNavigation = function () {
   let menuNavigation = document.getElementById('menu-navigation');
   let menuClose = document.getElementById('menu-close');
   let menuOpen = document.getElementById('menu-open');
+  let body = document.getElementById('app');
   if (menuNavigation.classList.contains('fixed')) {
     menuNavigation.classList.remove('fixed');
     menuNavigation.classList.add('hidden');
@@ -76,5 +80,7 @@ const closeNavigation = function () {
     //
     menuOpen.classList.remove('hidden');
     menuOpen.classList.add('fixed');
+    //
+    body.classList.remove('overflow-hidden');
   }
 };

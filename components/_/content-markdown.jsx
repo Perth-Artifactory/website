@@ -1,7 +1,7 @@
 export default function ContentMarkdown() {
   return (
     <>
-      <div className="block bg-primary-1 text-white p-4 mb-4">
+      <div className="block bg-primary-1 text-white p-6 mb-4">
         {/* Content */}
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quae ipsum? Possimus ex voluptates,

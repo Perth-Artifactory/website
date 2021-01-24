@@ -2,7 +2,7 @@ export default function TextBlock2() {
   return (
     <>
       {/* Container */}
-      <div className="block bg-primary-1 text-white p-4 mb-2 sm:mb-4">
+      <div className="block bg-primary-1 text-white p-6 mb-2 sm:mb-20">
         {/* Content */}
         <p className="">
           If you would like to visit for a tour, come to one of our monthly{' '}

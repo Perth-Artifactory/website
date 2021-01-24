@@ -2,7 +2,7 @@ export default function TextBlock1() {
   return (
     <>
       {/* Container */}
-      <div className="block bg-primary-1 text-white p-4 sm:mb-2">
+      <div className="block bg-primary-1 text-white p-6 mb-2 sm:mb-20">
         {/* Content */}
         <p className="">
           <strong className="text-highlight-1">The Perth Artifactory</strong> is the Hackerspace/Makerspace in Perth,

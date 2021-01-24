@@ -2,9 +2,9 @@ export default function Gallery() {
   return (
     <>
       {/* Container */}
-      <div className="flex flex-col align-center mb-2 sm:mb-4 bg-primary-1 p-4 pb-2">
+      <div className="flex flex-col align-center mb-2 sm:mb-20 bg-primary-1 p-6">
         {/* Image Container */}
-        <div className="block w-100 mb-2 sm:mb-4">
+        <div className="block w-100 mb-2 sm:mb-20">
           <img
             className="border-2 border-highlight-1 mx-auto sm:border-3 md:border-4 lg:border-5"
             src="https://via.placeholder.com/640x480"

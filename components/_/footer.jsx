@@ -4,10 +4,10 @@ export default function Footer() {
   return (
     <>
       {/* Container */}
-      <div className="bg-secondary-1 p-4 sm:flex">
+      <div className="bg-secondary-1 p-6 sm:flex">
         {/* Sitemap Container */}
-        <div className="block w-100 mb-4 p-4 bg-primary-2 text-white sm:mr-2 min-w-1/4 sm:mb-0">
-          <span className="text-lg sm:text-xl block mb-2 sm:mb-4 font-semibold border-b-2 border-highlight-1">
+        <div className="block w-100 mb-4 p-6 bg-primary-2 text-white sm:mr-2 min-w-1/4 sm:mb-0">
+          <span className="text-lg sm:text-xl block mb-2 sm:mb-20 font-semibold border-b-2 border-highlight-1">
             Sitemap
           </span>
           {/* Sitemap Link List */}
@@ -25,7 +25,7 @@ export default function Footer() {
               </Link>
             </li>
             <li>
-              <Link href="/">
+              <Link href="/pages/membership.md">
                 <a>Membership</a>
               </Link>
             </li>
@@ -42,8 +42,8 @@ export default function Footer() {
           </ul>
         </div>
         {/* More Info Container */}
-        <div className="block w-100 bg-primary-2 p-4 text-white sm:flex-1">
-          <span className="text-lg sm:text-xl block mb-2 sm:mb-4 font-semibold border-b-2 border-highlight-1">
+        <div className="block w-100 bg-primary-2 p-6 text-white sm:flex-1">
+          <span className="text-lg sm:text-xl block mb-2 sm:mb-20 font-semibold border-b-2 border-highlight-1">
             More Info
           </span>
           <p>

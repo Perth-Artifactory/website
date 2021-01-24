@@ -5,9 +5,9 @@ export default function Prices() {
   return (
     <>
       {/* Container */}
-      <div className="block p-4 pb-0.5 bg-secondary-1 mb-2 sm:mb-4">
+      <div className="block p-6 pb-0.5 bg-secondary-1 mb-2 sm:mb-20">
         <ul className="sm:flex sm:flex-wrap sm:space-between">
-          <li className="block bg-primary-1 p-4 text-white mb-4 max-w-xs mx-auto sm:w-1/4 border-2 border-secondary-1">
+          <li className="block bg-primary-1 p-6 text-white mb-4 max-w-xs mx-auto sm:w-1/4 border-2 border-secondary-1">
             <div>
               <div className="text-4xl sm:text-xl">
                 <ul className="block w-auto text-center my-4">
@@ -31,7 +31,7 @@ export default function Prices() {
               </ul>
             </div>
           </li>
-          <li className="block bg-primary-1 p-4 text-white mb-4 max-w-xs mx-auto sm:w-1/4 border-2 border-secondary-1">
+          <li className="block bg-primary-1 p-6 text-white mb-4 max-w-xs mx-auto sm:w-1/4 border-2 border-secondary-1">
             <div>
               <div className="text-4xl sm:text-xl">
                 <ul className="block w-auto text-center my-4">
@@ -58,7 +58,7 @@ export default function Prices() {
               </ul>
             </div>
           </li>
-          <li className="block bg-primary-1 p-4 text-white mb-4 max-w-xs mx-auto sm:w-1/4 border-4 border-highlight-1">
+          <li className="block bg-primary-1 p-6 text-white mb-4 max-w-xs mx-auto sm:w-1/4 border-4 border-highlight-1">
             <div>
               <div className="text-4xl sm:text-xl">
                 <ul className="block w-auto text-center my-4">
@@ -88,7 +88,7 @@ export default function Prices() {
               </ul>
             </div>
           </li>
-          <li className="block bg-primary-1 p-4 text-white mb-4 max-w-xs mx-auto sm:w-1/4 border-2 border-secondary-1">
+          <li className="block bg-primary-1 p-6 text-white mb-4 max-w-xs mx-auto sm:w-1/4 border-2 border-secondary-1">
             <div>
               <div className="text-4xl sm:text-xl">
                 <ul className="block w-auto text-center my-4">

@@ -5,13 +5,13 @@ export default function Stats() {
   return (
     <>
       {/* Container */}
-      <div className="mb-2 sm:mb-4 pb-0">
+      <div className="mb-2 sm:mb-20 pb-0">
         {/* Stat List */}
         <ul className="flex flex-wrap justify-center">
           {/* Stat List Item */}
           <li className="my-2 w-full max-w-sm md:flex-1/2 mx-2">
             {/* Stat Container */}
-            <div className="bg-secondary-1 shadow-xl p-4 pl-8">
+            <div className="bg-secondary-1 shadow-xl p-6 pl-8">
               <div className="w-100 flex justify-end">
                 {/* Stat Icon */}
                 <span className="block text-primary-2 text-6xl flex items-center mr-3">
@@ -26,7 +26,7 @@ export default function Stats() {
 
           <li className="my-2 w-full max-w-sm md:flex-1/2 mx-2">
             {/* Stat Container */}
-            <div className="bg-secondary-1 shadow-xl p-4 pl-8">
+            <div className="bg-secondary-1 shadow-xl p-6 pl-8">
               <div className="w-100 flex justify-end">
                 {/* Stat Icon */}
                 <span className="block text-primary-2 text-6xl flex items-center mr-3">
@@ -41,7 +41,7 @@ export default function Stats() {
 
           <li className="my-2 w-full max-w-sm md:flex-1/2 mx-2">
             {/* Stat Container */}
-            <div className="bg-secondary-1 shadow-xl p-4 pl-8">
+            <div className="bg-secondary-1 shadow-xl p-6 pl-8">
               <div className="w-100 flex justify-end">
                 {/* Stat Icon */}
                 <span className="block text-primary-2 text-6xl flex items-center mr-3">
@@ -56,7 +56,7 @@ export default function Stats() {
 
           <li className="my-2 w-full max-w-sm md:flex-1/2 mx-2">
             {/* Stat Container */}
-            <div className="bg-secondary-1 shadow-xl p-4 pl-8">
+            <div className="bg-secondary-1 shadow-xl p-6 pl-8">
               <div className="w-100 flex justify-end">
                 {/* Stat Icon */}
                 <span className="block text-primary-2 text-6xl flex items-center mr-3">

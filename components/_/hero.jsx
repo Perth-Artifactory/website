@@ -7,13 +7,13 @@ export default function Hero() {
       {/* Container */}
       <div>
         {/* Image Container */}
-        <div className="block bg-primary-1 p-4 text-white mb-2 sm:mb-4">
+        <div className="block bg-primary-1 p-6 text-white mb-2 sm:mb-20">
           {/* Image */}
           <img className="block w-full h-auto" src="https://via.placeholder.com/640x480" alt="" />
         </div>
         {/* Call to Actions */}
         <div>
-          <ButtonBlock1 />
+          <ButtonBlock1 groupedBelow={true} />
           <ButtonBlock2 />
         </div>
       </div>
