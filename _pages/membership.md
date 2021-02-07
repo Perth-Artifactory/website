@@ -36,8 +36,3 @@ The Artifactory is mainly funded by its memberships and all funds received go to
 open.
 
 Small costs apply for all membership levels for major tools use.
-
-| Syntax    | Description |
-| --------- | ----------- |
-| Header    | Title       |
-| Paragraph | Text        |
