@@ -29,7 +29,7 @@ export default function Address() {
           <br />
           <br />
           If you are interested in joining or just want to checkout the space, come to one of our regular sessions
-          on Wednesday or Saturday..
+          on Wednesday or Saturday.
           <br />
           <br />
           Other events are marked on our{' '}
@@ -39,7 +39,7 @@ export default function Address() {
           and <a href="https://www.facebook.com/perthartifactory">Facebook</a> pages.
           <br />
           <br />
-          You can also join our ,{' '}
+          You can also join our{' '}
           <a href="https://space.artifactory.org.au/slack">Slack team</a> and connect with members
           and like minded makers. 
         </p>
