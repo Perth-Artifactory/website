@@ -9,7 +9,7 @@ export default function Hero() {
         {/* Image Container */}
         <div className="block bg-primary-1 p-6 text-white mb-2 sm:mb-20">
           {/* Image */}
-          <img className="block w-full h-auto" src="https://via.placeholder.com/640x480" alt="" />
+          <img className="block w-full h-auto" src="assets/site/gallery/20190616_121402-hero.jpg" alt="" />
         </div>
         {/* Call to Actions */}
         <div>
