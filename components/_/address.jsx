@@ -28,8 +28,8 @@ export default function Address() {
           Members get <strong className="text-highlight-1">24/7 access</strong> to the Artifactory with a key bond.
           <br />
           <br />
-          If you are interested in joining or just want to checkout the Space, come to one of our regular busy sessions
-          on Wednesday evenings (after 19:30) or Saturday (after 11am).
+          If you are interested in joining or just want to checkout the space, come to one of our regular sessions
+          on Wednesday or Saturday..
           <br />
           <br />
           Other events are marked on our{' '}
@@ -39,10 +39,9 @@ export default function Address() {
           and <a href="https://www.facebook.com/perthartifactory">Facebook</a> pages.
           <br />
           <br />
-          You can also join our email list,{' '}
-          <a href="https://groups.google.com/forum/#!forum/artifactory-core">Artifactory-core</a> on Google Groups. You
-          will need a Google account to participate. This is simple and free to make, and doesn’t mean you need to use a
-          gmail account.
+          You can also join our ,{' '}
+          <a href="https://space.artifactory.org.au/slack">Slack team</a> and connect with members
+          and like minded makers. 
         </p>
       </div>
     </>
