@@ -1,13 +1,17 @@
 export default function Gallery() {
   return (
     <>
+      {/* public/assets/site/gallery/20181005_203737.jpg public/assets/site/gallery/20190601_162916.jpg
+      public/assets/site/gallery/20190601_192540.jpg public/assets/site/gallery/20190616_121402-(1).jpg
+      public/assets/site/gallery/20190616_121402.jpg public/assets/site/gallery/20190616_162012.jpg
+      public/assets/site/gallery/20190630_212304.jpg */}
       {/* Container */}
       <div className="flex flex-col align-center mb-2 sm:mb-20 bg-primary-1 p-6">
         {/* Image Container */}
         <div className="block w-100 mb-2 sm:mb-20">
           <img
             className="border-2 border-highlight-1 mx-auto sm:border-3 md:border-4 lg:border-5"
-            src="https://via.placeholder.com/640x480"
+            src="assets/site/gallery/20190616_121125.jpg"
             alt="Gallery Image"
             id="gallery-large-image"
           />
@@ -20,7 +24,7 @@ export default function Gallery() {
               {/* Image */}
               <img
                 className="block w-100 h-auto cursor-pointer "
-                src="https://via.placeholder.com/640x480/123456"
+                src="assets/site/gallery/20190616_121125.jpg"
                 alt=""
                 onClick={(e) => alternateImage(e.currentTarget)}
               />
@@ -28,7 +32,7 @@ export default function Gallery() {
             <li className="block w-1/2 p-2 md:w-1/3">
               <img
                 className="block w-100 h-auto cursor-pointer "
-                src="https://via.placeholder.com/640x480/234561"
+                src="assets/site/gallery/20181020_190202.jpg"
                 alt=""
                 onClick={(e) => alternateImage(e.currentTarget)}
               />
@@ -36,7 +40,7 @@ export default function Gallery() {
             <li className="block w-1/2 p-2 md:w-1/3">
               <img
                 className="block w-100 h-auto cursor-pointer "
-                src="https://via.placeholder.com/640x480/345612"
+                src="assets/site/gallery/20181120_210525.jpg"
                 alt=""
                 onClick={(e) => alternateImage(e.currentTarget)}
               />
@@ -44,7 +48,7 @@ export default function Gallery() {
             <li className="block w-1/2 p-2 md:w-1/3">
               <img
                 className="block w-100 h-auto cursor-pointer "
-                src="https://via.placeholder.com/640x480/456123"
+                src="assets/site/gallery/20181120_211633.jpg"
                 alt=""
                 onClick={(e) => alternateImage(e.currentTarget)}
               />
@@ -52,7 +56,7 @@ export default function Gallery() {
             <li className="block w-1/2 p-2 md:w-1/3">
               <img
                 className="block w-100 h-auto cursor-pointer "
-                src="https://via.placeholder.com/640x480/561234"
+                src="assets/site/gallery/20181123_002935.jpg"
                 alt=""
                 onClick={(e) => alternateImage(e.currentTarget)}
               />
@@ -60,7 +64,7 @@ export default function Gallery() {
             <li className="block w-1/2 p-2 md:w-1/3">
               <img
                 className="block w-100 h-auto cursor-pointer "
-                src="https://via.placeholder.com/640x480/612345"
+                src="assets/site/gallery/20181207_183833.jpg"
                 alt=""
                 onClick={(e) => alternateImage(e.currentTarget)}
               />
