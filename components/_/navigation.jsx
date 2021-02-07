@@ -17,7 +17,9 @@ export default function Navigation() {
         <AiOutlineMenu />
       </div>
       {/* Container */}
-      <div id="menu-navigation" className="hidden top-0 bg-primary-2 w-full h-screen">
+      <div
+        id="menu-navigation"
+        className="hidden top-0 bg-primary-2 w-full h-screen sm:w-1/2 sm:border-2 sm:border-white sm:right-0">
         <span className="block text-secondary-1 mt-2 ml-4 text-3xl mb-8">Navigation</span>
         <ul className="block text-secondary-1 text-sm w-full">
           <li className="w-full block">
@@ -99,7 +101,7 @@ const openNavigation = function () {
     menuNavigation.classList.add('fixed');
     //
     menuOpen.classList.remove('fixed');
-    menuOpen.classList.add('hiddent');
+    menuOpen.classList.add('hidden');
     //
     menuClose.classList.remove('hidden');
     menuClose.classList.add('fixed');
