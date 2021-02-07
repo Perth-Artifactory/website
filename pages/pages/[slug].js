@@ -21,7 +21,7 @@ export default function Post({ post, morePosts, preview }) {
         {/* Content */}
 
         {/* Container */}
-        <div className="block bg-primary-1 text-white p-4 sm:mb-2">
+        <div className="block bg-primary-1 text-white p-8 sm:mb-2">
           {post.heroUrl && post.heroUrl.length > 0 ? (
             <img className="w-full max-w-3xl mx-auto mb-20" src={post.heroUrl} alt={post.title + ' hero'} />
           ) : (
