@@ -13,6 +13,17 @@ export default function BaseLayout({ children }) {
       <Head>
         <title>Artifactory</title>
         <Meta />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-G5L8KSNKCF" />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-G5L8KSNKCF');
+        `,
+          }}
+        />
       </Head>
 
       <div className="bg-primary-2" id="app">
