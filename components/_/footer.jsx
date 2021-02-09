@@ -93,9 +93,6 @@ export default function Footer() {
                 <a href="http://blazingswan.com.au/">Blazing Swan</a>
               </li>
               <li>
-                <a href="http://www.futureperth.org/">Future Perth</a>
-              </li>
-              <li>
                 <a href="https://www.rflan.org/">Red Flag Lan Fest Inc (RFLAN)</a>
               </li>
               <li>
