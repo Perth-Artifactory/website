@@ -70,14 +70,14 @@ export default function Footer() {
                 <a href="http://swmakers.org/">BUNB: South West Makers</a>
               </li>
               <li>
-                <!-- see https://github.com/Perth-Artifactory/website/issues/9  <a href="http://www.makehackvoid.com/">CANB: Make, Hack, Void</a> -->
+                {/* see https://github.com/Perth-Artifactory/website/issues/9  <a href="http://www.makehackvoid.com/">CANB: Make, Hack, Void</a> */}
                 CANB: Make, Hack, Void
               </li>
               <li>
                 <a href="https://www.hobarthackerspace.org.au/">HOBART: Hackerspace</a>
               </li>
               <li>
-                <!-- see https://github.com/Perth-Artifactory/website/issues/8 <a href="http://hackmelbourne.org/">MELB: CCHS</a> -->
+                {/* see https://github.com/Perth-Artifactory/website/issues/8 <a href="http://hackmelbourne.org/">MELB: CCHS</a> */}
                 MELB: CCHS
               </li>  
               <li>
