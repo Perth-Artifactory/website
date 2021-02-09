@@ -2,7 +2,7 @@
 title: 'Sponsored Memberships'
 date: '2021-02-07T17:35:02.322Z'
 author: Fletcher Boyd
-heroUrl: 'https://via.placeholder.com/300x150'
+heroUrl: '/assets/site/gallery/20200125_174436.jpg'
 ---
 
 # Sponsored Memberships
@@ -11,7 +11,7 @@ heroUrl: 'https://via.placeholder.com/300x150'
 
 Thanks to some of our generous donors The Artifactory has an opportunity to provide several fixed length free memberships for tertiary students. This opportunity is open to tertiary students who are interested in design, artistic creativity, engineering, cosplay, music, electronics and who just want to make stuff.  Members of The Artifactory will also support the successful applicants in the areas of their interests.
 
-Applications are processed on a rolling basis. We endevour to process all applicants within 14 days.
+Applications are processed on a rolling basis. We endeavour to process all applicants within 14 days.
 
 PLEASE NOTE: This membership type is subject to the continued support of our donors. If you would like to support us in this endeavour please [get in touch](mailto:treasurer@artifactory.org.au "Email the Treasurer").
 

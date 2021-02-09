@@ -25,7 +25,7 @@ export default function Footer() {
               </Link>
             </li>
             <li>
-              <Link href="/pages/membership.md">
+              <Link href="/pages/membership">
                 <a>Membership</a>
               </Link>
             </li>

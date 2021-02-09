@@ -1,40 +1,38 @@
 ---
 title: 'Membership'
-date: '2020-03-16T05:35:07.322Z'
-author: Tim Neutkens
-heroUrl: 'https://via.placeholder.com/300x150'
+date: '2021-02-09T0515:33:00.000Z'
+author: Fletcher Boyd
+heroUrl: '/assets/site/gallery/20200129_135304.jpg'
 ---
 
 # Membership
 
+The Artifactory is mainly funded by its memberships and all funds received go towards keeping the Artifactory doors open. We do not receive ongoing government funding and pay rent at commercial rates.
+
+In the interest of supporting the local community we also have several [free membership programs](/pages/membership)
+
 ## Full/Concession
 
-- Access to a communal workshop space located in an industrial estate, with indoor and outdoor work areas (excluding
-  rehearsal room)
-- Access to and usage of heavy duty tools, machines and facilities
-- Discounts on Artifactory run Events and workshops
-- Free WIFI, Small kitchenette and toilet facilities
+Full: [$75/mo](https://artifactory.tidyhq.com/public/membership_levels/57b90dbb32)
+Concession: [$45/mo](https://artifactory.tidyhq.com/public/membership_levels/53401b970f)
+
+- Access to a communal workshop space located in an industrial estate, with indoor and outdoor work areas (excluding rehearsal room)
+- Access to heavy duty tools, machines and facilities (some tools incur [additional costs](https://wiki.artifactory.org.au/doku.php?id=committee:committeerulings#tool_usage_fees))
+- Discounts or free entry for Artifactory run events and workshops
+- Free WIFI, small kitchenette and toilet facilities
+- Eligible for a 24/7 key (A bond equal to three months membership is required)
 
 ## Band Membership
 
-- Access to The Artifactory Rehearsal Room with at least 3 rehearsal slots a month.
-- Free entry for band members to Perth Artifactory run music related events. Including NoizeMaschin!! and the
-  ModularSynth
-- Free WIFI, Small kitchenette and toilet facilities
-- Casual user rates apply to band members to access tools/machines/workshop.
+$100/mo
+
+- Access to The Artifactory rehearsal room with at least 3 rehearsal slots a month.
+- Free entry for band members to Perth Artifactory run music related events. Including NoizeMaschin!! and ModularSynth
+- Free WIFI, small kitchenette and toilet facilities
+- Casual user rates apply to band members wanting to access tools/machines/workshop.
 
 ## Who can be a member?
 
-Any person who is at least 18 years of age and supports the objects or purposes of the Association is eligible to apply
-to become a member. For further information see our Constitution.
+Any person who is at least 18 years of age and supports the objects of the Association is eligible to apply to become a member. For further information see our [Constitution](https://wiki.artifactory.org.au/constitution).
 
-Members’ minors are welcome to use the Artifactory but must remain under parental/guardian supervision.
-
-## Membership Options:
-
-The Artifactory is mainly funded by its memberships and all funds received go towards keeping the Artifactory doors
-open.
-
-Small costs apply for all membership levels for major tools use.
-
-![alt text](/assets/site/alby.jpg 'Logo Title Text 1')
+Members’ minors are welcome to use the Artifactory but must remain under parental/guardian supervision. The exact wording on this policy can be found [here](https://wiki.artifactory.org.au/doku.php?id=committee:committeerulings#minors_in_the_space).
