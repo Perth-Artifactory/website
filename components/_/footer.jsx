@@ -81,7 +81,11 @@ export default function Footer() {
               <li>
                 <a href="http://robodino.org/">SYD: Robots &amp; Dinosaurs</a>
               </li>
-              <hr />
+            </ul>
+            <span className="text-lg sm:text-xl block mb-2 sm:my-4 font-semibold border-b-2 border-highlight-1">
+              Friends
+            </span>
+            <ul>
               <li>
                 <a href="http://www.artsource.net.au/">Artsource</a>
               </li>
@@ -94,7 +98,6 @@ export default function Footer() {
               <li>
                 <a href="https://www.rflan.org/">Red Flag Lan Fest Inc (RFLAN)</a>
               </li>
-
               <li>
                 <a href="http://swancon.com.au/">Swancon</a>
               </li>
