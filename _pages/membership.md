@@ -9,7 +9,7 @@ heroUrl: '/assets/site/gallery/20200129_135304.jpg'
 
 The Artifactory is mainly funded by its memberships and all funds received go towards keeping the Artifactory doors open. We do not receive ongoing government funding and pay rent at commercial rates.
 
-In the interest of supporting the local community we also have several [free membership programs](/pages/membership)
+In the interest of supporting the local community we also have several [free membership programs](/pages/freeMembership)
 
 ## Full/Concession
 
