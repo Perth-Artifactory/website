@@ -77,8 +77,7 @@ export default function Footer() {
                 <a href="https://www.hobarthackerspace.org.au/">HOBART: Hackerspace</a>
               </li>
               <li>
-                {/* see https://github.com/Perth-Artifactory/website/issues/8 <a href="http://hackmelbourne.org/">MELB: CCHS</a> */}
-                MELB: CCHS
+                <a href="https://hackmelbourne.com/">MELB: CCHS</a>
               </li>  
               <li>
                 <a href="http://robodino.org/">SYD: Robots &amp; Dinosaurs</a>
