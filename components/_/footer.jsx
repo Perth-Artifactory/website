@@ -121,7 +121,7 @@ export default function Footer() {
                 <a href="https://www.pmlg.org/">Perth Machine Learning Group</a>
               </li>
               <li>
-                <a href="https://www.meetup.com/en-AU/Perth-Hackers/">Perth Open Source Hackers</a>
+                <a href="https://www.meetup.com/Perth-Linux-Users-Group-PLUG/">Perth Linux Users Group</a>
               </li>
               <li>
                 <a href="https://www.facebook.com/WAMod-West-Australian-Modular-Synthesizers-416747535171732/">WAMod</a>
