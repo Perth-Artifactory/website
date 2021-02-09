@@ -2,7 +2,7 @@
 title: 'Membership'
 date: '2021-02-09T0515:33:00.000Z'
 author: Fletcher Boyd
-heroUrl: 'assets/site/gallery/20200129_135304.jpg'
+heroUrl: '/assets/site/gallery/20200129_135304.jpg'
 ---
 
 # Membership

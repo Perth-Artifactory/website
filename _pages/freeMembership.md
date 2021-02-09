@@ -2,7 +2,7 @@
 title: 'Sponsored Memberships'
 date: '2021-02-07T17:35:02.322Z'
 author: Fletcher Boyd
-heroUrl: 'assets/site/gallery/20200125_174436.jpg'
+heroUrl: '/assets/site/gallery/20200125_174436.jpg'
 ---
 
 # Sponsored Memberships
