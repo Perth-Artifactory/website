@@ -69,9 +69,9 @@ export default function Footer() {
               <li>
                 <a href="http://swmakers.org/">BUNB: South West Makers</a>
               </li>
-              <li>
+              <!-- see https://github.com/Perth-Artifactory/website/issues/9 <li>
                 <a href="http://www.makehackvoid.com/">CANB: Make, Hack, Void</a>
-              </li>
+              </li>  -->
               <li>
                 <a href="https://www.hobarthackerspace.org.au/">HOBART: Hackerspace</a>
               </li>
