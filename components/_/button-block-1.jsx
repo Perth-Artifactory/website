@@ -11,7 +11,7 @@ export default function ButtonBlock1({ groupedBelow }) {
             {/* Button */}
             <a
               className="block p-2 bg-secondary-1 hover:bg-secondary-2 focus:bg-secondary-2 text-primary-2 font-semibold"
-              href="#">
+              href="mailto:info@artifactory.org.au">
               Book a Visit
             </a>
           </li>
@@ -19,7 +19,7 @@ export default function ButtonBlock1({ groupedBelow }) {
             {/* Outbound links will need the Next.js Link component */}
             <a
               className="block p-2 bg-secondary-1 hover:bg-secondary-2 focus:bg-secondary-2 text-primary-2 font-semibold"
-              href="#">
+              href="/pages/membership">
               Become a Member
             </a>
           </li>

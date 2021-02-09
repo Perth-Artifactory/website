@@ -70,14 +70,15 @@ export default function Footer() {
                 <a href="http://swmakers.org/">BUNB: South West Makers</a>
               </li>
               <li>
-                <a href="http://www.makehackvoid.com/">CANB: Make, Hack, Void</a>
+                {/* see https://github.com/Perth-Artifactory/website/issues/9  <a href="http://www.makehackvoid.com/">CANB: Make, Hack, Void</a> */}
+                CANB: Make, Hack, Void
               </li>
               <li>
                 <a href="https://www.hobarthackerspace.org.au/">HOBART: Hackerspace</a>
               </li>
               <li>
-                <a href="http://hackmelbourne.org/">MELB: CCHS</a>
-              </li>
+                <a href="https://hackmelbourne.com/">MELB: CCHS</a>
+              </li>  
               <li>
                 <a href="http://robodino.org/">SYD: Robots &amp; Dinosaurs</a>
               </li>
@@ -91,9 +92,6 @@ export default function Footer() {
               </li>
               <li>
                 <a href="http://blazingswan.com.au/">Blazing Swan</a>
-              </li>
-              <li>
-                <a href="http://www.futureperth.org/">Future Perth</a>
               </li>
               <li>
                 <a href="https://www.rflan.org/">Red Flag Lan Fest Inc (RFLAN)</a>
@@ -121,7 +119,7 @@ export default function Footer() {
                 <a href="https://www.pmlg.org/">Perth Machine Learning Group</a>
               </li>
               <li>
-                <a href="https://www.meetup.com/en-AU/Perth-Hackers/">Perth Open Source Hackers</a>
+                <a href="https://www.meetup.com/Perth-Linux-Users-Group-PLUG/">Perth Linux Users Group</a>
               </li>
               <li>
                 <a href="https://www.facebook.com/WAMod-West-Australian-Modular-Synthesizers-416747535171732/">WAMod</a>
