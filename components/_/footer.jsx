@@ -20,8 +20,8 @@ export default function Footer() {
               </Link>
             </li>
             <li>
-              <Link href="/">
-                <a>About</a>
+              <Link href="/pages/freeMembership">
+                <a>Free Membership</a>
               </Link>
             </li>
             <li>
@@ -30,12 +30,12 @@ export default function Footer() {
               </Link>
             </li>
             <li>
-              <Link href="/">
+              <Link href="https://wiki.artifactory.org.au/doku.php">
                 <a>Wiki</a>
               </Link>
             </li>
             <li>
-              <Link href="/">
+              <Link href="https://space.artifactory.org.au/">
                 <a>Webcams</a>
               </Link>
             </li>
