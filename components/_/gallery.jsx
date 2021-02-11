@@ -40,7 +40,7 @@ export default function Gallery() {
             <li className="block w-1/2 p-2 md:w-1/3">
               <img
                 className="block w-100 h-auto cursor-pointer "
-                src="assets/site/gallery/20181120_210525.jpg"
+                src="assets/site/gallery/20190413_173154.jpg"
                 alt=""
                 onClick={(e) => alternateImage(e.currentTarget)}
               />
