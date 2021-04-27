@@ -28,7 +28,7 @@ export default function BaseLayout({ children }) {
 
       <div className="bg-primary-2" id="app">
         {/* ALERT */}
-        /*<Alert /> - uncomment to display alert bar*/
+        <Alert />
 
         {/* Navigation Component */}
         <Navigation />
