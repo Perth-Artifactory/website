@@ -74,6 +74,7 @@ module.exports = {
         'secondary-2': '#e32000', // #5fb49b
         'secondary-3': '#ff6950', // #90e0c9
         'highlight-1': '#ff2400', // #eaa844
+        'highlight-2': '#ffffff', // #eaa844
       },
       // colors: {
       //   success: '#0070f3',
