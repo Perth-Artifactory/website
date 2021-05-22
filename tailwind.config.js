@@ -7,13 +7,13 @@ module.exports = {
           css: {
             color: '#FFF',
             h1: {
-              color: '#7bdfc3',
+              color: '#ff2400', // #7bdfc3
             },
             h2: {
-              color: '#5fb49b',
+              color: '#e32000', // #5fb49b
             },
             h3: {
-              color: '#90e0c9',
+              color: '#ff6950', // #90e0c9
             },
             h4: {
               color: '#FFF',
@@ -25,29 +25,29 @@ module.exports = {
               color: '#FFF',
             },
             strong: {
-              color: '#7bdfc3',
+              color: '#ff2400',
             },
             code: {
-              color: '#7bdfc3',
+              color: '#ff2400',
             },
             em: {
-              color: '#7bdfc3',
+              color: '#ff2400',
             },
             blockquote: {
-              color: '#7bdfc3',
+              color: '#ff2400',
             },
             img: {
               display: 'block',
               margin: '0 auto',
             },
             pre: {
-              color: '#7bdfc3',
-              backgroundColor: '#26203b',
+              color: '#ff2400',
+              backgroundColor: '#2b2b2b', // #26203b
             },
             a: {
-              color: '#7bdfc3',
+              color: '#ff2400',
               hover: {
-                color: '#5fb49b',
+                color: '#e32000',
               },
             },
           },
@@ -66,14 +66,14 @@ module.exports = {
         'accent-1': '#FAFAFA',
         'accent-2': '#EAEAEA',
         'accent-7': '#333',
-        success: '#0070f3',
-        cyan: '#79FFE1',
-        'primary-1': '#322d44',
-        'primary-2': '#26203b',
-        'secondary-1': '#7bdfc3',
-        'secondary-2': '#5fb49b',
-        'secondary-3': '#90e0c9',
-        'highlight-1': '#eaa844',
+        success: '#0070f3', // #0070f3
+        cyan: '#79FFE1', // #79FFE1
+        'primary-1': '#474747', // #322d44
+        'primary-2': '#2b2b2b', // #26203b
+        'secondary-1': '#7bdfc3', // #7bdfc3
+        'secondary-2': '#5fb49b', // #5fb49b
+        'secondary-3': '#90e0c9', // #90e0c9
+        'highlight-1': '#eaa844', // #eaa844
       },
       // colors: {
       //   success: '#0070f3',
