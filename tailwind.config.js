@@ -70,9 +70,9 @@ module.exports = {
         cyan: '#79FFE1', // #79FFE1
         'primary-1': '#474747', // #322d44
         'primary-2': '#2b2b2b', // #26203b
-        'secondary-1': '#7bdfc3', // #7bdfc3
-        'secondary-2': '#5fb49b', // #5fb49b
-        'secondary-3': '#90e0c9', // #90e0c9
+        'secondary-1': '#ff2400', // #7bdfc3
+        'secondary-2': '#e32000', // #5fb49b
+        'secondary-3': '#ff6950', // #90e0c9
         'highlight-1': '#eaa844', // #eaa844
       },
       // colors: {
