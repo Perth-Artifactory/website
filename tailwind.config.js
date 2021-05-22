@@ -42,7 +42,7 @@ module.exports = {
             },
             pre: {
               color: '#ff2400',
-              backgroundColor: '#2b2b2b', // #26203b
+              backgroundColor: '#141414', // #26203b
             },
             a: {
               color: '#ff2400',
@@ -68,12 +68,12 @@ module.exports = {
         'accent-7': '#333',
         success: '#0070f3', // #0070f3
         cyan: '#79FFE1', // #79FFE1
-        'primary-1': '#474747', // #322d44
-        'primary-2': '#2b2b2b', // #26203b
-        'secondary-1': '#ff2400', // #7bdfc3
+        'primary-1': '#262626', // #322d44
+        'primary-2': '#141414', // #26203b
+        'secondary-1': '#bf1b00', // #7bdfc3
         'secondary-2': '#e32000', // #5fb49b
         'secondary-3': '#ff6950', // #90e0c9
-        'highlight-1': '#eaa844', // #eaa844
+        'highlight-1': '#ff2400', // #eaa844
       },
       // colors: {
       //   success: '#0070f3',
