@@ -7,9 +7,9 @@ export default function Hero() {
       {/* Container */}
       <div>
         {/* Image Container */}
-        <div className="block bg-primary-1 text-white mt-5 mb-10"> {/* p-6 sm:mb-20 */}
+        <div className="block bg-primary-1 p-3 sm:p-6 text-white mt-5 mb-10"> {/* p-6 sm:mb-20 */}
           {/* Image */}
-          <img className="block w-95% h-auto" src="assets/site/gallery/20190616_121402-hero.jpg" alt="" />
+          <img className="block w-full h-auto" src="assets/site/gallery/20190616_121402-hero.jpg" alt="" />
         </div>
         {/* Call to Actions */}
         <div>
