@@ -46,7 +46,7 @@ export default function ToolsAndServices() {
             <span className="block w-100 mb-4 text-center">Wood Working</span>
             {/* Donation Description */}
             <p className="block w-100 text-center text-sm">
-              Equipment to shape dead trees into whatever you want. Including a smaller tree if desired.
+              Table saw, router table, CNC mill, band saw, and lathe. Heavy machines for your next project.
             </p>
           </li>
 

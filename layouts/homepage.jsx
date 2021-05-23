@@ -31,7 +31,7 @@ export default function HomepageLayout({}) {
       <Prices />
       {/* MAIN - TEXT */}
       <TextBlock2 />
-      {/* MAIN - LOCAIONT */}
+      {/* MAIN - LOCATION */}
       <Location />
       {/* MAIN - DONATIONS */}
       <Donations />

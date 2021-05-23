@@ -41,7 +41,7 @@ export default function Address() {
           <br />
           You can also join our{' '}
           <a href="https://space.artifactory.org.au/slack">Slack team</a> and connect with members
-          and like minded makers. 
+          and like minded makers.
         </p>
       </div>
     </>
