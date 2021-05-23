@@ -6,8 +6,8 @@ export default function TextBlock2() {
         {/* Content */}
         <p className="">
           If you would like to visit for a tour, come to one of our monthly{' '}
-          <strong className="text-highlight-1">Open Days</strong> (11:00am – 2:00pm), or to a{' '}
-          <strong className="text-highlight-1">Workshop Wednesday</strong> (11:00am-6:30pm). Before heading down check the webcams
+          <strong className="text-highlight-1">Open Days</strong> on the first Saturday of every month, or to a{' '}
+          <strong className="text-highlight-1">Workshop Wednesday</strong> each week from 11:00am-6:30pm. Before heading down check the webcams
           to make certain someone is there.
         </p>
       </div>

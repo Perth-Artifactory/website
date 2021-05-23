@@ -24,10 +24,10 @@ export default function Prices() {
             </div>
             <div>
               <ul className="block w-100 text-center">
-                <li className="text-sm border-b-2 border-gray-400">Use of the workshop tools</li>
+                <li className="text-sm border-b-2 border-gray-400">Use of Artifactory tools</li>
                 <li className="text-sm border-b-2 border-gray-400">Access to most events</li>
                 <li className="text-sm border-b-2 border-gray-400">Kitchen facilities</li>
-                <li className="text-sm">WiFi</li>
+                <li className="text-sm">Free WiFi</li>
               </ul>
             </div>
           </li>
@@ -51,10 +51,10 @@ export default function Prices() {
             </div>
             <div>
               <ul className="block w-100 text-center">
-                <li className="text-sm border-b-2 border-gray-400">Access to the workshop during events</li>
-                <li className="text-sm border-b-2 border-gray-400">24/7 Key (bond required)</li>
-                <li className="text-sm border-b-2 border-gray-400">Material and project storage options</li>
-                <li className="text-sm">Discounted tool usage fees</li>
+                <li className="text-sm border-b-2 border-gray-400">24/7 Access (optional - with bond)</li>
+                <li className="text-sm border-b-2 border-gray-400">Personal storage locker</li>
+                <li className="text-sm border-b-2 border-gray-400">Discounted tool usage fees</li>
+                <li className="text-sm">Free access to events</li>
               </ul>
             </div>
           </li>
@@ -81,10 +81,10 @@ export default function Prices() {
             </div>
             <div>
               <ul className="block w-100 text-center">
-                <li className="text-sm border-b-2 border-gray-400">Access to the workshop during events</li>
-                <li className="text-sm border-b-2 border-gray-400">24/7 Key (bond required)</li>
-                <li className="text-sm border-b-2 border-gray-400">Material and project storage options</li>
-                <li className="text-sm">Discounted tool usage fees</li>
+                <li className="text-sm border-b-2 border-gray-400">24/7 Access (optional - with bond)</li>
+                <li className="text-sm border-b-2 border-gray-400">Personal storage locker</li>
+                <li className="text-sm border-b-2 border-gray-400">Discounted tool usage fees</li>
+                <li className="text-sm">Free access to events</li>
               </ul>
             </div>
           </li>
@@ -106,8 +106,8 @@ export default function Prices() {
             <div>
               <ul className="block w-100 text-center">
                 <li className="text-sm border-b-2 border-gray-400">Rehearsal room</li>
-                <li className="text-sm border-b-2 border-gray-400">Performance space</li>
                 <li className="text-sm">Weekly rehearsal slots</li>
+                <li className="text-sm border-b-2 border-gray-400">Performance space</li>
               </ul>
             </div>
           </li>
