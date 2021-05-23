@@ -2,7 +2,7 @@ export default function ButtonBlock1({ groupedBelow }) {
   return (
     <>
       {/* Container */}
-      <div className={`mb-2 md:max-w-xl mx-auto ${groupedBelow ? 'sm:mb-10' : 'sm:mb-20'}`}>
+      <div className={`mt-5 md:max-w-xl mx-auto ${groupedBelow ? 'mb-2' : 'sm:mb-10'}`}>
         {/* Button List */}
         <ul className="sm:flex justify-center">
           {/* Button List Item */}

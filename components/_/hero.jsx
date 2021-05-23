@@ -13,7 +13,7 @@ export default function Hero() {
         </div>
         {/* Call to Actions */}
         <div>
-          {/* <ButtonBlock1 groupedBelow={true} />  */}
+          <ButtonBlock1 groupedBelow={true} />
           <ButtonBlock2 />
         </div>
       </div>
