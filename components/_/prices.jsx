@@ -58,7 +58,7 @@ export default function Prices() {
               </ul>
             </div>
           </li>
-          <li className="block bg-primary-1 p-6 text-white mb-4 max-w-xs mx-auto sm:w-1/4 border-4 border-highlight-1">
+          <li className="block bg-primary-1 p-6 text-white mb-4 max-w-xs mx-auto sm:w-1/4 border-4 border-highlight-2">
             <div>
               <div className="text-4xl sm:text-xl">
                 <ul className="block w-auto text-center my-4">
