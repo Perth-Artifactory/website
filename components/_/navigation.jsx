@@ -12,7 +12,7 @@ export default function Navigation() {
       </div>
       <div
         id="menu-open"
-        className="fixed text-highlight-2 p-3 bg-primary-2 top-2 right-2 z-10 border-2 border-nav shadow-xl"
+        className="fixed text-highlight-2 p-3 bg-primary-2 top-2 right-2 z-10 border-1 border-nav shadow-xl"
         onClick={openNavigation}>
         <AiOutlineMenu />
       </div>
