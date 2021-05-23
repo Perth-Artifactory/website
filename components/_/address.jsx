@@ -20,7 +20,7 @@ export default function Address() {
           <br />
           Western Australia
           <br />
-          6015
+          6017
         </address>
 
         <h4 className="text-center text-xl sm:text-2xl mb-4">Access</h4>

@@ -15,14 +15,14 @@ export default function Donations() {
               <span className="block w-100 mb-4 text-center">Alby Beer</span>
               {/* Donation Description */}
               <p className="block w-100 text-center text-sm">
-                Alby's ALBY MADE grant helped us revamp our design lab and offer a wider range of workshops for our
+                Alby's ALBY MADE community arts grant helped us revamp our design lab and offer a wider range of workshops for our
                 members!
               </p>
             </a>
           </li>
           {/* Donation List Item */}
           <li className="block border-2 border-secondary-1 p-6 mb-4 sm:mx-2 sm:flex-1/3">
-            <a href="http://lotterywest.wa.gov.au/">
+            <a href="https://www.lotterywest.wa.gov.au/">
               {/* Donation Logo */}
               <img className="block w-100 mb-4 mx-auto" src="/assets/site/lotterywest.jpg" alt="#" />
               {/* Donation Title */}
@@ -48,7 +48,7 @@ export default function Donations() {
           </li>
           {/* Donation List Item */}
           <li className="block border-2 border-secondary-1 p-6 mb-4 sm:mx-2 sm:flex-1/3">
-            <a href="#">
+            <a href="https://www.supanova.com.au/">
               {/* Donation Logo */}
               <img className="block w-100 mb-4 mx-auto" src="/assets/site/supanova.jpg" alt="#" />
               {/* Donation Title */}
@@ -62,7 +62,7 @@ export default function Donations() {
           </li>
           {/* Donation List Item */}
           <li className="block border-2 border-secondary-1 p-6 mb-4 sm:mx-2 sm:flex-1/3">
-            <a href="http://www.webinabox.net.au/">
+            <a href="https://www.webinabox.net.au/">
               {/* Donation Logo */}
               <img className="block w-100 mb-4 mx-auto" src="/assets/site/webinabox.jpg" alt="#" />
               {/* Donation Title */}

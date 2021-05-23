@@ -51,7 +51,7 @@ export default function Prices() {
             </div>
             <div>
               <ul className="block w-100 text-center">
-                <li className="text-sm border-b-2 border-gray-400">24/7 Access (optional - with bond)</li>
+                <li className="text-sm border-b-2 border-gray-400">24/7 Access (with bond)</li>
                 <li className="text-sm border-b-2 border-gray-400">Personal storage locker</li>
                 <li className="text-sm border-b-2 border-gray-400">Discounted tool usage fees</li>
                 <li className="text-sm">Free access to events</li>
@@ -81,7 +81,7 @@ export default function Prices() {
             </div>
             <div>
               <ul className="block w-100 text-center">
-                <li className="text-sm border-b-2 border-gray-400">24/7 Access (optional - with bond)</li>
+                <li className="text-sm border-b-2 border-gray-400">24/7 Access (with bond)</li>
                 <li className="text-sm border-b-2 border-gray-400">Personal storage locker</li>
                 <li className="text-sm border-b-2 border-gray-400">Discounted tool usage fees</li>
                 <li className="text-sm">Free access to events</li>
@@ -106,8 +106,9 @@ export default function Prices() {
             <div>
               <ul className="block w-100 text-center">
                 <li className="text-sm border-b-2 border-gray-400">Rehearsal room</li>
-                <li className="text-sm">Weekly rehearsal slots</li>
+                <li className="text-sm border-b-2 border-gray-400">Weekly rehearsal slots</li>
                 <li className="text-sm border-b-2 border-gray-400">Performance space</li>
+                <li className="text-sm">24/7 Access (with bond)</li>
               </ul>
             </div>
           </li>
