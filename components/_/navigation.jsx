@@ -6,20 +6,20 @@ export default function Navigation() {
     <>
       <div
         id="menu-close"
-        className="fixed text-highlight-2 p-3 bg-primary-1 top-2 right-2 z-10 border-1 border-nav shadow-xl"
+        className="fixed text-highlight-2 p-3 bg-primary-1 top-2 right-2 z-10 border-2 border-nav shadow-xl"
         onClick={closeNavigation}>
         <AiOutlineClose />
       </div>
       <div
         id="menu-open"
-        className="fixed text-highlight-2 p-3 bg-primary-2 top-2 right-2 z-10 border-1 border-nav shadow-xl"
+        className="fixed text-highlight-2 p-3 bg-primary-2 top-2 right-2 z-10 border-2 border-nav shadow-xl"
         onClick={openNavigation}>
         <AiOutlineMenu />
       </div>
       {/* Container */}
       <div
         id="menu-navigation"
-        className="hidden top-0 bg-primary-2 w-full h-screen sm:w-1/2 sm:border-2 sm:border-white sm:right-0"
+        className="hidden top-0 bg-primary-2 w-full h-screen sm:w-1/2 sm:border-2 sm:border-nav sm:right-0"
         style={{zIndex: 9}}>
         <span className="block text-highlight-2 mt-2 ml-4 text-3xl mb-8">Navigation</span>
         <ul className="block text-highlight-2 text-sm w-full">
