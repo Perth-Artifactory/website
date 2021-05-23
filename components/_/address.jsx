@@ -1,7 +1,7 @@
 export default function Address() {
   return (
     <>
-      <div className="block bg-primary-1 p-6 text-white mb-2 sm:mb-20">
+      <div className="block bg-primary-1 p-3 sm:p-6 text-white mb-2 sm:mb-20">
         <h3 className="text-center text-2xl sm:text-3xl mb-4 sm:mb-10 sm:mt-4">Location</h3>
 
         <iframe
