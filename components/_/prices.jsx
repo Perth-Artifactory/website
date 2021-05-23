@@ -1,11 +1,12 @@
 import { AiFillStar } from 'react-icons/ai';
 import { GiGuitar } from 'react-icons/gi';
+import { BsMusicNoteBeamed } from 'react-icons/bs';
 
 export default function Prices() {
   return (
     <>
       {/* Container */}
-      <div className="block p-6 pb-0.5 bg-secondary-1 mb-2 sm:mb-20">
+      <div className="block p-3 sm:p-6 pb-0.5 bg-secondary-1 mb-2 sm:mb-20">
         <ul className="sm:flex sm:flex-wrap sm:space-between">
           <li className="block bg-primary-1 p-6 text-white mb-4 max-w-xs mx-auto sm:w-1/4 border-2 border-secondary-1">
             <div>
@@ -93,7 +94,7 @@ export default function Prices() {
               <div className="text-4xl sm:text-xl">
                 <ul className="block w-auto text-center my-4">
                   <li className="inline-block">
-                    <GiGuitar />
+                    <BsMusicNoteBeamed />
                   </li>
                 </ul>
               </div>
