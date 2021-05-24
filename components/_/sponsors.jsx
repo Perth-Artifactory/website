@@ -2,12 +2,12 @@ export default function Donations() {
   return (
     <>
       {/* Container */}
-      <div className="block bg-primary-1 p-6 pb-0 text-maintext mb-5 sm:mb-10">
-        <h3 className="text-center text-2xl mb-4 mt-6 mb-10 sm:text-3xl sm:mb-10 sm:mt-4">Sponsors and Friends</h3>
+      <div className="block bg-primary-1 p-4 pb-0 text-maintext mb-5 sm:mb-10">
+        <h3 className="text-center text-2xl mb-4 mt-6 mb-10 sm:text-3xl sm:mb-10 sm:mt-4 text-header">Sponsors and Friends</h3>
         {/* Donation List */}
         <ul className="flex flex-col sm:flex-row sm:flex-wrap sm:justify-center">
           {/* Donation List Item */}
-          <li className="block border-2 border-secondary-1 p-6 mb-4 sm:mx-2 sm:flex-1/3">
+          <li className="block border-2 border-secondary-1 p-4 mb-4 sm:mx-2 sm:flex-1/3">
             <a href="http://alby.beer/">
               {/* Donation Logo */}
               <img className="block w-100 mb-4 mx-auto" src="/assets/site/alby.jpg" alt="#" />
@@ -21,7 +21,7 @@ export default function Donations() {
             </a>
           </li>
           {/* Donation List Item */}
-          <li className="block border-2 border-secondary-1 p-6 mb-4 sm:mx-2 sm:flex-1/3">
+          <li className="block border-2 border-secondary-1 p-4 mb-4 sm:mx-2 sm:flex-1/3">
             <a href="https://www.lotterywest.wa.gov.au/">
               {/* Donation Logo */}
               <img className="block w-100 mb-4 mx-auto" src="/assets/site/lotterywest.jpg" alt="#" />
@@ -34,7 +34,7 @@ export default function Donations() {
             </a>
           </li>
           {/* Donation List Item */}
-          <li className="block border-2 border-secondary-1 p-6 mb-4 sm:mx-2 sm:flex-1/3">
+          <li className="block border-2 border-secondary-1 p-4 mb-4 sm:mx-2 sm:flex-1/3">
             <a href="https://pentanet.com.au/">
               {/* Donation Logo */}
               <img className="block w-100 mb-4 mx-auto" src="/assets/site/pentanet.jpg" alt="#" />
@@ -47,7 +47,7 @@ export default function Donations() {
             </a>
           </li>
           {/* Donation List Item */}
-          <li className="block border-2 border-secondary-1 p-6 mb-4 sm:mx-2 sm:flex-1/3">
+          <li className="block border-2 border-secondary-1 p-4 mb-4 sm:mx-2 sm:flex-1/3">
             <a href="https://www.supanova.com.au/">
               {/* Donation Logo */}
               <img className="block w-100 mb-4 mx-auto" src="/assets/site/supanova.jpg" alt="#" />
@@ -61,7 +61,7 @@ export default function Donations() {
             </a>
           </li>
           {/* Donation List Item */}
-          <li className="block border-2 border-secondary-1 p-6 mb-4 sm:mx-2 sm:flex-1/3">
+          <li className="block border-2 border-secondary-1 p-4 mb-4 sm:mx-2 sm:flex-1/3">
             <a href="https://www.webinabox.net.au/">
               {/* Donation Logo */}
               <img className="block w-100 mb-4 mx-auto" src="/assets/site/webinabox.jpg" alt="#" />
