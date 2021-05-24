@@ -76,11 +76,11 @@ module.exports = {
         'secondary-1': '#bf1b00', // dark red
         'secondary-2': '#e32000', // red
         'secondary-3': '#ff2400', // unknown use, brighter red
-        'highlight-1': '#bf1b00', // red
+        'highlight-1': '#bf1b00', // dark red
         'highlight-2': '#dddddd', // #light grey
-        'highlight-3': '#646464', // mid grey
+        'highlight-3': '#8c1400', // darker red
         'header': '#dddddd', // #light grey
-        'maintext':  '#bfbfbf', // #grey
+        'maintext': '#bfbfbf', // #grey
       },
       minWidth: {
         0: '0',
