@@ -14,7 +14,7 @@ export default function Header() {
         <Link href="/">
           <a>
             <img
-              className="block w-100 mb-5 md:max-w-md lg:max-w-2xl mx-auto"
+              className="block w-100 mb-4 md:max-w-md lg:max-w-2xl mx-auto"
               src="/assets/site/header-light.png"
               alt="The Artifactory"
             />
