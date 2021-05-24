@@ -13,7 +13,7 @@ module.exports = {
               color: '#e32000', // #5fb49b
             },
             h3: {
-              color: '#ff6950', // #90e0c9
+              color: '#dddddd', // #90e0c9
             },
             h4: {
               color: '#dddddd',
@@ -80,7 +80,7 @@ module.exports = {
         'secondary-3': '#ff2400', // unknown use, brighter red
         'highlight-1': '#e32000', // red
         'highlight-2': '#dddddd', // #white
-        'maintext':  '#aaaaaa', // #white
+        'maintext':  '#bbbbbb', // #white
       },
       minWidth: {
         0: '0',

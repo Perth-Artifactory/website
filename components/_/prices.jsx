@@ -10,7 +10,7 @@ export default function Prices() {
         <ul className="sm:flex sm:flex-wrap sm:space-between">
           <li className="block bg-primary-1 p-6 text-maintext mb-4 max-w-xs mx-auto sm:w-1/4 border-2 border-secondary-1">
             <div>
-              <div className="text-4xl sm:text-xl">
+              <div className="text-4xl sm:text-xl text-highlight-2">
                 <ul className="block w-auto text-center my-4">
                   <li className="inline-block">
                     <AiFillStar />
@@ -34,8 +34,8 @@ export default function Prices() {
           </li>
           <li className="block bg-primary-1 p-6 text-maintext mb-4 max-w-xs mx-auto sm:w-1/4 border-2 border-secondary-1">
             <div>
-              <div className="text-4xl sm:text-xl">
-                <ul className="block w-auto text-center my-4 text-highlight-2">
+              <div className="text-4xl sm:text-xl text-highlight-2">
+                <ul className="block w-auto text-center my-4">
                   <li className="inline-block">
                     <AiFillStar />
                   </li>
@@ -44,8 +44,8 @@ export default function Prices() {
                   </li>
                 </ul>
               </div>
-              <span className="block text-4xl sm:text-xl text-center  text-highlight-2">Concession</span>
-              <div className="block w-100 text-center my-2  text-highlight-2">
+              <span className="block text-4xl sm:text-xl text-center text-highlight-2">Concession</span>
+              <div className="block w-100 text-center my-2 text-highlight-2">
                 <span className="inline-block text-3xl text-center">$45</span>
                 <span className="inline-block text-2xl text-center">/mo</span>
               </div>
@@ -61,7 +61,7 @@ export default function Prices() {
           </li>
           <li className="block bg-primary-1 p-6 text-maintext mb-4 max-w-xs mx-auto sm:w-1/4 border-4 border-highlight-2">
             <div>
-              <div className="text-4xl sm:text-xl">
+              <div className="text-4xl sm:text-xl text-highlight-2">
                 <ul className="block w-auto text-center my-4">
                   <li className="inline-block">
                     <AiFillStar />
@@ -74,8 +74,8 @@ export default function Prices() {
                   </li>
                 </ul>
               </div>
-              <span className="block text-4xl sm:text-xl text-center">Full</span>
-              <div className="block w-100 text-center my-2">
+              <span className="block text-4xl sm:text-xl text-center text-highlight-2">Full</span>
+              <div className="block w-100 text-center my-2 text-highlight-2">
                 <span className="inline-block text-3xl text-center">$75</span>
                 <span className="inline-block text-2xl text-center">/mo</span>
               </div>
@@ -91,15 +91,15 @@ export default function Prices() {
           </li>
           <li className="block bg-primary-1 p-6 text-maintext mb-4 max-w-xs mx-auto sm:w-1/4 border-2 border-secondary-1">
             <div>
-              <div className="text-4xl sm:text-xl">
+              <div className="text-4xl sm:text-xl text-highlight-2">
                 <ul className="block w-auto text-center my-4">
                   <li className="inline-block">
                     <BsMusicNoteBeamed />
                   </li>
                 </ul>
               </div>
-              <span className="block text-4xl sm:text-xl text-center">Band</span>
-              <div className="block w-100 text-center my-2">
+              <span className="block text-4xl sm:text-xl text-center text-highlight-2">Band</span>
+              <div className="block w-100 text-center my-2 text-highlight-2">
                 <span className="inline-block text-3xl text-center">$100</span>
                 <span className="inline-block text-2xl text-center">/mo</span>
               </div>
