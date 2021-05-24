@@ -53,9 +53,6 @@ module.exports = {
           },
         },
       },
-      h3: {
-        color: '#dddddd', // #90e0c9
-      },
       flex: {
         '1/3': '0 1 30%',
         '1/2': '0 1 45%',
@@ -72,18 +69,17 @@ module.exports = {
         'nav': '#646464', // nav border
         success: '#0070f3', // unknown use, blue
         cyan: '#79FFE1', // unknown use, green cyan
-//        'primary-1': '#494949', // #light grey
-//        'primary-2': '#313131', // #dark grey
-//        'primary-1': '#2b2b2b', // #light grey
-//        'primary-2': '#1a1a1a', // #dark grey
-        'primary-1': '#202020', // #light grey
-        'primary-2': '#121212', // #dark grey
+        'primary-1': '#202020', // #dark grey
+        'primary-2': '#121212', // #darker grey
+        'primary-1': '#171717', // #dark grey
+        'primary-2': '#0c0c0c', // #darker grey
         'secondary-1': '#bf1b00', // dark red
         'secondary-2': '#e32000', // red
         'secondary-3': '#ff2400', // unknown use, brighter red
         'highlight-1': '#bf1b00', // red
-        'highlight-2': '#dddddd', // #white
-        'maintext':  '#bfbfbf', // #white
+        'highlight-2': '#dddddd', // #light grey
+        'header': '#dddddd', // #light grey
+        'maintext':  '#bfbfbf', // #grey
       },
       minWidth: {
         0: '0',
