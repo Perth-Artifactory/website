@@ -17,8 +17,8 @@ export default function Prices() {
                   </li>
                 </ul>
               </div>
-              <span className="block text-4xl sm:text-xl text-center">Casual</span>
-              <div className="block w-100 text-center my-2">
+              <span className="block text-4xl sm:text-xl text-center text-highlight-2">Casual</span>
+              <div className="block w-100 text-center my-2 text-highlight-2">
                 <span className="inline-block text-3xl text-center">$10</span>
                 <span className="inline-block text-2xl text-center">/day</span>
               </div>
@@ -35,7 +35,7 @@ export default function Prices() {
           <li className="block bg-primary-1 p-6 text-maintext mb-4 max-w-xs mx-auto sm:w-1/4 border-2 border-secondary-1">
             <div>
               <div className="text-4xl sm:text-xl">
-                <ul className="block w-auto text-center my-4">
+                <ul className="block w-auto text-center my-4 text-highlight-2">
                   <li className="inline-block">
                     <AiFillStar />
                   </li>
@@ -44,8 +44,8 @@ export default function Prices() {
                   </li>
                 </ul>
               </div>
-              <span className="block text-4xl sm:text-xl text-center">Concession</span>
-              <div className="block w-100 text-center my-2">
+              <span className="block text-4xl sm:text-xl text-center  text-highlight-2">Concession</span>
+              <div className="block w-100 text-center my-2  text-highlight-2">
                 <span className="inline-block text-3xl text-center">$45</span>
                 <span className="inline-block text-2xl text-center">/mo</span>
               </div>
