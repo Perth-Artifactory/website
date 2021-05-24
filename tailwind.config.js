@@ -78,6 +78,7 @@ module.exports = {
         'secondary-3': '#ff2400', // unknown use, brighter red
         'highlight-1': '#bf1b00', // red
         'highlight-2': '#dddddd', // #light grey
+        'highlight-3': '#bfbfbf', // mid grey
         'header': '#dddddd', // #light grey
         'maintext':  '#bfbfbf', // #grey
       },

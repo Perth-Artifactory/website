@@ -8,7 +8,7 @@ export default function Donations() {
         <ul className="flex flex-col sm:flex-row sm:flex-wrap sm:justify-center">
 
           {/* NM */}
-          <li className="block border-2 border-secondary-1 p-6 mb-4 sm:mx-2 sm:flex-1/3">
+          <li className="block border-2 border-highlight-3 p-6 mb-4 sm:mx-2 sm:flex-1/3">
             <a href="https://www.facebook.com/groups/noizemaschin/">
               {/* Image */}
               <img className="block w-100 mb-4 mx-auto" src="/assets/site/events/nm.png" alt="#" />
@@ -16,13 +16,13 @@ export default function Donations() {
               <span className="block w-100 mb-4 text-center text-highlight-2">NoizeMaschin!!</span>
               {/* Description */}
               <p className="block w-100 text-center text-sm">
-                NoizeMachin!! is a monthly Noise and Experimental Music concert held once a month.
+                NoizeMachin!! is a Noise and Experimental Music concert held once a month.
               </p>
             </a>
           </li>
 
           {/* LotteryWest */}
-          <li className="block border-2 border-secondary-1 p-6 mb-4 sm:mx-2 sm:flex-1/3">
+          <li className="block border-2 border-highlight-3 p-6 mb-4 sm:mx-2 sm:flex-1/3">
             <a href="https://www.facebook.com/WAMod-West-Australian-Modular-Synthesizers-416747535171732">
               {/* Donation Logo */}
               <img className="block w-100 mb-4 mx-auto" src="/assets/site/events/wamod.png" alt="#" />
@@ -36,7 +36,7 @@ export default function Donations() {
           </li>
 
           {/* PentaNet */}
-          <li className="block border-2 border-secondary-1 p-6 mb-4 sm:mx-2 sm:flex-1/3">
+          <li className="block border-2 border-highlight-3 p-6 mb-4 sm:mx-2 sm:flex-1/3">
             <a href="#">
               {/* Donation Logo */}
               <img className="block w-100 mb-4 mx-auto" src="/assets/site/events/arduino.png" alt="#" />
@@ -49,7 +49,7 @@ export default function Donations() {
             </a>
           </li>
 
-          <li className="block border-2 border-secondary-1 p-6 mb-4 sm:mx-2 sm:flex-1/3">
+          <li className="block border-2 border-highlight-3 p-6 mb-4 sm:mx-2 sm:flex-1/3">
             <a href="#">
               {/* Image */}
               <img className="block w-100 mb-4 mx-auto" src="/assets/site/events/ww.png" alt="#" />
@@ -63,7 +63,7 @@ export default function Donations() {
           </li>
 
           {/* LAN */}
-          <li className="block border-2 border-secondary-1 p-6 mb-4 sm:mx-2 sm:flex-1/3">
+          <li className="block border-2 border-highlight-3 p-6 mb-4 sm:mx-2 sm:flex-1/3">
             <a href="#">
               {/* Image */}
               <img className="block w-100 mb-4 mx-auto" src="/assets/site/events/lan.png" alt="#" />
@@ -76,7 +76,7 @@ export default function Donations() {
             </a>
           </li>
 
-          <li className="block border-2 border-secondary-1 p-6 mb-4 sm:mx-2 sm:flex-1/3">
+          <li className="block border-2 border-highlight-3 p-6 mb-4 sm:mx-2 sm:flex-1/3">
             <a href="#">
               {/* Image */}
               <img className="block w-100 mb-4 mx-auto" src="/assets/site/events/open.png" alt="#" />
