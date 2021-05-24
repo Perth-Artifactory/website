@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <>
       {/* Container */}
-      <div className="bg-secondary-1 p-6 sm:flex">
+      <div className="bg-secondary-1 p-3 sm:flex">
         {/* Sitemap Container */}
         <div className="block w-100 mb-4 p-6 bg-primary-2 text-maintext sm:mr-2 min-w-1/4 sm:mb-0">
           <span className="text-lg sm:text-xl block mb-2 sm:mb-4 font-semibold border-b-2 border-highlight-1">
