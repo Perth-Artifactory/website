@@ -7,7 +7,7 @@ export default function Header() {
       {/* Container */}
       <header className="mx-10 mb-20">
         {/* Hidden H1 for SEO */}
-        <h1 className="invisible">Artifactory</h1>
+        <h1 className="invisible font-size: 1px">Artifactory</h1>
 
         {/* Logo */}
         <Link href="/">
