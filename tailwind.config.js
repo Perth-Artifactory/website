@@ -69,8 +69,10 @@ module.exports = {
         'nav': '#646464', // nav border
         success: '#0070f3', // unknown use, blue
         cyan: '#79FFE1', // unknown use, green cyan
+//        'primary-1': '#494949', // #light grey
+//        'primary-2': '#313131', // #dark grey
         'primary-1': '#606060', // #light grey
-        'primary-2': '#353535', // #dark grey
+        'primary-2': '#141414', // #dark grey
         'secondary-1': '#bf1b00', // dark red
         'secondary-2': '#e32000', // red
         'secondary-3': '#ff2400', // unknown use, brighter red
