@@ -2,7 +2,7 @@ export default function ToolsAndServices() {
   return (
     <>
       {/* Container */}
-      <div className="block bg-primary-1 p-3 sm:p-6 text-maintext mb-2 sm:mb-20">
+      <div className="block bg-primary-1 p-3 sm:p-6 text-maintext mb-5 sm:mb-10">
         <h3 className="text-center text-2xl sm:text-3xl mb-4 sm:mb-10 sm:mt-4">Tools and Services</h3>
         {/* Donation List */}
         <ul className="flex flex-col items-center sm:flex-row sm:flex-wrap sm:justify-center sm:items-stretch">
@@ -32,7 +32,7 @@ export default function ToolsAndServices() {
           <li className="block border-2 border-secondary-1 max-w-xs p-6 mb-4 sm:flex-1/2 mx-2">
             <span></span>
             {/* Donation Title */}
-            <span className="block w-100 mb-4 text-center">Hot Works</span>
+            <span className="block w-100 mb-4 text-center">Metal Working</span>
             {/* Donation Description */}
             <p className="block w-100 text-center text-sm">
               MIG/TIG/SMAW welding supplies, plasma cutting, and forging. If it gets metal hot, we've got it.

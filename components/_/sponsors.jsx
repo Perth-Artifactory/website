@@ -2,7 +2,7 @@ export default function Donations() {
   return (
     <>
       {/* Container */}
-      <div className="block bg-primary-1 p-6 pb-0 text-maintext mb-2 sm:mb-20">
+      <div className="block bg-primary-1 p-6 pb-0 text-maintext mb-5 sm:mb-10">
         <h3 className="text-center text-2xl mb-4 mt-6 mb-10 sm:text-3xl sm:mb-10 sm:mt-4">Sponsors and Friends</h3>
         {/* Donation List */}
         <ul className="flex flex-col sm:flex-row sm:flex-wrap sm:justify-center">
