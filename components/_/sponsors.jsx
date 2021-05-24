@@ -8,7 +8,7 @@ export default function Donations() {
         <ul className="flex flex-col sm:flex-row sm:flex-wrap sm:justify-center">
 
           {/* Alby Beer */}
-          <li className="block border-2 border-secondary-1 p-6 mb-4 sm:mx-2 sm:flex-1/3">
+          <li className="block border-2 border-highlight-3 p-6 mb-4 sm:mx-2 sm:flex-1/3">
             <a href="http://alby.beer/">
               {/* Donation Logo */}
               <img className="block w-100 mb-4 mx-auto" src="/assets/site/sponsors/alby.jpg" alt="#" />
@@ -23,7 +23,7 @@ export default function Donations() {
           </li>
 
           {/* LotteryWest */}
-          <li className="block border-2 border-secondary-1 p-6 mb-4 sm:mx-2 sm:flex-1/3">
+          <li className="block border-2 border-highlight-3 p-6 mb-4 sm:mx-2 sm:flex-1/3">
             <a href="https://www.lotterywest.wa.gov.au/">
               {/* Donation Logo */}
               <img className="block w-100 mb-4 mx-auto" src="/assets/site/sponsors/lotterywest.jpg" alt="#" />
@@ -37,7 +37,7 @@ export default function Donations() {
           </li>
 
           {/* PentaNet */}
-          <li className="block border-2 border-secondary-1 p-6 mb-4 sm:mx-2 sm:flex-1/3">
+          <li className="block border-2 border-highlight-3 p-6 mb-4 sm:mx-2 sm:flex-1/3">
             <a href="https://pentanet.com.au/">
               {/* Donation Logo */}
               <img className="block w-100 mb-4 mx-auto" src="/assets/site/sponsors/pentanet.jpg" alt="#" />
@@ -51,7 +51,7 @@ export default function Donations() {
           </li>
 
           {/* Supanova */}
-          <li className="block border-2 border-secondary-1 p-6 mb-4 sm:mx-2 sm:flex-1/3">
+          <li className="block border-2 border-highlight-3 p-6 mb-4 sm:mx-2 sm:flex-1/3">
             <a href="https://www.supanova.com.au/">
               {/* Donation Logo */}
               <img className="block w-100 mb-4 mx-auto" src="/assets/site/sponsors/supanova.jpg" alt="#" />
@@ -66,7 +66,7 @@ export default function Donations() {
           </li>
 
           {/* WebInABox */}
-          <li className="block border-2 border-secondary-1 p-6 mb-4 sm:mx-2 sm:flex-1/3">
+          <li className="block border-2 border-highlight-3 p-6 mb-4 sm:mx-2 sm:flex-1/3">
             <a href="https://www.webinabox.net.au/">
               {/* Donation Logo */}
               <img className="block w-100 mb-4 mx-auto" src="/assets/site/sponsors/webinabox.jpg" alt="#" />
