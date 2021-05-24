@@ -3,7 +3,7 @@ export default function Donations() {
     <>
       {/* Container */}
       <div className="block bg-primary-1 p-6 pb-0 text-maintext mb-5 sm:mb-10">
-        <h3 className="text-center text-2xl mb-4 mt-6 mb-10 sm:text-3xl sm:mb-10 sm:mt-4 text-header">Sponsors and Friends</h3>
+        <h3 className="text-center text-2xl mb-4 mt-6 mb-10 sm:text-3xl sm:mb-10 sm:mt-4 text-header">Upcoming Events</h3>
         {/* Donation List */}
         <ul className="flex flex-col sm:flex-row sm:flex-wrap sm:justify-center">
 
@@ -11,7 +11,7 @@ export default function Donations() {
           <li className="block border-2 border-secondary-1 p-6 mb-4 sm:mx-2 sm:flex-1/3">
             <a href="https://www.facebook.com/groups/noizemaschin/">
               {/* Image */}
-              <img className="block w-100 mb-4 mx-auto" src="/assets/site/events/nm.jpg" alt="#" />
+              <img className="block w-100 mb-4 mx-auto" src="/assets/site/events/nm.png" alt="#" />
               {/* Title */}
               <span className="block w-100 mb-4 text-center text-highlight-2">NoizeMaschin!!</span>
               {/* Description */}
@@ -25,7 +25,7 @@ export default function Donations() {
           <li className="block border-2 border-secondary-1 p-6 mb-4 sm:mx-2 sm:flex-1/3">
             <a href="https://www.facebook.com/WAMod-West-Australian-Modular-Synthesizers-416747535171732">
               {/* Donation Logo */}
-              <img className="block w-100 mb-4 mx-auto" src="/assets/site/events/wamod.jpg" alt="#" />
+              <img className="block w-100 mb-4 mx-auto" src="/assets/site/events/wamod.png" alt="#" />
               {/* Donation Title */}
               <span className="block w-100 mb-4 text-center text-highlight-2">WAMod Synth Workshop</span>
               {/* Donation Description */}
@@ -39,7 +39,7 @@ export default function Donations() {
           <li className="block border-2 border-secondary-1 p-6 mb-4 sm:mx-2 sm:flex-1/3">
             <a href="#">
               {/* Donation Logo */}
-              <img className="block w-100 mb-4 mx-auto" src="/assets/site/events/arduino.jpg" alt="#" />
+              <img className="block w-100 mb-4 mx-auto" src="/assets/site/events/arduino.png" alt="#" />
               {/* Donation Title */}
               <span className="block w-100 mb-4 text-center text-highlight-2">Arduino U</span>
               {/* Donation Description */}
@@ -52,7 +52,7 @@ export default function Donations() {
           <li className="block border-2 border-secondary-1 p-6 mb-4 sm:mx-2 sm:flex-1/3">
             <a href="#">
               {/* Image */}
-              <img className="block w-100 mb-4 mx-auto" src="/assets/site/events/ww.jpg" alt="#" />
+              <img className="block w-100 mb-4 mx-auto" src="/assets/site/events/ww.png" alt="#" />
               {/* Title */}
               <span className="block w-100 mb-4 text-center text-highlight-2">Workshop Wednesdays</span>
               {/* Description */}
@@ -66,7 +66,7 @@ export default function Donations() {
           <li className="block border-2 border-secondary-1 p-6 mb-4 sm:mx-2 sm:flex-1/3">
             <a href="#">
               {/* Image */}
-              <img className="block w-100 mb-4 mx-auto" src="/assets/site/events/lan.jpg" alt="#" />
+              <img className="block w-100 mb-4 mx-auto" src="/assets/site/events/lan.png" alt="#" />
               {/* Title */}
               <span className="block w-100 mb-4 text-center text-highlight-2">Artifrag LAN</span>
               {/* Description */}
@@ -79,7 +79,7 @@ export default function Donations() {
           <li className="block border-2 border-secondary-1 p-6 mb-4 sm:mx-2 sm:flex-1/3">
             <a href="#">
               {/* Image */}
-              <img className="block w-100 mb-4 mx-auto" src="/assets/site/events/open.jpg" alt="#" />
+              <img className="block w-100 mb-4 mx-auto" src="/assets/site/events/open.png" alt="#" />
               {/* Title */}
               <span className="block w-100 mb-4 text-center text-highlight-2">Open Day</span>
               {/* Description */}
