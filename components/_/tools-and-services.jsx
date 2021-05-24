@@ -18,10 +18,20 @@ export default function ToolsAndServices() {
             </p>
           </li>
 
+          
+          {/* 3D Printing */}
+          <li className="block border-2 border-secondary-1 max-w-xs p-4 mb-4 sm:flex-1/3 mx-2">
+            {/* Donation Title */}
+            <span className="block w-100 mb-4 text-center text-highlight-2">3D Printing</span>
+            {/* Donation Description */}
+            <p className="block w-100 text-center text-sm">
+              Our DLP and FDM printers will print all the knicknacks you could possibly want.
+            </p>
+          </li>
+
           {/* Electronics */}
           <li className="block border-2 border-secondary-1 max-w-xs p-4 mb-4 sm:flex-1/3 mx-2">
-            <span></span>
-            {/* Donation Title */}
+              {/* Donation Title */}
             <span className="block w-100 mb-4 text-center text-highlight-2">Electronics</span>
             {/* Donation Description */}
             <p className="block w-100 text-center text-sm">
@@ -31,8 +41,7 @@ export default function ToolsAndServices() {
 
           {/* Metal Working */}
           <li className="block border-2 border-secondary-1 max-w-xs p-4 mb-4 sm:flex-1/3 mx-2">
-            <span></span>
-            {/* Donation Title */}
+              {/* Donation Title */}
             <span className="block w-100 mb-4 text-center text-highlight-2">Metal Working</span>
             {/* Donation Description */}
             <p className="block w-100 text-center text-sm">
@@ -42,8 +51,7 @@ export default function ToolsAndServices() {
 
           {/* Wood Working */}
           <li className="block border-2 border-secondary-1 max-w-xs p-4 mb-4 sm:flex-1/3 mx-2">
-            <span></span>
-            {/* Donation Title */}
+              {/* Donation Title */}
             <span className="block w-100 mb-4 text-center text-highlight-2">Wood Working</span>
             {/* Donation Description */}
             <p className="block w-100 text-center text-sm">
@@ -51,21 +59,10 @@ export default function ToolsAndServices() {
             </p>
           </li>
 
-          {/* 3D Printing */}
-          <li className="block border-2 border-secondary-1 max-w-xs p-4 mb-4 sm:flex-1/3 mx-2">
-            <span></span>
-            {/* Donation Title */}
-            <span className="block w-100 mb-4 text-center text-highlight-2">3D Printing</span>
-            {/* Donation Description */}
-            <p className="block w-100 text-center text-sm">
-              Our DLP and FDM printers will print all the knicknacks you could possibly want.
-            </p>
-          </li>
 
           {/* Rehearsal Space */}
           <li className="block border-2 border-secondary-1 max-w-xs p-4 mb-4 sm:flex-1/3 mx-2">
-            <span></span>
-            {/* Donation Title */}
+              {/* Donation Title */}
             <span className="block w-100 mb-4 text-center text-highlight-2">Rehearsal Space</span>
             {/* Donation Description */}
             <p className="block w-100 text-center text-sm">Rock out to your hearts content, day or night.</p>
