@@ -5,7 +5,7 @@ export default function Stats() {
   return (
     <>
       {/* Container */}
-      <div className="mb-2 sm:mb-20 pb-0">
+      <div className="my-5 sm:my-10">
         {/* Stat List */}
         <ul className="flex flex-wrap justify-center">
           {/* Stat List Item */}
