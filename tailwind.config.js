@@ -71,13 +71,15 @@ module.exports = {
         cyan: '#79FFE1', // unknown use, green cyan
 //        'primary-1': '#494949', // #light grey
 //        'primary-2': '#313131', // #dark grey
-        'primary-1': '#2b2b2b', // #light grey
-        'primary-2': '#1a1a1a', // #dark grey
+//        'primary-1': '#2b2b2b', // #light grey
+//        'primary-2': '#1a1a1a', // #dark grey
+        'primary-1': '#242424', // #light grey
+        'primary-2': '#121212', // #dark grey
         'secondary-1': '#bf1b00', // dark red
         'secondary-2': '#e32000', // red
         'secondary-3': '#ff2400', // unknown use, brighter red
         'highlight-1': '#e32000', // red
-        'highlight-2': '#dddddd', // #white
+        'highlight-2': '#ffffff', // #white
         'maintext':  '#dddddd', // #white
       },
       minWidth: {
