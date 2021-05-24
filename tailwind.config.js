@@ -78,9 +78,9 @@ module.exports = {
         'secondary-1': '#bf1b00', // dark red
         'secondary-2': '#e32000', // red
         'secondary-3': '#ff2400', // unknown use, brighter red
-        'highlight-1': '#e32000', // red
+        'highlight-1': '#bf1b00', // red
         'highlight-2': '#dddddd', // #white
-        'maintext':  '#bbbbbb', // #white
+        'maintext':  '#bfbfbf', // #white
       },
       minWidth: {
         0: '0',
