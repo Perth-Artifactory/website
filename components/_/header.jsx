@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <>
       {/* Container */}
-      <header className="pt-2 pb-6 pl-6 pr-6 sm:p-3">
+      <header className="pt-2 pb-6 pl-6 pr-6">
 {/*   <header className="mx-10 mb-20 sm:mt-10"> */}
         {/* Hidden H1 for SEO */}
         <h1 className="invisible">Artifactory</h1>
