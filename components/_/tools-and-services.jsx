@@ -32,7 +32,7 @@ export default function ToolsAndServices() {
           {/* Electronics */}
           <li className="block border-2 border-highlight-3 max-w-xs p-4 mb-4 sm:flex-1/3 mx-2">
               {/* Donation Title */}
-            <span className="block w-100 mb-4 text-center text-highlight-2">Electronics</span>
+            <span className="block w-100 mb-4 text-center text-highlight-2">Electronics Lab</span>
             {/* Donation Description */}
             <p className="block w-100 text-center text-sm">
               Soldering equipment, components, oscilloscopes, power supplies, lab equipment - we've got it all.
