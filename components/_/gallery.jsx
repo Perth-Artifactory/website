@@ -8,7 +8,7 @@ export default function Gallery() {
       {/* Container */}
       <div className="flex flex-col align-center mb-5 sm:mb-10 bg-primary-1 p-6">
         {/* Image Container */}
-        <div className="block w-100 mb-2 sm:mb-20">
+        <div className="block w-100 mb-2 sm:mb-10">
           <img
             className="border-2 border-highlight-1 mx-auto sm:border-3 md:border-4 lg:border-5"
             src="assets/site/gallery/20190616_121125.jpg"
@@ -20,7 +20,7 @@ export default function Gallery() {
         <div className="block w-100">
           {/* Image List */}
           <ul className="flex flex-wrap">
-            <li className="block w-1/2 p-2 md:w-1/3">
+            <li className="block w-1/2 p-1 md:w-1/3">
               {/* Image */}
               <img
                 className="block w-100 h-auto cursor-pointer "
@@ -29,7 +29,7 @@ export default function Gallery() {
                 onClick={(e) => alternateImage(e.currentTarget)}
               />
             </li>
-            <li className="block w-1/2 p-2 md:w-1/3">
+            <li className="block w-1/2 p-1 md:w-1/3">
               <img
                 className="block w-100 h-auto cursor-pointer "
                 src="assets/site/gallery/20181020_190202.jpg"
@@ -37,7 +37,7 @@ export default function Gallery() {
                 onClick={(e) => alternateImage(e.currentTarget)}
               />
             </li>
-            <li className="block w-1/2 p-2 md:w-1/3">
+            <li className="block w-1/2 p-1 md:w-1/3">
               <img
                 className="block w-100 h-auto cursor-pointer "
                 src="assets/site/gallery/20190413_173154.jpg"
@@ -45,7 +45,7 @@ export default function Gallery() {
                 onClick={(e) => alternateImage(e.currentTarget)}
               />
             </li>
-            <li className="block w-1/2 p-2 md:w-1/3">
+            <li className="block w-1/2 p-1 md:w-1/3">
               <img
                 className="block w-100 h-auto cursor-pointer "
                 src="assets/site/gallery/20181120_210525.jpg"
@@ -53,7 +53,7 @@ export default function Gallery() {
                 onClick={(e) => alternateImage(e.currentTarget)}
               />
             </li>
-            <li className="block w-1/2 p-2 md:w-1/3">
+            <li className="block w-1/2 p-1 md:w-1/3">
               <img
                 className="block w-100 h-auto cursor-pointer "
                 src="assets/site/gallery/20181123_002935.jpg"
@@ -61,7 +61,7 @@ export default function Gallery() {
                 onClick={(e) => alternateImage(e.currentTarget)}
               />
             </li>
-            <li className="block w-1/2 p-2 md:w-1/3">
+            <li className="block w-1/2 p-1 md:w-1/3">
               <img
                 className="block w-100 h-auto cursor-pointer "
                 src="assets/site/gallery/20181207_183833.jpg"
