@@ -80,7 +80,7 @@ module.exports = {
         'secondary-3': '#ff2400', // unknown use, brighter red
         'highlight-1': '#e32000', // red
         'highlight-2': '#dddddd', // #white
-        'maintext':  '#999999', // #white
+        'maintext':  '#aaaaaa', // #white
       },
       minWidth: {
         0: '0',
