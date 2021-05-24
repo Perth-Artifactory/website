@@ -7,8 +7,16 @@ export default function TextBlock2() {
         <p align="justify" className="">
           If you would like to visit for a tour, come to one of our monthly{' '}
           <strong className="text-highlight-1">Open Days</strong> on the first Saturday of every month, or to a{' '}
-          <strong className="text-highlight-1">Workshop Wednesday</strong> each week from 11:00am-6:30pm. Before heading down check the webcams
-          to make certain someone is there.
+          <strong className="text-highlight-1">Workshop Wednesday</strong> each week from 11:00am-6:30pm. Before heading down check the{' '}
+          <a href="https://space.artifactory.org.au/">webcams</a>
+          to make certain someone is there. Other events are marked on our{' '}
+          <a href="https://calendar.google.com/calendar/embed?src=q9bs8ul7umfnm4m02eq535114o%40group.calendar.google.com&amp;ctz=Australia/Perth">
+            Google Calendar </a> and <a href="https://www.facebook.com/perthartifactory">Facebook</a> pages.
+          <br />
+          <br />
+          You can also join our{' '}
+          <a href="https://space.artifactory.org.au/slack">Slack team</a> and connect with members
+          and like minded makers.
         </p>
       </div>
     </>

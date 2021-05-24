@@ -22,27 +22,6 @@ export default function Address() {
           <br />
           6017
         </address>
-
-        <h4 className="text-center text-xl sm:text-2xl mb-4">Access</h4>
-        <p>
-          Members get <strong className="text-highlight-1">24/7 access</strong> to the Artifactory with a key bond.
-          <br />
-          <br />
-          If you are interested in joining or just want to checkout the space, come to one of our regular sessions
-          on Wednesday or Saturday.
-          <br />
-          <br />
-          Other events are marked on our{' '}
-          <a href="https://calendar.google.com/calendar/embed?src=q9bs8ul7umfnm4m02eq535114o%40group.calendar.google.com&amp;ctz=Australia/Perth">
-            Google Calendar
-          </a>{' '}
-          and <a href="https://www.facebook.com/perthartifactory">Facebook</a> pages.
-          <br />
-          <br />
-          You can also join our{' '}
-          <a href="https://space.artifactory.org.au/slack">Slack team</a> and connect with members
-          and like minded makers.
-        </p>
       </div>
     </>
   );
