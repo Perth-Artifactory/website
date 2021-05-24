@@ -7,7 +7,7 @@ export default function ToolsAndServices() {
         {/* Donation List */}
         <ul className="flex flex-col items-center sm:flex-row sm:flex-wrap sm:justify-center sm:items-stretch">
           {/* Donation List Item */}
-          <li className="block border-2 border-secondary-1 max-w-xs p-6 mb-4 sm:flex-1/2 mx-2">
+          <li className="block border-2 border-secondary-1 max-w-xs p-3 mb-4 sm:flex-1/2 mx-2">
             {/* Donation Title */}
             <span className="block w-100 mb-4 text-center text-highlight-2">Laser Cutting</span>
             {/* Donation Description */}
@@ -18,7 +18,7 @@ export default function ToolsAndServices() {
           </li>
 
           {/* Donation List Item */}
-          <li className="block border-2 border-secondary-1 max-w-xs p-6 mb-4 sm:flex-1/2 mx-2">
+          <li className="block border-2 border-secondary-1 max-w-xs p-3 mb-4 sm:flex-1/2 mx-2">
             <span></span>
             {/* Donation Title */}
             <span className="block w-100 mb-4 text-center text-highlight-2">Electronics</span>
@@ -29,7 +29,7 @@ export default function ToolsAndServices() {
           </li>
 
           {/* Donation List Item */}
-          <li className="block border-2 border-secondary-1 max-w-xs p-6 mb-4 sm:flex-1/2 mx-2">
+          <li className="block border-2 border-secondary-1 max-w-xs p-3 mb-4 sm:flex-1/2 mx-2">
             <span></span>
             {/* Donation Title */}
             <span className="block w-100 mb-4 text-center text-highlight-2">Metal Working</span>
@@ -40,7 +40,7 @@ export default function ToolsAndServices() {
           </li>
 
           {/* Donation List Item */}
-          <li className="block border-2 border-secondary-1 max-w-xs p-6 mb-4 sm:flex-1/2 mx-2">
+          <li className="block border-2 border-secondary-1 max-w-xs p-3 mb-4 sm:flex-1/2 mx-2">
             <span></span>
             {/* Donation Title */}
             <span className="block w-100 mb-4 text-center text-highlight-2">Wood Working</span>
@@ -51,7 +51,7 @@ export default function ToolsAndServices() {
           </li>
 
           {/* Donation List Item */}
-          <li className="block border-2 border-secondary-1 max-w-xs p-6 mb-4 sm:flex-1/2 mx-2">
+          <li className="block border-2 border-secondary-1 max-w-xs p-3 mb-4 sm:flex-1/2 mx-2">
             <span></span>
             {/* Donation Title */}
             <span className="block w-100 mb-4 text-center text-highlight-2">3D Printing</span>
@@ -62,7 +62,7 @@ export default function ToolsAndServices() {
           </li>
 
           {/* Donation List Item */}
-          <li className="block border-2 border-secondary-1 max-w-xs p-6 mb-4 sm:flex-1/2 mx-2">
+          <li className="block border-2 border-secondary-1 max-w-xs p-3 mb-4 sm:flex-1/2 mx-2">
             <span></span>
             {/* Donation Title */}
             <span className="block w-100 mb-4 text-center text-highlight-2">Rehearsal Space</span>
