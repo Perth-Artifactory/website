@@ -16,13 +16,13 @@ module.exports = {
               color: '#ff6950', // #90e0c9
             },
             h4: {
-              color: '#FFF',
+              color: '#dddddd',
             },
             h5: {
-              color: '#FFF',
+              color: '#dddddd',
             },
             h6: {
-              color: '#FFF',
+              color: '#dddddd',
             },
             strong: {
               color: '#ff2400',
@@ -77,8 +77,8 @@ module.exports = {
         'secondary-2': '#e32000', // red
         'secondary-3': '#ff2400', // unknown use, brighter red
         'highlight-1': '#e32000', // red
-        'highlight-2': '#ffffff', // #white
-        'maintext':  '#ffffff', // #white
+        'highlight-2': '#dddddd', // #white
+        'maintext':  '#dddddd', // #white
       },
       minWidth: {
         0: '0',
