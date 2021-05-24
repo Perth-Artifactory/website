@@ -66,33 +66,18 @@ module.exports = {
         'accent-1': '#FAFAFA',
         'accent-2': '#EAEAEA',
         'accent-7': '#333',
-        'nav': '#646464',
-        success: '#0070f3', // #0070f3
-        cyan: '#79FFE1', // #79FFE1
-        'primary-1': '#262626', // #322d44
-        'primary-2': '#141414', // #26203b
-        'secondary-1': '#bf1b00', // #7bdfc3
-        'secondary-2': '#e32000', // #5fb49b
-        'secondary-3': '#ff6950', // #90e0c9
-        'highlight-1': '#ff2400', // #eaa844
-        'highlight-2': '#ffffff', // #eaa844
+        'nav': '#646464', // nav border
+        success: '#0070f3', // unknown use, blue
+        cyan: '#79FFE1', // unknown use, green cyan
+        'primary-1': '#606060', // #light grey
+        'primary-2': '#353535', // #dark grey
+        'secondary-1': '#bf1b00', // dark red
+        'secondary-2': '#e32000', // red
+        'secondary-3': '#ff2400', // unknown use, brighter red
+        'highlight-1': '#e32000', // red
+        'highlight-2': '#ffffff', // #white
+        'maintext':  '#ffffff', // #white
       },
-      // colors: {
-      //   success: '#0070f3',
-      //   cyan: '#79FFE1',
-      //   'accent-1': '#FAFAFA',
-      //   'accent-2': '#EAEAEA',
-      //   'accent-7': '#333',
-      //   //
-      //   'primary-1': '#321450',
-      //   'primary-2': '#29132E',
-      //   //
-      //   'secondary-1': '#DE004E',
-      //   'secondary-2': '#860029',
-      //   'secondary-3': '#f887FF',
-      //   //
-      //   'highlight-1': '#DE004E',
-      // },
       minWidth: {
         0: '0',
         '1/4': '25%',

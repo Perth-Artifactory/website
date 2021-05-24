@@ -6,7 +6,7 @@ export default function Footer() {
       {/* Container */}
       <div className="bg-secondary-1 p-6 sm:flex">
         {/* Sitemap Container */}
-        <div className="block w-100 mb-4 p-6 bg-primary-2 text-white sm:mr-2 min-w-1/4 sm:mb-0">
+        <div className="block w-100 mb-4 p-6 bg-primary-2 text-maintext sm:mr-2 min-w-1/4 sm:mb-0">
           <span className="text-lg sm:text-xl block mb-2 sm:mb-4 font-semibold border-b-2 border-highlight-1">
             Sitemap
           </span>
@@ -42,7 +42,7 @@ export default function Footer() {
           </ul>
         </div>
         {/* More Info Container */}
-        <div className="block w-100 bg-primary-2 p-6 text-white sm:flex-1">
+        <div className="block w-100 bg-primary-2 p-6 text-maintext sm:flex-1">
           <span className="text-lg sm:text-xl block mb-2 sm:mb-4 font-semibold border-b-2 border-highlight-1">
             More Info
           </span>
@@ -78,7 +78,7 @@ export default function Footer() {
               </li>
               <li>
                 <a href="https://hackmelbourne.com/">MELB: CCHS</a>
-              </li>  
+              </li>
               <li>
                 <a href="http://robodino.org/">SYD: Robots &amp; Dinosaurs</a>
               </li>

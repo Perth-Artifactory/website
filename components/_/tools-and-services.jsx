@@ -2,7 +2,7 @@ export default function ToolsAndServices() {
   return (
     <>
       {/* Container */}
-      <div className="block bg-primary-1 p-3 sm:p-6 text-white mb-2 sm:mb-20">
+      <div className="block bg-primary-1 p-3 sm:p-6 text-maintext mb-2 sm:mb-20">
         <h3 className="text-center text-2xl sm:text-3xl mb-4 sm:mb-10 sm:mt-4">Tools and Services</h3>
         {/* Donation List */}
         <ul className="flex flex-col items-center sm:flex-row sm:flex-wrap sm:justify-center sm:items-stretch">
