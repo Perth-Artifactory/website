@@ -7,67 +7,67 @@ export default function ToolsAndServices() {
         {/* Donation List */}
         <ul className="flex flex-col items-center sm:flex-row sm:flex-wrap sm:justify-center sm:items-stretch">
           {/* Donation List Item */}
-          <li className="block border-2 border-secondary-1 max-w-xs p-3 mb-4 sm:flex-1/2 mx-2">
+          <li className="block border-2 border-secondary-1 max-w-xs p-6 mb-4 sm:flex-1/2 mx-2">
             {/* Donation Title */}
-            <span className="block w-100 mb-2 text-center text-highlight-2">Laser Cutting</span>
+            <span className="block w-100 mb-4 text-center text-highlight-2">Laser Cutting</span>
             {/* Donation Description */}
-            <p className="block w-100 text-center text-sm p-3">
+            <p className="block w-100 text-center text-sm">
               We have multiple industrial laser cutters and an easy to access training program that can get anyone
               cutting in a flash.
             </p>
           </li>
 
           {/* Donation List Item */}
-          <li className="block border-2 border-secondary-1 max-w-xs p-3 mb-4 sm:flex-1/2 mx-2">
+          <li className="block border-2 border-secondary-1 max-w-xs p-6 mb-4 sm:flex-1/2 mx-2">
             <span></span>
             {/* Donation Title */}
-            <span className="block w-100 mb-2 text-center text-highlight-2">Electronics</span>
+            <span className="block w-100 mb-4 text-center text-highlight-2">Electronics</span>
             {/* Donation Description */}
-            <p className="block w-100 text-center text-sm p-3">
+            <p className="block w-100 text-center text-sm">
               Soldering equipment, components, oscilloscopes, power supplies, lab equipment - we've got it all.
             </p>
           </li>
 
           {/* Donation List Item */}
-          <li className="block border-2 border-secondary-1 max-w-xs p-3 mb-4 sm:flex-1/2 mx-2">
+          <li className="block border-2 border-secondary-1 max-w-xs p-6 mb-4 sm:flex-1/2 mx-2">
             <span></span>
             {/* Donation Title */}
-            <span className="block w-100 mb-2 text-center text-highlight-2">Metal Working</span>
+            <span className="block w-100 mb-4 text-center text-highlight-2">Metal Working</span>
             {/* Donation Description */}
-            <p className="block w-100 text-center text-sm p-3">
+            <p className="block w-100 text-center text-sm">
               MIG/TIG/SMAW welding supplies, plasma cutting, and forging. If it gets metal hot, we've got it.
             </p>
           </li>
 
           {/* Donation List Item */}
-          <li className="block border-2 border-secondary-1 max-w-xs p-3 mb-4 sm:flex-1/2 mx-2">
+          <li className="block border-2 border-secondary-1 max-w-xs p-6 mb-4 sm:flex-1/2 mx-2">
             <span></span>
             {/* Donation Title */}
-            <span className="block w-100 mb-2 text-center text-highlight-2">Wood Working</span>
+            <span className="block w-100 mb-4 text-center text-highlight-2">Wood Working</span>
             {/* Donation Description */}
-            <p className="block w-100 text-center text-sm p-3">
+            <p className="block w-100 text-center text-sm">
               Table saw, router table, CNC mill, band saw, and lathe. Heavy machines for your next project.
             </p>
           </li>
 
           {/* Donation List Item */}
-          <li className="block border-2 border-secondary-1 max-w-xs p-3 mb-4 sm:flex-1/2 mx-2">
+          <li className="block border-2 border-secondary-1 max-w-xs p-6 mb-4 sm:flex-1/2 mx-2">
             <span></span>
             {/* Donation Title */}
-            <span className="block w-100 mb-2 text-center text-highlight-2">3D Printing</span>
+            <span className="block w-100 mb-4 text-center text-highlight-2">3D Printing</span>
             {/* Donation Description */}
-            <p className="block w-100 text-center text-sm p-3">
+            <p className="block w-100 text-center text-sm">
               Our DLP and FDM printers will print all the knicknacks you could possibly want.
             </p>
           </li>
 
           {/* Donation List Item */}
-          <li className="block border-2 border-secondary-1 max-w-xs p-3 mb-4 sm:flex-1/2 mx-2">
+          <li className="block border-2 border-secondary-1 max-w-xs p-6 mb-4 sm:flex-1/2 mx-2">
             <span></span>
             {/* Donation Title */}
-            <span className="block w-100 mb-2 text-center text-highlight-2">Rehearsal Space</span>
+            <span className="block w-100 mb-4 text-center text-highlight-2">Rehearsal Space</span>
             {/* Donation Description */}
-            <p className="block w-100 text-center text-sm p-3">Rock out to your hearts content, day or night.</p>
+            <p className="block w-100 text-center text-sm">Rock out to your hearts content, day or night.</p>
           </li>
         </ul>
       </div>
