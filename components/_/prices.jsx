@@ -8,7 +8,7 @@ export default function Prices() {
       {/* Container */}
       <div className="block p-3 sm:p-6 pb-0.5 bg-secondary-1 mb-5 sm:mb-10">
         <ul className="sm:flex sm:flex-wrap sm:space-between">
-          <li className="block bg-primary-1 p-6 text-maintext mb-4 max-w-xs mx-auto sm:w-1/4 border-2 border-secondary-1">
+          <li className="block bg-primary-1 p-6 text-maintext mb-0 sm:mb-4 max-w-xs mx-auto sm:w-1/4 border-2 border-secondary-1">
             <div>
               <div className="text-4xl sm:text-xl text-highlight-2">
                 <ul className="block w-auto text-center my-4">
@@ -32,7 +32,7 @@ export default function Prices() {
               </ul>
             </div>
           </li>
-          <li className="block bg-primary-1 p-6 text-maintext mb-4 max-w-xs mx-auto sm:w-1/4 border-2 border-secondary-1">
+          <li className="block bg-primary-1 p-6 text-maintext mb-0 sm:mb-4 max-w-xs mx-auto sm:w-1/4 border-2 border-secondary-1">
             <div>
               <div className="text-4xl sm:text-xl text-highlight-2">
                 <ul className="block w-auto text-center my-4">
@@ -59,7 +59,7 @@ export default function Prices() {
               </ul>
             </div>
           </li>
-          <li className="block bg-primary-1 p-6 text-maintext mb-4 max-w-xs mx-auto sm:w-1/4 border-4 border-highlight-2">
+          <li className="block bg-primary-1 p-6 text-maintext mb-0 sm:mb-4 max-w-xs mx-auto sm:w-1/4 border-4 border-highlight-2">
             <div>
               <div className="text-4xl sm:text-xl text-highlight-2">
                 <ul className="block w-auto text-center my-4">
@@ -89,7 +89,7 @@ export default function Prices() {
               </ul>
             </div>
           </li>
-          <li className="block bg-primary-1 p-6 text-maintext mb-4 max-w-xs mx-auto sm:w-1/4 border-2 border-secondary-1">
+          <li className="block bg-primary-1 p-6 text-maintext mb-0 sm:mb-4 max-w-xs mx-auto sm:w-1/4 border-2 border-secondary-1">
             <div>
               <div className="text-4xl sm:text-xl text-highlight-2">
                 <ul className="block w-auto text-center my-4">
