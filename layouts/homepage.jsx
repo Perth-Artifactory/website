@@ -1,6 +1,7 @@
 import ButtonBlock1 from '../components/_/button-block-1';
 import Donations from '../components/_/sponsors';
 import EventsWidget from '../components/_/events-widget';
+import Events from '../components/_/events2';
 import Gallery from '../components/_/gallery';
 import Hero from '../components/_/hero';
 import Location from '../components/_/address';
@@ -20,7 +21,8 @@ export default function HomepageLayout({}) {
       {/* MAIN - STATS */}
       <Stats />
       {/* MAIN - EVENTS LIST */}
-      <EventsWidget />
+      {/* <EventsWidget /> */}
+      <Events />
       {/* MAIN - BUTTONS */}
       <ButtonBlock1 />
       {/* MAIN - SERVICES */}
