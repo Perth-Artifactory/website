@@ -24,4 +24,7 @@
   a {
     @apply text-highlight-1;
   }
+  a:hover {
+    @apply secondary-2;
+  }
 }
