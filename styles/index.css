@@ -21,6 +21,9 @@
 }
 
 @layer base {
+  p {
+    @apply text-maintext;
+  }
   a {
     @apply text-highlight-1;
   }
