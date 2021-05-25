@@ -1,4 +1,6 @@
 @tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 @responsive {
   .text-shadow {
@@ -19,25 +21,7 @@
 }
 
 @layer base {
-  h1: {
-    color: 'secondary-1',
-  },
-  h2: {
-    color: 'secondary-2',
-  },
-  h3: {
-    color: 'header',
-  },
-  strong: {
-    color: 'highlight-1',
-  },
-  a: {
-    color: 'highlight-1',
-    hover: {
-      color: 'secondary-2',
-    }
+  .a {
+    color: highlight-1;
   }
 }
-
-@tailwind components;
-@tailwind utilities;
