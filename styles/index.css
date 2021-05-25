@@ -18,5 +18,30 @@
   }
 }
 
+@layer base {
+  h1: {
+    color: 'secondary-1',
+  },
+  h2: {
+    color: 'secondary-2',
+  },
+  h3: {
+    color: 'header',
+  },
+  strong: {
+    color: 'highlight-1',
+  },
+  img: {
+    display: 'block',
+    margin: '0 auto',
+  },
+  a: {
+    color: 'highlight-1',
+    hover: {
+      color: 'secondary-2',
+    }
+  }
+}
+
 @tailwind components;
 @tailwind utilities;

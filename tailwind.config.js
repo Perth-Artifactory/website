@@ -71,8 +71,6 @@ module.exports = {
         cyan: '#79FFE1', // unknown use, green cyan
         'primary-1': '#202020', // #dark grey
         'primary-2': '#121212', // #darker grey
-        'primary-1': '#171717', // #dark grey
-        'primary-2': '#0c0c0c', // #darker grey
         'secondary-1': '#bf1b00', // dark red
         'secondary-2': '#e32000', // red
         'secondary-3': '#ff2400', // unknown use, brighter red
