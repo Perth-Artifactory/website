@@ -31,10 +31,6 @@
   strong: {
     color: 'highlight-1',
   },
-  img: {
-    display: 'block',
-    margin: '0 auto',
-  },
   a: {
     color: 'highlight-1',
     hover: {
