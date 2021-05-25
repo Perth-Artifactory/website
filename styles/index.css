@@ -21,7 +21,7 @@
 }
 
 @layer base {
-  .a {
-    color: #00ff00;
+  a {
+    @apply text-highlight-1;
   }
 }
