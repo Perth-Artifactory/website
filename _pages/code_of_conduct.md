@@ -39,9 +39,9 @@ Report any conflicts of interest.
 All attendees are encouraged to proactively report issues as soon as they arise. Reporting of issues in the early stage can help prevent escalation to larger problems. Sometimes an attendee may be unaware of the impact of their actions and so reporting helps correct those behaviours and benefits the community.
 
 Reporting methods:
-* Talk to a committee member	(see: https://wiki.artifactory.org.au/doku.php?id=committee:start#committee_members)
-* Email the management committee: committee@artifactory.org.au 
-* Email the executive committee (Chair, Deputy Chair, Secretary Treasurer): exec@artifactory.org.au 
+* Talk to a [committee member](https://wiki.artifactory.org.au/doku.php?id=committee:start#committee_members)
+* [Email](mailto:committee@artifactory.org.au) the management committee
+* [Email](exec@artifactory.org.au) the executive committee (Chair, Deputy Chair, Secretary Treasurer)
 * Slack direct message to a committee member
 * Ask another Artifactory member to report the incident on your behalf
 
@@ -57,5 +57,5 @@ All incidents are handled on a case-by-case basis. Depending on the incident, th
 
 ## References
 Guided by some other excellent code of conduct documents:
-* HSBNE: https://hsbne.org/admin/code
-* LinuxConfAu: https://lca2022.linux.org.au/attend/code-of-conduct/
+* [HSBNE](https://hsbne.org/admin/code)
+* [LinuxConfAu](https://lca2022.linux.org.au/attend/code-of-conduct/)
