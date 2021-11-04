@@ -39,6 +39,11 @@ export default function Footer() {
                 <a>Webcams</a>
               </Link>
             </li>
+            <li>
+              <Link href="/pages/code_of_conduct">
+                <a>Code of Conduct</a>
+              </Link>
+            </li>
           </ul>
         </div>
         {/* More Info Container */}
