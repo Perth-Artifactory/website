@@ -1,8 +1,8 @@
 ---
-title: Code of Conduct
-date: 2021-11-04T15:53:29Z
-author: Artifactory Management Committee
-heroUrl: https://via.placeholder.com/300x150
+title: 'Code of Conduct'
+date: '2021-11-04T15:53:29Z'
+author: 'Artifactory Management Committee'
+heroUrl: 'https://via.placeholder.com/300x150'
 ---
 
 # Code Of Conduct
