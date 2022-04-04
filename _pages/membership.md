@@ -26,7 +26,7 @@ Concession: [$45/mo](https://artifactory.tidyhq.com/public/membership_levels/534
 
 ## Band Membership
 
-$100/mo
+[$100/mo](https://artifactory.tidyhq.com/public/membership_levels/NYW9Rg)
 
 - Access to The Artifactory rehearsal room with at least 3 rehearsal slots a month.
 - Free entry for band members to Perth Artifactory run music related events. Including NoizeMaschin!! and ModularSynth
