@@ -8,7 +8,7 @@ export default function Donations() {
         <ul className="flex flex-col sm:flex-row sm:flex-wrap sm:justify-center">
           {/* Donation List Item */}
           <li className="block border-2 border-secondary-1 p-6 mb-4 sm:mx-2 sm:flex-1/3">
-            <a href="http://alby.beer/">
+            <a href="https://alby.beer/">
               {/* Donation Logo */}
               <img className="block w-100 mb-4 mx-auto" src="/assets/site/alby.jpg" alt="#" />
               {/* Donation Title */}
@@ -22,7 +22,60 @@ export default function Donations() {
           </li>
           {/* Donation List Item */}
           <li className="block border-2 border-secondary-1 p-6 mb-4 sm:mx-2 sm:flex-1/3">
-            <a href="http://lotterywest.wa.gov.au/">
+            <a href="https://www.altronics.com.au/">
+              {/* Donation Logo */}
+              <img className="block w-100 mb-4 mx-auto" src="/assets/site/altronics.png" alt="#" />
+              {/* Donation Title */}
+              <span className="block w-100 mb-4 text-center">Altronics</span>
+              {/* Donation Description */}
+              <p className="block w-100 text-center text-sm">
+                The endless support Altronics has provided to our organisaiton and members over the years has been invaluable.
+                Many aspects of the space simply wouldn't be financially viable without their support!
+              </p>
+            </a>
+          </li>
+          {/* Donation List Item */}
+          <li className="block border-2 border-secondary-1 p-6 mb-4 sm:mx-2 sm:flex-1/3">
+            <a href="https://socialimpact.github.com/">
+              {/* Donation Logo */}
+              <img className="block w-100 mb-4 mx-auto" src="/assets/site/github.png" alt="#" />
+              {/* Donation Title */}
+              <span className="block w-100 mb-4 text-center">Github</span>
+              {/* Donation Description */}
+              <p className="block w-100 text-center text-sm">
+                Collaboration on our open source projects is a breeze with Github's organisation management!
+              </p>
+            </a>
+          </li>
+          {/* Donation List Item */}
+          <li className="block border-2 border-secondary-1 p-6 mb-4 sm:mx-2 sm:flex-1/3">
+            <a href="https://www.google.com/nonprofits/">
+              {/* Donation Logo */}
+              <img className="block w-100 mb-4 mx-auto" src="/assets/site/google_nfp.png" alt="#" />
+              {/* Donation Title */}
+              <span className="block w-100 mb-4 text-center">Google NFP</span>
+              {/* Donation Description */}
+              <p className="block w-100 text-center text-sm">
+                Google's services for nonprofits help us stay connected and collaborate on the operation of the workshop!
+              </p>
+            </a>
+          </li>
+          {/* Donation List Item */}
+          <li className="block border-2 border-secondary-1 p-6 mb-4 sm:mx-2 sm:flex-1/3">
+            <a href="https://healthchecks.io/">
+              {/* Donation Logo */}
+              <img className="block w-100 mb-4 mx-auto" src="/assets/site/healthchecks.jpg" alt="#" />
+              {/* Donation Title */}
+              <span className="block w-100 mb-4 text-center">Healthchecks.io</span>
+              {/* Donation Description */}
+              <p className="block w-100 text-center text-sm">
+                The service monitoring provided by Healthchecks helps our volunteers administer the services we rely on and helps our members lock up the space!
+              </p>
+            </a>
+          </li>
+          {/* Donation List Item */}
+          <li className="block border-2 border-secondary-1 p-6 mb-4 sm:mx-2 sm:flex-1/3">
+            <a href="https://lotterywest.wa.gov.au/">
               {/* Donation Logo */}
               <img className="block w-100 mb-4 mx-auto" src="/assets/site/lotterywest.jpg" alt="#" />
               {/* Donation Title */}
@@ -35,14 +88,14 @@ export default function Donations() {
           </li>
           {/* Donation List Item */}
           <li className="block border-2 border-secondary-1 p-6 mb-4 sm:mx-2 sm:flex-1/3">
-            <a href="https://pentanet.com.au/">
+            <a href="https://stjohnwa.com.au/">
               {/* Donation Logo */}
-              <img className="block w-100 mb-4 mx-auto" src="/assets/site/pentanet.jpg" alt="#" />
+              <img className="block w-100 mb-4 mx-auto" src="/assets/site/SJA.png" alt="#" />
               {/* Donation Title */}
-              <span className="block w-100 mb-4 text-center">PentaNet</span>
+              <span className="block w-100 mb-4 text-center">St John WA Heart Grant</span>
               {/* Donation Description */}
               <p className="block w-100 text-center text-sm">
-                Huge thanks to Pentanet for providing the Perth Artifactory with mind blowing internet speeds!
+                The St John WA Heart Grant has allowed us to maintain a defibrillator on site for the safety of our attendees. Big thanks to St John and LotteryWest for looking out for our health!
               </p>
             </a>
           </li>
@@ -62,15 +115,15 @@ export default function Donations() {
           </li>
           {/* Donation List Item */}
           <li className="block border-2 border-secondary-1 p-6 mb-4 sm:mx-2 sm:flex-1/3">
-            <a href="http://www.webinabox.net.au/">
+            <a href="https://www.webinabox.net.au/">
               {/* Donation Logo */}
               <img className="block w-100 mb-4 mx-auto" src="/assets/site/webinabox.jpg" alt="#" />
               {/* Donation Title */}
               <span className="block w-100 mb-4 text-center">WebInABox</span>
               {/* Donation Description */}
               <p className="block w-100 text-center text-sm">
-                A big thank-you to Web In A Box for helping us out with their fantastic Web Hosting platform, you
-                wouldn't be reading this without it!
+                A big thank-you to Web In A Box for helping us out with their fantastic cloud platform, many of our services
+                wouldn't run without it!
               </p>
             </a>
           </li>
