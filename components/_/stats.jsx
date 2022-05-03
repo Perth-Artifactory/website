@@ -18,7 +18,7 @@ export default function Stats() {
                   <BsFillPeopleFill />
                 </span>
                 {/* Stat Value */}
-                <span className="inline-block text-highlight-2 text-6xl min-w-1/4 text-right font-mono">93</span>
+                <span className="inline-block text-highlight-2 text-6xl min-w-1/4 text-right font-mono">50+</span>
               </div>
               <span className="block w-100 text-xl text-highlight-2 font-semibold text-right">Active Members</span>
             </div>
