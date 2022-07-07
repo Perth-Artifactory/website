@@ -53,6 +53,13 @@ export default function Navigation() {
           </li>
           <li className="w-full block">
             <a
+              href="https://shop.artifactory.org.au/"
+              className="block px-4 py-2 w-full hover:bg-primary-1 hover:text-highlight-1">
+              Store
+            </a>
+          </li>
+          <li className="w-full block">
+            <a
               href="https://space.artifactory.org.au/slack/"
               className="block px-4 py-2 w-full hover:bg-primary-1 hover:text-highlight-1">
               Slack
