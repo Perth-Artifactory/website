@@ -23,19 +23,19 @@ Interested applicants should [submit](mailto:apply@artifactory.org.au) a 1 page 
 * What equipment can you see yourself using as part of your membership and for what?
 * What sort of assistance do you think you will need from the existing Artifactory Members for your projects?
 * Do you belong to any other Hacker/Maker spaces? If so, which?
-* What campus will you attend in 2021?
+* What campus will you attend in 2022?
 * Are there any workshops/events being held at the Artifactory that you would like to attend or help facilitate?
 * Could you see yourself running any sort of workshop in the future at the Artifactory? If so what?
 
 ### Notes
 
 * This opportunity is not open to current or past members of the Perth Artifactory Inc
-* You must be a tertiary student for 2021 and be at least 18 years of age.
-* 24/7 access to the Artifactory can be granted with this membership but it requires a key bond of $135 to be paid. The bond is refundable at the end of your membership or can be carried over if you wish to extend your membership after the sponsorship period..
+* You must be a tertiary student for 2022 and be at least 18 years of age.
+* 24/7 access to the Artifactory can be granted with this membership but it requires a key bond of $135 to be paid. The bond is refundable at the end of your membership or can be carried over if you wish to extend your membership after the sponsorship period.
 * The Perth Artifactory Committee reserves the right to cancel your membership at any time.
 * This membership is an Associate Membership under the Perth Artifactory Inc constitution and has no voting rights.
 * Tool usage fees are payable on some Artifactory tools in line with the fees charged to Concession members.
-* This membership does not give free access to the Rehearsal Room but may allow the holder to access a discounted usage rate.
+* This membership does not give free access to the Rehearsal Room but does allow the holder to access a discounted usage rate.
 
 # Resident Artists
 
