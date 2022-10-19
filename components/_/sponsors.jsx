@@ -133,7 +133,7 @@ export default function Donations() {
               {/* Donation Logo */}
               <img className="block w-100 mb-4 mx-auto" src="/assets/site/ABB.jpg" alt="#" />
               {/* Donation Title */}
-              <span className="block w-100 mb-4 text-center">PentaNet</span>
+              <span className="block w-100 mb-4 text-center">Aussie Broadband</span>
               {/* Donation Description */}
               <p className="block w-100 text-center text-sm">
                 Huge thanks to Aussie Broadband for providing us with a substantial discount on our internet service. Many of the services our members use wouldn't be possible without their support!
