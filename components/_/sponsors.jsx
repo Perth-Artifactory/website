@@ -127,6 +127,19 @@ export default function Donations() {
               </p>
             </a>
           </li>
+          {/* Donation List Item */}
+          <li className="block border-2 border-secondary-1 p-6 mb-4 sm:mx-2 sm:flex-1/3">
+            <a href="https://www.aussiebroadband.com.au/">
+              {/* Donation Logo */}
+              <img className="block w-100 mb-4 mx-auto" src="/assets/site/ABB.jpg" alt="#" />
+              {/* Donation Title */}
+              <span className="block w-100 mb-4 text-center">PentaNet</span>
+              {/* Donation Description */}
+              <p className="block w-100 text-center text-sm">
+                Huge thanks to Aussie Broadband for providing us with a substantial discount on our internet service. Many of the services our members use wouldn't be possible without their support!
+              </p>
+            </a>
+          </li>
         </ul>
       </div>
     </>
