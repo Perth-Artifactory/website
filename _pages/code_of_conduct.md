@@ -41,7 +41,7 @@ All attendees are encouraged to proactively report issues as soon as they arise.
 Reporting methods:
 * Talk to a [committee member](https://wiki.artifactory.org.au/doku.php?id=committee:start#committee_members)
 * [Email](mailto:committee@artifactory.org.au) the management committee
-* [Email](exec@artifactory.org.au) the executive committee (Chair, Deputy Chair, Secretary Treasurer)
+* [Email](mailto:exec@artifactory.org.au) the executive committee (Chair, Deputy Chair, Secretary Treasurer)
 * Slack direct message to a committee member
 * Ask another Artifactory member to report the incident on your behalf
 

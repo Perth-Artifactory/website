@@ -57,7 +57,7 @@ export default function ToolsAndServices() {
             <span className="block w-100 mb-4 text-center">3D Printing</span>
             {/* Donation Description */}
             <p className="block w-100 text-center text-sm">
-              Our DLP and FDM printers will print all the knicknacks you could possibly want.
+              Our DLP and FDM printers will print all the knick-knacks you could possibly want. Want to print things for tabletop games? They can do that too!
             </p>
           </li>
 

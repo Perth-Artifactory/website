@@ -35,7 +35,7 @@ Concession: [$45/mo](https://artifactory.tidyhq.com/public/membership_levels/534
 
 ## Gift memberships
 
-Our full/concession membership can be purchased as a gift [here](https://artifactory.tidyhq.com/public/shop/products). Once purchased we will get in contact with you to organise the details. Receipients of gift memberships go through the same application process as other members.
+Our full/concession membership can be purchased as a gift [here](https://artifactory.tidyhq.com/public/shop/products). Once purchased we will get in contact with you to organise the details. Recipients of gift memberships go through the same application process as other members.
 
 ## Who can be a member?
 
