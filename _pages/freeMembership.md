@@ -23,7 +23,7 @@ Interested applicants should [submit](mailto:apply@artifactory.org.au) a 1 page 
 * What equipment can you see yourself using as part of your membership and for what?
 * What sort of assistance do you think you will need from the existing Artifactory Members for your projects?
 * Do you belong to any other Hacker/Maker spaces? If so, which?
-* What campus will you attend in 2022?
+* What campus will you attend in 2023?
 * Are there any workshops/events being held at the Artifactory that you would like to attend or help facilitate?
 * Could you see yourself running any sort of workshop in the future at the Artifactory? If so what?
 
