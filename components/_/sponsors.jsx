@@ -29,7 +29,7 @@ export default function Donations() {
               <span className="block w-100 mb-4 text-center">Altronics</span>
               {/* Donation Description */}
               <p className="block w-100 text-center text-sm">
-                The endless support Altronics has provided to our organisaiton and members over the years has been invaluable.
+                The endless support Altronics has provided to our organisation and members over the years has been invaluable.
                 Many aspects of the space simply wouldn't be financially viable without their support!
               </p>
             </a>
