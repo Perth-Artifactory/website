@@ -19,7 +19,7 @@ export default function Prices() {
               </div>
               <span className="block text-4xl sm:text-xl text-center text-highlight-2">Casual</span>
               <div className="block w-100 text-center my-2 text-highlight-2">
-                <span className="inline-block text-3xl text-center">$10</span>
+                <span className="inline-block text-3xl text-center">$15</span>
                 <span className="inline-block text-2xl text-center">/day</span>
               </div>
             </div>

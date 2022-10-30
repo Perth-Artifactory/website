@@ -39,6 +39,11 @@ export default function Footer() {
                 <a>Webcams</a>
               </Link>
             </li>
+            <li>
+              <Link href="/pages/code_of_conduct">
+                <a>Code of Conduct</a>
+              </Link>
+            </li>
           </ul>
         </div>
         {/* More Info Container */}
@@ -61,17 +66,19 @@ export default function Footer() {
             </span>
             <ul>
               <li>
-                <a href="http://www.hackerspace-adelaide.org.au/">ADEL: Hackerspace Adelaide</a>
+                <a href="https://www.hackerspace-adelaide.org.au/">ADEL: Hackerspace Adelaide</a>
               </li>
               <li>
-                <a href="http://hsbne.org/">BRIS: HSBNE</a>
+                <a href="https://hsbne.org/">BRIS: HSBNE</a>
+              </li>
+              <li>
+                <a href="https://brisbanemaker.space/">BRIS: Brisbane Makerspace</a>
               </li>
               <li>
                 <a href="http://swmakers.org/">BUNB: South West Makers</a>
               </li>
               <li>
-                {/* see https://github.com/Perth-Artifactory/website/issues/9  <a href="http://www.makehackvoid.com/">CANB: Make, Hack, Void</a> */}
-                CANB: Make, Hack, Void
+                <a href="https://canberramaker.space/">CANB: Make, Hack, Void</a>
               </li>
               <li>
                 <a href="https://www.hobarthackerspace.org.au/">HOBART: Hackerspace</a>
@@ -80,7 +87,7 @@ export default function Footer() {
                 <a href="https://hackmelbourne.com/">MELB: CCHS</a>
               </li>
               <li>
-                <a href="http://robodino.org/">SYD: Robots &amp; Dinosaurs</a>
+                <a href="https://robodino.org/">SYD: Robots &amp; Dinosaurs</a>
               </li>
             </ul>
             <span className="text-lg sm:text-xl block mb-2 sm:my-4 font-semibold border-b-2 border-highlight-1">

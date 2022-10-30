@@ -59,6 +59,16 @@ export default function ToolsAndServices() {
             </p>
           </li>
 
+          {/* Donation List Item */}
+          <li className="block border-2 border-secondary-1 max-w-xs p-6 mb-4 sm:flex-1/2 mx-2">
+            <span></span>
+            {/* Donation Title */}
+            <span className="block w-100 mb-4 text-center">3D Printing</span>
+            {/* Donation Description */}
+            <p className="block w-100 text-center text-sm">
+              Our DLP and FDM printers will print all the knick-knacks you could possibly want. Want to print things for tabletop games? They can do that too!
+            </p>
+          </li>
 
           {/* Rehearsal Space */}
           <li className="block border-2 border-highlight-3 max-w-xs p-4 mb-4 sm:flex-1/3 mx-2">

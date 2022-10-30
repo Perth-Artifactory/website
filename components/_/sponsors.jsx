@@ -45,7 +45,7 @@ export default function Donations() {
               <span className="block w-100 mb-4 text-center text-highlight-2">PentaNet</span>
               {/* Donation Description */}
               <p className="block w-100 text-center text-sm">
-                Huge thanks to Pentanet for providing the Perth Artifactory with mind blowing internet speeds!
+                The St John WA Heart Grant has allowed us to maintain a defibrillator on site for the safety of our attendees. Big thanks to St John and LotteryWest for looking out for our health!
               </p>
             </a>
           </li>
@@ -74,8 +74,21 @@ export default function Donations() {
               <span className="block w-100 mb-4 text-center text-highlight-2">WebInABox</span>
               {/* Donation Description */}
               <p className="block w-100 text-center text-sm">
-                A big thank-you to Web In A Box for helping us out with their fantastic Web Hosting platform, you
-                wouldn't be reading this without it!
+                A big thank-you to Web In A Box for helping us out with their fantastic cloud platform, many of our services
+                wouldn't run without it!
+              </p>
+            </a>
+          </li>
+          {/* Donation List Item */}
+          <li className="block border-2 border-secondary-1 p-6 mb-4 sm:mx-2 sm:flex-1/3">
+            <a href="https://www.aussiebroadband.com.au/">
+              {/* Donation Logo */}
+              <img className="block w-100 mb-4 mx-auto" src="/assets/site/ABB.jpg" alt="#" />
+              {/* Donation Title */}
+              <span className="block w-100 mb-4 text-center">Aussie Broadband</span>
+              {/* Donation Description */}
+              <p className="block w-100 text-center text-sm">
+                Huge thanks to Aussie Broadband for providing us with a substantial discount on our internet service. Many of the services our members use wouldn't be possible without their support!
               </p>
             </a>
           </li>
