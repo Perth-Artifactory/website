@@ -8,9 +8,9 @@ export default function ToolsAndServices() {
         <ul className="flex flex-col items-center sm:flex-row sm:flex-wrap sm:justify-center sm:items-stretch">
 
           {/* Laser Cutting */}
-          <li className="block border-2 border-highlight-3 max-w-xs p-4 mb-4 sm:flex-1/3 mx-2">
+          <li className="block border-2 border-secondary-2 max-w-xs p-4 mb-4 sm:flex-1/3 mx-2">
             {/* Donation Title */}
-            <span className="block w-100 mb-4 text-center text-highlight-1">Laser Cutting</span>
+            <span className="block w-100 mb-4 text-center text-highlight-2">Laser Cutting</span>
             {/* Donation Description */}
             <p className="block w-100 text-center text-sm">
               We have multiple industrial laser cutters and an easy to access training program that can get anyone
@@ -19,9 +19,9 @@ export default function ToolsAndServices() {
           </li>
 
           {/* Electronics */}
-          <li className="block border-2 border-highlight-3 max-w-xs p-4 mb-4 sm:flex-1/3 mx-2">
+          <li className="block border-2 border-secondary-2 max-w-xs p-4 mb-4 sm:flex-1/3 mx-2">
               {/* Donation Title */}
-            <span className="block w-100 mb-4 text-center text-highlight-1">Electronics Lab</span>
+            <span className="block w-100 mb-4 text-center text-highlight-2">Electronics Lab</span>
             {/* Donation Description */}
             <p className="block w-100 text-center text-sm">
               Soldering equipment, components, oscilloscopes, power supplies, lab equipment - we've got it all.
@@ -29,9 +29,9 @@ export default function ToolsAndServices() {
           </li>
 
           {/* Metal Working */}
-          <li className="block border-2 border-highlight-3 max-w-xs p-4 mb-4 sm:flex-1/3 mx-2">
+          <li className="block border-2 border-secondary-2 max-w-xs p-4 mb-4 sm:flex-1/3 mx-2">
               {/* Donation Title */}
-            <span className="block w-100 mb-4 text-center text-highlight-1">Metal Working</span>
+            <span className="block w-100 mb-4 text-center text-highlight-2">Metal Working</span>
             {/* Donation Description */}
             <p className="block w-100 text-center text-sm">
               MIG/TIG/SMAW welding supplies, plasma cutter, forge, and foundry. If it gets metal hot, we've got it.
@@ -39,9 +39,9 @@ export default function ToolsAndServices() {
           </li>
 
           {/* Wood Working */}
-          <li className="block border-2 border-highlight-3 max-w-xs p-4 mb-4 sm:flex-1/3 mx-2">
+          <li className="block border-2 border-secondary-2 max-w-xs p-4 mb-4 sm:flex-1/3 mx-2">
               {/* Donation Title */}
-            <span className="block w-100 mb-4 text-center text-highlight-1">Wood Working</span>
+            <span className="block w-100 mb-4 text-center text-highlight-2">Wood Working</span>
             {/* Donation Description */}
             <p className="block w-100 text-center text-sm">
               Table saw, router table, CNC mill, band saw, and lathe. Heavy machines for your next project.
@@ -49,9 +49,9 @@ export default function ToolsAndServices() {
           </li>
 
           {/* 3D Printing */}
-          <li className="block border-2 border-highlight-3 max-w-xs p-4 mb-4 sm:flex-1/3 mx-2">
+          <li className="block border-2 border-secondary-2 max-w-xs p-4 mb-4 sm:flex-1/3 mx-2">
             {/* Donation Title */}
-            <span className="block w-100 mb-4 text-center text-highlight-1">3D Printing</span>
+            <span className="block w-100 mb-4 text-center text-highlight-2">3D Printing</span>
             {/* Donation Description */}
             <p className="block w-100 text-center text-sm">
               Our DLP and FDM printers will print all the knick-knacks you could possibly want. Want to print things for tabletop games? They can do that too!
@@ -59,9 +59,9 @@ export default function ToolsAndServices() {
           </li>
 
           {/* Rehearsal Space */}
-          <li className="block border-2 border-highlight-3 max-w-xs p-4 mb-4 sm:flex-1/3 mx-2">
+          <li className="block border-2 border-secondary-2 max-w-xs p-4 mb-4 sm:flex-1/3 mx-2">
               {/* Donation Title */}
-            <span className="block w-100 mb-4 text-center text-highlight-1">Rehearsal Space</span>
+            <span className="block w-100 mb-4 text-center text-highlight-2">Rehearsal Space</span>
             {/* Donation Description */}
             <p className="block w-100 text-center text-sm">Rock out to your hearts content, day or night. Treated room with PA to suit up to a four piece.</p>
           </li>

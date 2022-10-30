@@ -7,7 +7,7 @@ export default function Donations() {
         {/* Donation List */}
         <ul className="flex flex-col sm:flex-row sm:flex-wrap sm:justify-center">
           {/* Donation List Item */}
-          <li className="block border-2 border-highlight-3 p-6 mb-4 sm:mx-2 sm:flex-1/3">
+          <li className="block border-2 border-secondary-2 p-6 mb-4 sm:mx-2 sm:flex-1/3">
             <a href="https://alby.beer/">
               {/* Donation Logo */}
               <img className="block w-100 mb-4 mx-auto" src="/assets/site/sponsors/alby.jpg" alt="#" />
@@ -21,7 +21,7 @@ export default function Donations() {
             </a>
           </li>
           {/* Donation List Item */}
-          <li className="block border-2 border-highlight-3 p-6 mb-4 sm:mx-2 sm:flex-1/3">
+          <li className="block border-2 border-secondary-2 p-6 mb-4 sm:mx-2 sm:flex-1/3">
             <a href="https://www.altronics.com.au/">
               {/* Donation Logo */}
               <img className="block w-100 mb-4 mx-auto" src="/assets/site/sponsors/altronics.png" alt="#" />
@@ -35,7 +35,7 @@ export default function Donations() {
             </a>
           </li>
           {/* Donation List Item */}
-          <li className="block border-2 border-highlight-3 p-6 mb-4 sm:mx-2 sm:flex-1/3">
+          <li className="block border-2 border-secondary-2 p-6 mb-4 sm:mx-2 sm:flex-1/3">
             <a href="https://socialimpact.github.com/">
               {/* Donation Logo */}
               <img className="block w-100 mb-4 mx-auto" src="/assets/site/sponsors/github.png" alt="#" />
@@ -48,7 +48,7 @@ export default function Donations() {
             </a>
           </li>
           {/* Donation List Item */}
-          <li className="block border-2 border-highlight-3 p-6 mb-4 sm:mx-2 sm:flex-1/3">
+          <li className="block border-2 border-secondary-2 p-6 mb-4 sm:mx-2 sm:flex-1/3">
             <a href="https://www.google.com/nonprofits/">
               {/* Donation Logo */}
               <img className="block w-100 mb-4 mx-auto" src="/assets/site/sponsors/google_nfp.png" alt="#" />
@@ -61,7 +61,7 @@ export default function Donations() {
             </a>
           </li>
           {/* Donation List Item */}
-          <li className="block border-2 border-highlight-3 p-6 mb-4 sm:mx-2 sm:flex-1/3">
+          <li className="block border-2 border-secondary-2 p-6 mb-4 sm:mx-2 sm:flex-1/3">
             <a href="https://healthchecks.io/">
               {/* Donation Logo */}
               <img className="block w-100 mb-4 mx-auto" src="/assets/site/sponsors/healthchecks.jpg" alt="#" />
@@ -74,7 +74,7 @@ export default function Donations() {
             </a>
           </li>
           {/* Donation List Item */}
-          <li className="block border-2 border-highlight-3 p-6 mb-4 sm:mx-2 sm:flex-1/3">
+          <li className="block border-2 border-secondary-2 p-6 mb-4 sm:mx-2 sm:flex-1/3">
             <a href="https://lotterywest.wa.gov.au/">
               {/* Donation Logo */}
               <img className="block w-100 mb-4 mx-auto" src="/assets/site/sponsors/lotterywest.jpg" alt="#" />
@@ -87,7 +87,7 @@ export default function Donations() {
             </a>
           </li>
           {/* Donation List Item */}
-          <li className="block border-2 border-highlight-3 p-6 mb-4 sm:mx-2 sm:flex-1/3">
+          <li className="block border-2 border-secondary-2 p-6 mb-4 sm:mx-2 sm:flex-1/3">
             <a href="https://stjohnwa.com.au/">
               {/* Donation Logo */}
               <img className="block w-100 mb-4 mx-auto" src="/assets/site/sponsors/SJA.png" alt="#" />
@@ -100,7 +100,7 @@ export default function Donations() {
             </a>
           </li>
           {/* Donation List Item */}
-          <li className="block border-2 border-highlight-3 p-6 mb-4 sm:mx-2 sm:flex-1/3">
+          <li className="block border-2 border-secondary-2 p-6 mb-4 sm:mx-2 sm:flex-1/3">
             <a href="#">
               {/* Donation Logo */}
               <img className="block w-100 mb-4 mx-auto" src="/assets/site/sponsors/supanova.jpg" alt="#" />
@@ -114,7 +114,7 @@ export default function Donations() {
             </a>
           </li>
           {/* Donation List Item */}
-          <li className="block border-2 border-highlight-3 p-6 mb-4 sm:mx-2 sm:flex-1/3">
+          <li className="block border-2 border-secondary-2 p-6 mb-4 sm:mx-2 sm:flex-1/3">
             <a href="https://www.webinabox.net.au/">
               {/* Donation Logo */}
               <img className="block w-100 mb-4 mx-auto" src="/assets/site/sponsors/webinabox.jpg" alt="#" />
@@ -128,7 +128,7 @@ export default function Donations() {
             </a>
           </li>
           {/* Donation List Item */}
-          <li className="block border-2 border-highlight-3 p-6 mb-4 sm:mx-2 sm:flex-1/3">
+          <li className="block border-2 border-secondary-2 p-6 mb-4 sm:mx-2 sm:flex-1/3">
             <a href="https://www.aussiebroadband.com.au/">
               {/* Donation Logo */}
               <img className="block w-100 mb-4 mx-auto" src="/assets/site/sponsors/ABB.jpg" alt="#" />
