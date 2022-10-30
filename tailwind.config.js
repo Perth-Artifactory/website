@@ -76,7 +76,7 @@ module.exports = {
               //color: '#bf1b00', // secondary-1
               //hover: {
               //  color: '#ff2400', // secondary-3
-              },
+              //},
             },
           },
         },
