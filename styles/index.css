@@ -24,7 +24,7 @@
   p {
     @apply text-maintext;
   }
-  a {
+/*  a {
     @apply text-secondary-1;
   }
   a:hover {
@@ -33,4 +33,5 @@
   a.nohover:hover {
     @apply hover:text-highlight-1;
   }
+  */
 }
