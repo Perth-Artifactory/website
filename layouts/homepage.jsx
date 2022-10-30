@@ -1,6 +1,6 @@
 import ButtonBlock1 from '../components/_/button-block-1';
 import Sponsors from '../components/_/sponsors';
-import GoogleCalendar from '../components/_/calendar_google';
+import GoogleCalendar from '../components/_/calendar-google';
 import Events from '../components/_/events2';
 import Calendar from '../components/_/calendar';
 import Gallery from '../components/_/gallery';
