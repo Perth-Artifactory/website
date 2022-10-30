@@ -12,49 +12,49 @@ export default function Contact() {
           {/* Contact Item List Item */}
           <li className="inline-block">
             <a
-              className="block text-highlight-2 fill-current hover:text-secondary-1 text-xl sm:text-2xl md:text-3xl"
+              className="block text-highlight-1 fill-current hover:text-secondary-1 text-xl sm:text-2xl md:text-3xl"
               href="https://space.artifactory.org.au/slack">
               <FaSlack />
             </a>
           </li>
           {/* <li className="inline-block">
             <a
-              className="block text-highlight-2 fill-current hover:text-secondary-1 text-xl sm:text-2xl md:text-3xl"
+              className="block text-highlight-1 fill-current hover:text-secondary-1 text-xl sm:text-2xl md:text-3xl"
               href="https://groups.google.com/group/artifactory-core">
               <AiOutlineMail />
             </a>
           </li> */}
           <li className="inline-block">
             <a
-              className="block text-highlight-2 fill-current hover:text-secondary-1 text-xl sm:text-2xl md:text-3xl"
+              className="block text-highlight-1 fill-current hover:text-secondary-1 text-xl sm:text-2xl md:text-3xl"
               href="https://www.facebook.com/pages/The-Perth-Artifactory/178514525501368">
               <FaFacebook />
             </a>
           </li>
           <li className="inline-block">
             <a
-              className="block text-highlight-2 fill-current hover:text-secondary-1 text-xl sm:text-2xl md:text-3xl"
+              className="block text-highlight-1 fill-current hover:text-secondary-1 text-xl sm:text-2xl md:text-3xl"
               href="https://twitter.com/perthartifact">
               <FaTwitter />
             </a>
           </li>
           <li className="inline-block">
             <a
-              className="block text-highlight-2 fill-current hover:text-secondary-1 text-xl sm:text-2xl md:text-3xl"
+              className="block text-highlight-1 fill-current hover:text-secondary-1 text-xl sm:text-2xl md:text-3xl"
               href="https://www.instagram.com/theperthartifactory/">
               <FaInstagram />
             </a>
           </li>
           <li className="inline-block">
             <a
-              className="block text-highlight-2 fill-current hover:text-secondary-1 text-xl sm:text-2xl md:text-3xl"
+              className="block text-highlight-1 fill-current hover:text-secondary-1 text-xl sm:text-2xl md:text-3xl"
               href="https://www.youtube.com/channel/UC9N4yG2QzYZV9Naud_IsUfA">
               <FaYoutube />
             </a>
           </li>
           <li className="inline-block">
             <a
-              className="block text-highlight-2 fill-current hover:text-secondary-1 text-xl sm:text-2xl md:text-3xl"
+              className="block text-highlight-1 fill-current hover:text-secondary-1 text-xl sm:text-2xl md:text-3xl"
               href="https://www.meetup.com/Perth-Artifactory/">
               <FaMeetup />
             </a>
