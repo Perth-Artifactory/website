@@ -13,7 +13,7 @@ We must all work to foster a collaborative, inclusive, safe and creative environ
 
 The Artifactory attendees come from a diverse variety of backgrounds. That diversity enriches our community and so we must work to ensure all members feel welcome and safe. Sexual harassment, bullying or discrimination will not be tolerated - both in person and online. Any behaviours that make attendees feel uncomfortable or unsafe are unacceptable and action will be taken to ensure a safe environment for all attendees.
 
-Sometimes disagreements can be frustrating but that is no excuse for poor behavior or poor manners. Disagreement, debate and constructive criticism can help develop ideas but it should never cross into personal attacks. 
+Sometimes disagreements can be frustrating but that is no excuse for poor behaviour or poor manners. Disagreement, debate and constructive criticism can help develop ideas but it should never cross into personal attacks.
 
 Many Artifactory attendees offer training, help and advice to members and visitors. We should be mindful that these people are volunteers and so must be treated with respect and allowed time to work on their own projects if they so wish.
 
@@ -29,7 +29,7 @@ Do not use tools while under the influence of alcohol, drugs, or other inhibitin
 ## Integrity
 *Always be honest*
 
-Report any damage to tools including mistakes you make. It happens, we have all been there! If you come across damaged tools or low consumables, likewise report it. 
+Report any damage to tools including mistakes you make. It happens, we have all been there! If you come across damaged tools or low consumables, likewise report it.
 
 Respect the ownership of tools and materials. Do not remove Artifactory equipment from the premises unless you have permission. Ensure you have permission before using another member’s tools or materials.
 

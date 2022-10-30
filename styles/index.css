@@ -25,7 +25,7 @@
     @apply text-maintext;
   }
   a {
-    @apply no-underline;
+    @apply text-highlight-1;
   }
   a:hover {
     @apply hover:text-secondary-2;

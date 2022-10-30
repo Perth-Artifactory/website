@@ -17,30 +17,30 @@ module.exports = {
         'highlight-1': '#bf1b00', // dark red
         'highlight-2': '#dddddd', // #light grey
         'highlight-3': '#8c1400', // darker red
-        'header': '#dddddd', // #light grey
+        'header': '#ddd', // #light grey
         'maintext': '#bfbfbf', // #grey
       },
       typography: {
         DEFAULT: {
           css: {
-            color: maintext, // default text colour
+            color: 'maintext', // default text colour
             h1: {
-              color: '#dddddd', // #e32000
+              color: '#ddd', // #e32000
             },
             h2: {
-              color: '#dddddd', // #e32000
+              color: '#ddd', // #e32000
             },
             h3: {
-              color: '#dddddd',
+              color: '#ddd',
             },
             h4: {
-              color: '#dddddd',
+              color: '#ddd',
             },
             h5: {
-              color: '#dddddd',
+              color: '#ddd',
             },
             h6: {
-              color: '#dddddd',
+              color: '#ddd',
             },
             strong: {
               color: '#ff2400',
@@ -63,7 +63,7 @@ module.exports = {
               backgroundColor: '#141414', // #26203b
             },
             a: {
-              decoration: 'no-underline',
+              textDecoration: 'no-underline',
               color: '#bf1b00', // highlight-1
               hover: {
                 color: '#e32000', // secondary-2
