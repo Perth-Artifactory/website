@@ -73,10 +73,10 @@ module.exports = {
             },
             a: {
               textDecoration: 'no-underline',
-              //color: '#bf1b00', // secondary-1
-              //hover: {
-              //  color: '#ff2400', // secondary-3
-              //},
+              color: '#bf1b00', // secondary-1
+              hover: {
+                color: '#ff2400', // secondary-3
+              },
             },
           },
         },
