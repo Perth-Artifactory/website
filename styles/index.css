@@ -22,12 +22,12 @@
 
 @layer base {
   p {
-    @apply text-maintext;
+    @apply text-main-text;
   }
   a {
-    @apply text-highlight-1;
+    @apply text-link;
   }
   a:hover {
-    @apply hover:text-secondary-2;
+    @apply hover:text-link-hover;
   }
 }
