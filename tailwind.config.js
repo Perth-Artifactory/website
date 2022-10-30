@@ -23,7 +23,7 @@ module.exports = {
       typography: {
         DEFAULT: {
           css: {
-            color: 'maintext', // default text colour
+            color: '#bfbfbf', // default text colour
             h1: {
               color: '#ddd', // #e32000
             },
