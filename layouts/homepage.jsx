@@ -18,9 +18,7 @@ export default function HomepageLayout({}) {
       <Hero />
       <TextBlock1 />
       <Stats />
-      //<Calendar />
       <GoogleCalendar />
-      //<Events />
       <ToolsAndServices />
       <Prices />
       <ButtonBlock1 />
