@@ -25,7 +25,6 @@
     @apply text-maintext;
   }
   a {
-    @apply text-highlight-1;
     @apply no-underline;
   }
   a:hover {
