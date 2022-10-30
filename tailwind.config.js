@@ -21,7 +21,7 @@ module.exports = {
         'nav': '#646464', // nav border
 
         // new colour names, not yet fully migrated
-        'back-1': '#12f212', // main background
+        'back-1': '#121212', // main background
         'back-2': '#202020', // component background
         'border-1': '#bf1b00', // dark red
         'border-2': '#8c1400', // darker red
