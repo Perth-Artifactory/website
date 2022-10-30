@@ -10,7 +10,7 @@ export default function Donations() {
           <li className="block border-2 border-highlight-3 p-6 mb-4 sm:mx-2 sm:flex-1/3">
             <a href="https://alby.beer/">
               {/* Donation Logo */}
-              <img className="block w-100 mb-4 mx-auto" src="/assets/site/sponsors/sponsors/alby.jpg" alt="#" />
+              <img className="block w-100 mb-4 mx-auto" src="/assets/site/sponsors/alby.jpg" alt="#" />
               {/* Donation Title */}
               <span className="block w-100 mb-4 text-center">Alby Beer</span>
               {/* Donation Description */}
