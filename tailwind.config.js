@@ -8,8 +8,8 @@ module.exports = {
         //'accent-7': '#333',
         //success: '#0070f3', // unknown use, blue
         //cyan: '#79FFE1', // unknown use, green cyan
-        'primary-2': '#121212', // main background, darker grey
-        'primary-1': '#202020', // component background, dark grey
+        //'primary-2': '#121212', // main background, darker grey
+        //'primary-1': '#202020', // component background, dark grey
         'secondary-1': '#bf1b00', // dark red
         'secondary-2': '#e32000', // red
         //'secondary-3': '#ff2400', // unknown use, brighter red
@@ -21,8 +21,8 @@ module.exports = {
         'nav': '#646464', // nav border
 
         // new colour names, not yet fully migrated
-        'back-1': '#121212', // main background
-        'back-2': '#202020', // component background
+        'primary-2': '#121212', // main background
+        'primary-1': '#202020', // component background
         'border-1': '#bf1b00', // dark red
         'border-2': '#8c1400', // darker red
         'nav': '#646464', // nav border
