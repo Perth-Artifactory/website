@@ -10,7 +10,7 @@ export default function Gallery() {
         {/* Image Container */}
         <div className="block w-100 mb-2 sm:mb-10">
           <img
-            className="border-2 border-highlight-1 mx-auto sm:border-3 md:border-4 lg:border-5"
+            className="border-2 border-secondary-1 mx-auto sm:border-3 md:border-4 lg:border-5"
             src="assets/site/gallery/20190616_121125.jpg"
             alt="Gallery Image"
             id="gallery-large-image"

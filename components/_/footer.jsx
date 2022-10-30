@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="bg-secondary-1 p-3 sm:flex">
         {/* Sitemap Container */}
         <div className="block w-100 mb-4 p-6 bg-primary-2 text-maintext sm:mr-2 min-w-1/4 sm:mb-0">
-          <span className="text-lg sm:text-xl block mb-2 sm:mb-4 font-semibold border-b-2 border-highlight-1">
+          <span className="text-lg sm:text-xl block mb-2 sm:mb-4 font-semibold border-b-2 border-secondary-1">
             Sitemap
           </span>
           {/* Sitemap Link List */}
@@ -48,7 +48,7 @@ export default function Footer() {
         </div>
         {/* More Info Container */}
         <div className="block w-100 bg-primary-2 p-6 text-maintext sm:flex-1">
-          <span className="text-lg sm:text-xl block mb-2 sm:mb-4 font-semibold border-b-2 border-highlight-1">
+          <span className="text-lg sm:text-xl block mb-2 sm:mb-4 font-semibold border-b-2 border-secondary-1">
             More Info
           </span>
           <p>
@@ -61,7 +61,7 @@ export default function Footer() {
           {/* Extranous Link Container */}
           <div className="block w-100">
             {/* Similar Places List */}
-            <span className="text-lg sm:text-xl block mb-2 sm:my-4 font-semibold border-b-2 border-highlight-1">
+            <span className="text-lg sm:text-xl block mb-2 sm:my-4 font-semibold border-b-2 border-secondary-1">
               Australian Hackerspaces
             </span>
             <ul>
@@ -90,7 +90,7 @@ export default function Footer() {
                 <a href="https://robodino.org/">SYD: Robots &amp; Dinosaurs</a>
               </li>
             </ul>
-            <span className="text-lg sm:text-xl block mb-2 sm:my-4 font-semibold border-b-2 border-highlight-1">
+            <span className="text-lg sm:text-xl block mb-2 sm:my-4 font-semibold border-b-2 border-secondary-1">
               Friends
             </span>
             <ul>
@@ -109,7 +109,7 @@ export default function Footer() {
             </ul>
 
             {/* Tech Used (?) List */}
-            <span className="text-lg sm:text-xl block mb-2 sm:my-4 font-semibold border-b-2 border-highlight-1">
+            <span className="text-lg sm:text-xl block mb-2 sm:my-4 font-semibold border-b-2 border-secondary-1">
               Affiliated Groups
             </span>
             <ul>

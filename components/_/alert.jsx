@@ -1,7 +1,7 @@
 export default function Alert() {
   return (
     // Container
-    <div className="px-16 bg-accent-1 border-primary-2 bg-highlight-1 text-maintext font-medium">
+    <div className="px-16 order-primary-2 bg-alert text-main-text font-medium">
       {/* Content */}
       <div className="p-2 text-center text-sm">Welcome to the Artifactory website!</div>
     </div>

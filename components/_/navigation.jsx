@@ -25,14 +25,14 @@ export default function Navigation() {
         <ul className="block text-highlight-2 text-sm w-full">
           <li className="w-full block">
             <Link href="/">
-              <a className="block px-4 py-2 w-full hover:bg-primary-1 hover:text-highlight-1">Home</a>
+              <a className="block px-4 py-2 w-full hover:bg-primary-1 hover:text-secondary-1">Home</a>
             </Link>
           </li>
           <hr />
           {process.env.menu.map((item) => (
             <li className="w-full block" key={item.link}>
               <Link href={item.link}>
-                <a className="block px-4 py-2 w-full hover:bg-primary-1 hover:text-highlight-1">{item.name}</a>
+                <a className="block px-4 py-2 w-full hover:bg-primary-1 hover:text-secondary-1">{item.name}</a>
               </Link>
             </li>
           ))}
@@ -40,56 +40,56 @@ export default function Navigation() {
           <li className="w-full block">
             <a
               href="https://wiki.artifactory.org.au/doku.php"
-              className="block px-4 py-2 w-full hover:bg-primary-1 hover:text-highlight-1">
+              className="block px-4 py-2 w-full hover:bg-primary-1 hover:text-secondary-1">
               Wiki
             </a>
           </li>
           <li className="w-full block">
             <a
               href="https://space.artifactory.org.au/"
-              className="block px-4 py-2 w-full hover:bg-primary-1 hover:text-highlight-1">
+              className="block px-4 py-2 w-full hover:bg-primary-1 hover:text-secondary-1">
               Webcams
             </a>
           </li>
           <li className="w-full block">
             <a
               href="https://shop.artifactory.org.au/"
-              className="block px-4 py-2 w-full hover:bg-primary-1 hover:text-highlight-1">
+              className="block px-4 py-2 w-full hover:bg-primary-1 hover:text-secondary-1">
               Store
             </a>
           </li>
           <li className="w-full block">
             <a
               href="https://space.artifactory.org.au/slack/"
-              className="block px-4 py-2 w-full hover:bg-primary-1 hover:text-highlight-1">
+              className="block px-4 py-2 w-full hover:bg-primary-1 hover:text-secondary-1">
               Slack
             </a>
           </li>
           <li className="w-full block">
             <a
               href="https://m.facebook.com/perthartifactory/"
-              className="block px-4 py-2 w-full hover:bg-primary-1 hover:text-highlight-1">
+              className="block px-4 py-2 w-full hover:bg-primary-1 hover:text-secondary-1">
               Facebook
             </a>
           </li>
           <li className="w-full block">
             <a
               href="https://www.instagram.com/theperthartifactory/"
-              className="block px-4 py-2 w-full hover:bg-primary-1 hover:text-highlight-1">
+              className="block px-4 py-2 w-full hover:bg-primary-1 hover:text-secondary-1">
               Instagram
             </a>
           </li>
           <li className="w-full block">
             <a
               href="https://www.youtube.com/channel/UC9N4yG2QzYZV9Naud_IsUfA/"
-              className="block px-4 py-2 w-full hover:bg-primary-1 hover:text-highlight-1">
+              className="block px-4 py-2 w-full hover:bg-primary-1 hover:text-secondary-1">
               Youtube
             </a>
           </li>
           <li className="w-full block">
             <a
               href="https://www.meetup.com/Perth-Artifactory/"
-              className="block px-4 py-2 w-full hover:bg-primary-1 hover:text-highlight-1">
+              className="block px-4 py-2 w-full hover:bg-primary-1 hover:text-secondary-1">
               MeetUp
             </a>
           </li>
