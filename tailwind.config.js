@@ -19,7 +19,7 @@ module.exports = {
         'secondary-3': '#ff2400', // brighter red
         'alert': "#ff2400", // alert banner background
         // whites
-        'highlight-1': '#dddddd', // #light grey
+        'highlight-1': '#00ff00', // #light grey
         'header': '#dddddd', // #light grey
         'maintext': '#bfbfbf', // #grey
         'nav': '#646464', // nav border
