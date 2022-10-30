@@ -24,10 +24,13 @@
   p {
     @apply text-maintext;
   }
-  /*a {
+  a {
     @apply text-secondary-1;
   }
   a:hover {
     @apply hover:text-secondary-3;
-  }*/
+  }
+  a.nohover:hover {
+    @apply hover:text-highlight-1;
+  }
 }
