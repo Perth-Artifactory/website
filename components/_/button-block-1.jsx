@@ -19,7 +19,7 @@ export default function ButtonBlock1({ groupedBelow }) {
           <li className="block max-w-xs mb-2 mx-auto text-center w-100 sm:flex-grow sm:inline-block sm:mb-0 sm:mr-0 sm:w-1/2">
             {/* Outbound links will need the Next.js Link component */}
             <a
-              className="block p-2 bg-secondary-1 hover:bg-secondary-3 focus:bg-secondary-3 text-highlight-2 hover:text-highlight-2 font-semibold"
+              className="block p-2 bg-button-bg hover:button-bg-hover focus:button-bg-hover text-button-text hover:text-button-text-hover font-semibold"
               href="/pages/membership">
               Become a Member
             </a>
