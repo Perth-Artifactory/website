@@ -2,10 +2,28 @@ module.exports = {
   purge: ['./components/**/*.{js,ts,jsx,tsx}', './pages/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
+      colors: {
+        'accent-1': '#FAFAFA',
+        'accent-2': '#EAEAEA',
+        'accent-7': '#333',
+        'nav': '#646464', // nav border
+        success: '#0070f3', // unknown use, blue
+        cyan: '#79FFE1', // unknown use, green cyan
+        'primary-1': '#202020', // #dark grey
+        'primary-2': '#121212', // #darker grey
+        'secondary-1': '#bf1b00', // dark red
+        'secondary-2': '#e32000', // red
+        'secondary-3': '#ff2400', // unknown use, brighter red
+        'highlight-1': '#bf1b00', // dark red
+        'highlight-2': '#dddddd', // #light grey
+        'highlight-3': '#8c1400', // darker red
+        'header': '#dddddd', // #light grey
+        'maintext': '#bfbfbf', // #grey
+      },
       typography: {
         DEFAULT: {
           css: {
-            color: '#dddddd', // default text colour
+            color: 'maintext', // default text colour
             h1: {
               color: '#dddddd', // #e32000
             },
@@ -63,24 +81,7 @@ module.exports = {
         map: '500px',
         mapSmall: '250px',
       },
-      colors: {
-        'accent-1': '#FAFAFA',
-        'accent-2': '#EAEAEA',
-        'accent-7': '#333',
-        'nav': '#646464', // nav border
-        success: '#0070f3', // unknown use, blue
-        cyan: '#79FFE1', // unknown use, green cyan
-        'primary-1': '#202020', // #dark grey
-        'primary-2': '#121212', // #darker grey
-        'secondary-1': '#bf1b00', // dark red
-        'secondary-2': '#e32000', // red
-        'secondary-3': '#ff2400', // unknown use, brighter red
-        'highlight-1': '#bf1b00', // dark red
-        'highlight-2': '#dddddd', // #light grey
-        'highlight-3': '#8c1400', // darker red
-        'header': '#dddddd', // #light grey
-        'maintext': '#bfbfbf', // #grey
-      },
+
       minWidth: {
         0: '0',
         '1/4': '25%',
