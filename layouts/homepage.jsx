@@ -1,7 +1,8 @@
 import ButtonBlock1 from '../components/_/button-block-1';
-import Donations from '../components/_/sponsors';
+import Sponsors from '../components/_/sponsors';
 import EventsWidget from '../components/_/events-widget';
 import Events from '../components/_/events2';
+import Calendar from '../components/_/calendar';
 import Gallery from '../components/_/gallery';
 import Hero from '../components/_/hero';
 import Location from '../components/_/address';
@@ -17,6 +18,7 @@ export default function HomepageLayout({}) {
       <Hero />
       <TextBlock1 />
       <Stats />
+      <Calendar />
       <Events />
       <ToolsAndServices />
       <Prices />
@@ -24,7 +26,7 @@ export default function HomepageLayout({}) {
       <TextBlock2 />
       <Location />
       <Gallery />
-      <Donations />
+      <Sponsors />
     </>
   );
 }
