@@ -18,19 +18,19 @@ Joining the Artifactory as a member (as opposed to using the space casually) req
 Full: [$75/mo](https://artifactory.tidyhq.com/public/membership_levels/57b90dbb32)  
 Concession: [$45/mo](https://artifactory.tidyhq.com/public/membership_levels/53401b970f)
 
-- Access to a communal workshop space located in an industrial estate, with indoor and outdoor work areas (excluding rehearsal room)
-- Access to heavy duty tools, machines and facilities (some tools incur [additional costs](https://wiki.artifactory.org.au/doku.php?id=committee:committeerulings#tool_usage_fees))
-- Discounts or free entry for Artifactory run events and workshops
-- Free WIFI, small kitchenette and toilet facilities
-- Eligible for a 24/7 key (A bond equal to three months membership is required)
+- Access to a communal workshop space located in an industrial estate, with indoor and outdoor work areas (excluding rehearsal room).
+- Access to heavy duty tools, machines and facilities (some tools incur [additional costs](https://wiki.artifactory.org.au/doku.php?id=committee:committeerulings#tool_usage_fees)).
+- Discounts or free entry for Artifactory run events and workshops.
+- Free WIFI, small kitchenette and toilet facilities.
+- Eligible for a 24/7 key (A bond equal to three months membership is required).
 
 ## Band Membership
 
 [$100/mo](https://artifactory.tidyhq.com/public/membership_levels/NYW9Rg)
 
 - Access to The Artifactory rehearsal room with at least 3 rehearsal slots a month.
-- Free entry for band members to Perth Artifactory run music related events. Including NoizeMaschin!! and ModularSynth
-- Free WIFI, small kitchenette and toilet facilities
+- Free entry for band members to Perth Artifactory run music related events. Including NoizeMaschin!! and ModularSynth.
+- Free WIFI, small kitchenette and toilet facilities.
 - Casual user rates apply to band members wanting to access tools/machines/workshop.
 
 ## Gift memberships

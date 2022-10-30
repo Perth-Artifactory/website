@@ -37,6 +37,7 @@ Interested applicants should [submit](mailto:apply@artifactory.org.au) a 1 page 
 * Tool usage fees are payable on some Artifactory tools in line with the fees charged to Concession members.
 * This membership does not give free access to the Rehearsal Room but does allow the holder to access a discounted usage rate.
 
+
 # Resident Artists
 
 ## NoizeMaschin!!
@@ -48,7 +49,7 @@ Over a 3-6 month period, the successful applicant receives:
 * 24 hour access to the Artifactory.
 * Support and training on the usage of Artifactory equipment and resources.
 * Free entry to Artifactory workshops and events.
-* 3 consecutive 10 minute performance slots at NoizeMaschin!! Perth
+* 3 consecutive 10 minute performance slots at NoizeMaschin!! Perth.
 
 ### Application Process
 

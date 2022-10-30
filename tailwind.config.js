@@ -19,41 +19,46 @@ module.exports = {
         'secondary-3': '#ff2400', // brighter red
         'alert': "#ff2400", // alert banner background
         // whites
-        'highlight-1': '#dfdfdf', // #light grey
-        'header': '#dfdfdf', // #light grey
-        'maintext': '#bfbfbf', // #grey
-        'nav': '#646464', // nav border
+        'highlight-1': '#eee', // #light grey
+        'header': '#eee', // #light grey
+        'maintext': '#ccc', // #grey
+        'nav': '#666', // nav border
       },
       typography: {
         DEFAULT: {
           css: {
-            color: '#bfbfbf', // default text colour
+            color: '#ccc', // default text colour
+            // h1: controls text following '#' in _pages docs, e.g., # Code Of Conduct
             h1: {
-              color: '#ddd', // #e32000
+              color: '#eee', // #e32000
+              weight: '100',
             },
+            // h2: controls text following '##' in _pages docs, e.g., ## Respectful Behaviour
             h2: {
-              color: '#ddd', // #e32000
+              color: '#eee', // #e32000
             },
+            // h3: controls text following '###' in _pages docs, e.g., ### Application Process
             h3: {
-              color: '#ddd',
+              color: '#eee',
             },
             h4: {
-              color: '#ddd',
+              color: '#eee',
             },
             h5: {
-              color: '#ddd',
+              color: '#eee',
             },
             h6: {
-              color: '#ddd',
+              color: '#eee',
             },
-            strong: {
+            /*strong: {
               color: '#ff2400',
-            },
+            },*/
             code: {
               color: '#ff2400',
             },
+            // em: controls text within ** in _pages docs, e.g., *Treat one another with respect*
             em: {
-              color: '#ff2400',
+              color: '#bf1b00',  // secondary-1
             },
             blockquote: {
               color: '#ff2400',
@@ -68,9 +73,9 @@ module.exports = {
             },
             a: {
               textDecoration: 'no-underline',
-              color: '#bf1b00', // highlight-1
+              color: '#bf1b00', // secondary-1
               hover: {
-                color: '#e32000', // secondary-2
+                color: '#ff2400', // secondary-3
               },
             },
           },
