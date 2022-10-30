@@ -31,7 +31,6 @@ module.exports = {
             // h1: controls text following '#' in _pages docs, e.g., # Code Of Conduct
             h1: {
               color: '#eee', // #e32000
-              weight: '100',
             },
             // h2: controls text following '##' in _pages docs, e.g., ## Respectful Behaviour
             h2: {
@@ -73,9 +72,9 @@ module.exports = {
             },
             a: {
               textDecoration: 'no-underline',
-              color: '#bf1b00', // secondary-1
+              color: '#0000ff', // bf1b00 secondary-1
               hover: {
-                color: '#ff2400', // secondary-3
+                color: '#00ff00', // ff2400 secondary-3
               },
             },
           },
