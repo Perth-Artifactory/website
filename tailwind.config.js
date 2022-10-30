@@ -72,7 +72,7 @@ module.exports = {
             },
             a: {
               textDecoration: 'no-underline',
-              //color: '#bf1b00', // bf1b00 secondary-1
+              color: '#bf1b00', // bf1b00 secondary-1
               //hover: {
               //  color: '#00ff00', // ff2400 secondary-3
               //},

@@ -30,7 +30,7 @@
   a:hover {
     @apply hover:text-secondary-3;
   }
-  a.nohover:hover {
+  a.buttonhover:hover {
     @apply hover:text-highlight-1;
   }
 
