@@ -45,7 +45,7 @@ module.exports = {
               backgroundColor: '#141414', // #26203b
             },
             a: {
-              decoration: 'none',
+              decoration: 'no-underline',
               color: '#bf1b00', // highlight-1
               hover: {
                 color: '#e32000', // secondary-2
