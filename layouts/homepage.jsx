@@ -1,6 +1,6 @@
 import ButtonBlock1 from '../components/_/button-block-1';
 import Sponsors from '../components/_/sponsors';
-import EventsWidget from '../components/_/events-widget';
+import GoogleCalendar from '../components/_/calendar_google';
 import Events from '../components/_/events2';
 import Calendar from '../components/_/calendar';
 import Gallery from '../components/_/gallery';
@@ -18,8 +18,9 @@ export default function HomepageLayout({}) {
       <Hero />
       <TextBlock1 />
       <Stats />
-      <Calendar />
-      <Events />
+      //<Calendar />
+      <GoogleCalendar />
+      //<Events />
       <ToolsAndServices />
       <Prices />
       <ButtonBlock1 />
