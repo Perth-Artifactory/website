@@ -11,7 +11,7 @@ export default function ButtonBlock1({ groupedBelow }) {
           <li className="block max-w-xs mb-2 mx-auto text-center w-100 sm:flex-grow sm:inline-block sm:mb-0 sm:mr-2 sm:w-1/2">
             {/* Button */}
             <a
-              className="block p-2 bg-secondary-1 hover:bg-secondary-3 focus:bg-secondary-3 text-highlight-1 hover:text-highlight-1 font-semibold"
+              className="block nohover p-2 bg-secondary-1 hover:bg-secondary-3 focus:bg-secondary-3 text-highlight-1 hover:text-highlight-1 font-semibold"
               href="mailto:info@artifactory.org.au">
               Book a Visit
             </a>
