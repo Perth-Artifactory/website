@@ -7,13 +7,13 @@ module.exports = {
           css: {
             color: '#FFF',
             h1: {
-              color: '#e32000', // #7bdfc3
+              color: '#dddddd', // #e32000
             },
             h2: {
-              color: '#e32000', // red, secondary-2
+              color: '#dddddd', // #e32000
             },
             h3: {
-              color: '#dddddd', // #90e0c9
+              color: '#dddddd',
             },
             h4: {
               color: '#dddddd',
