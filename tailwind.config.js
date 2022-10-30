@@ -16,22 +16,25 @@ module.exports = {
         'secondary-3': '#ff2400', // unknown use, brighter red
         'highlight-1': '#bf1b00', // dark red
         'highlight-2': '#dddddd', // #light grey
-        'highlight-3': '#bf1b00', // #8c1400 darker red
+        'highlight-3': '#8c1400', // #8c1400 darker red
         'header': '#ddd', // #light grey
         'maintext': '#bfbfbf', // #grey
 
         // new colour names, not yet fully migrated
         'bg-1': '#121212', // main background
         'bg-2': '#202020', // component background
-
+        'border-1': '#bf1b00', // dark red
+        'border-2': '#8c1400', // darker red
+        'nav': '#646464', // nav border
         'text': '#bfbfbf', // main text
         'text-bright': '#ddd', // brighter text highlight
-
-        'link': '#bf1b00', // link colour
+        'link':  '#bf1b00', // link colour
         'linkhover': '#ff2400', // link colour on hover
+
         'button-bg': '#bf1b00', // button background
         'button-bg-hover': '#ff2400', // button background on hover
-        'button-text':  '#ddd', // button text colour
+        'button-text': '#ddd', // button text colour
+        'button-text-hover': '#ddd', // button text colour on hover
       },
       typography: {
         DEFAULT: {
