@@ -7,10 +7,10 @@ module.exports = {
           css: {
             color: '#FFF',
             h1: {
-              color: '#ff2400', // #7bdfc3
+              color: '#e32000', // #7bdfc3
             },
             h2: {
-              color: '#e32000', // #5fb49b
+              color: '#e32000', // red, secondary-2
             },
             h3: {
               color: '#dddddd', // #90e0c9
@@ -45,9 +45,9 @@ module.exports = {
               backgroundColor: '#141414', // #26203b
             },
             a: {
-              color: '#ff2400',
+              color: '#bf1b00', // highlight-1
               hover: {
-                color: '#e32000',
+                color: '#e32000', // secondary-2
               },
             },
           },
