@@ -4,7 +4,7 @@ export default function EventsWidget() {
   return (
     <>
       {/* Container */}
-      <div className="block bg-primary-1 p-3 sm:p-6 text-maintext mb-2 sm:mb-10">
+      <div className="block dark bg-primary-1 p-3 sm:p-6 text-maintext mb-2 sm:mb-10">
         <h3 className="text-center text-2xl sm:text-3xl mb-4 sm:mb-10 sm:mt-4 text-header">Events</h3>
           <div class="flex items-center justify-center py-8 px-4">
           <div class="max-w-sm w-full shadow-lg">
