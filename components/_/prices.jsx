@@ -1,4 +1,6 @@
 import { AiFillStar } from 'react-icons/ai';
+import { AiOutlineClockCircle } from 'react-icons/ai';
+import { ImKey2 } from 'react-icons/im';
 import { GiGuitar } from 'react-icons/gi';
 import { BsMusicNoteBeamed } from 'react-icons/bs';
 
@@ -13,7 +15,7 @@ export default function Prices() {
               <div className="text-4xl sm:text-xl text-highlight-1">
                 <ul className="block w-auto text-center my-4">
                   <li className="inline-block">
-                    <AiFillStar />
+                    <AiOutlineClockCircle />
                   </li>
                 </ul>
               </div>
@@ -37,10 +39,7 @@ export default function Prices() {
               <div className="text-4xl sm:text-xl text-highlight-1">
                 <ul className="block w-auto text-center my-4">
                   <li className="inline-block">
-                    <AiFillStar />
-                  </li>
-                  <li className="inline-block">
-                    <AiFillStar />
+                    <ImKey2 />
                   </li>
                 </ul>
               </div>
@@ -64,13 +63,7 @@ export default function Prices() {
               <div className="text-4xl sm:text-xl text-highlight-1">
                 <ul className="block w-auto text-center my-4">
                   <li className="inline-block">
-                    <AiFillStar />
-                  </li>
-                  <li className="inline-block">
-                    <AiFillStar />
-                  </li>
-                  <li className="inline-block">
-                    <AiFillStar />
+                    <ImKey2 />
                   </li>
                 </ul>
               </div>
