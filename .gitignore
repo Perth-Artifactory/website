@@ -2,6 +2,10 @@
 # Created by https://www.toptal.com/developers/gitignore/api/node,linux,macos,windows,craftcms,phpstorm,notepadpp,phpstorm+iml,phpstorm+all,visualstudio,visualstudiocode,sass
 # Edit at https://www.toptal.com/developers/gitignore?templates=node,linux,macos,windows,craftcms,phpstorm,notepadpp,phpstorm+iml,phpstorm+all,visualstudio,visualstudiocode,sass
 
+
+### Testing files ###
+/components/_/calendar.jsx
+
 ### CraftCMS ###
 # Craft 2 Storage (https://craftcms.com/support/craft-storage-gitignore)
 # not necessary for Craft 3 (https://github.com/craftcms/craft/issues/26)
