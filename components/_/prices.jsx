@@ -10,7 +10,7 @@ export default function Prices() {
       {/* Container */}
       <div className="block p-2 bg-secondary-1 mb-5 sm:mb-10">
         <ul className="sm:flex sm:flex-wrap sm:space-between">
-          <a href="https://artifactory.tidyhq.com/public/membership_levels/53401b970f">
+          //<a href="https://artifactory.tidyhq.com/public/membership_levels/53401b970f">
           <li className="block bg-primary-1 p-6 text-maintext mb-3 sm:mb-0 max-w-xs mx-auto sm:w-1/4 border-2 border-secondary-1">
             <div>
               <div className="text-4xl sm:text-xl text-highlight-1">
@@ -35,7 +35,7 @@ export default function Prices() {
               </ul>
             </div>
           </li>
-          </a>
+          //</a>
           <li className="block bg-primary-1 p-6 text-maintext mb-3 sm:mb-0 max-w-xs mx-auto sm:w-1/4 border-2 border-secondary-1">
             <div>
               <div className="text-4xl sm:text-xl text-highlight-1">
