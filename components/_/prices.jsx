@@ -10,34 +10,36 @@ export default function Prices() {
       {/* Container */}
       <div className="block p-2 bg-secondary-1 mb-5 sm:mb-10">
         <ul className="sm:flex sm:flex-wrap sm:space-between">
+
+        {/* Day Pass */}
           <li className="block bg-primary-1 p-6 text-maintext mb-3 sm:mb-0 max-w-xs mx-auto sm:w-1/4 border-2 border-secondary-1 hover:border-4 hover:border-highlight-1">
-            <a className="block" href="page.html">
-              <div>
-                <div className="text-4xl sm:text-xl text-highlight-1">
-                  <ul className="block w-auto text-center my-4">
-                    <li className="inline-block">
-                      <AiOutlineClockCircle />
-                    </li>
-                  </ul>
-                </div>
-                <span className="block text-4xl sm:text-xl text-center text-highlight-1">Day Pass</span>
-                <div className="block w-100 text-center my-2 text-highlight-1">
-                  <span className="inline-block text-3xl text-center">$15</span>
-                  <span className="inline-block text-2xl text-center">/day</span>
-                </div>
-              </div>
-              <div>
-                <ul className="block w-100 text-center">
-                  <li className="nohover text-maintext text-sm border-b-2 border-gray-400">Use of Artifactory tools</li>
-                  <li className="nohover text-maintext text-sm border-b-2 border-gray-400">Access to most events</li>
-                  <li className="nohover text-maintext text-sm border-b-2 border-gray-400">Kitchen facilities</li>
-                  <li className="nohover text-maintext text-sm">Free WiFi</li>
+            <div>
+              <div className="text-4xl sm:text-xl text-highlight-1">
+                <ul className="block w-auto text-center my-4">
+                  <li className="inline-block">
+                    <AiOutlineClockCircle />
+                  </li>
                 </ul>
               </div>
-            </a>
+              <span className="block text-4xl sm:text-xl text-center text-highlight-1">Day Pass</span>
+              <div className="block w-100 text-center my-2 text-highlight-1">
+                <span className="inline-block text-3xl text-center">$15</span>
+                <span className="inline-block text-2xl text-center">/day</span>
+              </div>
+            </div>
+            <div>
+              <ul className="block w-100 text-center">
+                <li className="nohover text-maintext text-sm border-b-2 border-gray-400">Use of Artifactory tools</li>
+                <li className="nohover text-maintext text-sm border-b-2 border-gray-400">Access to most events</li>
+                <li className="nohover text-maintext text-sm border-b-2 border-gray-400">Kitchen facilities</li>
+                <li className="nohover text-maintext text-sm">Free WiFi</li>
+              </ul>
+            </div>
           </li>
+
+          {/* Concession */}
           <li className="block bg-primary-1 p-6 text-maintext mb-3 sm:mb-0 max-w-xs mx-auto sm:w-1/4 border-2 border-secondary-1 hover:border-4 hover:border-highlight-1">
-            <a href="page.html">
+            <a className="block" href="https://artifactory.tidyhq.com/public/membership_levels/53401b970f">
               <div>
                 <div className="text-4xl sm:text-xl text-highlight-1">
                   <ul className="block w-auto text-center my-4">
@@ -62,53 +64,61 @@ export default function Prices() {
               </div>
             </a>
           </li>
+
+          {/* Full */}
           <li className="block bg-primary-1 p-6 text-maintext mb-3 sm:mb-0 max-w-xs mx-auto sm:w-1/4 border-2 border-secondary-1 hover:border-4 hover:border-highlight-1">
-            <div>
-              <div className="text-4xl sm:text-xl text-highlight-1">
-                <ul className="block w-auto text-center my-4">
-                  <li className="inline-block">
-                    <ImKey2 />
-                  </li>
+            <a className="block" href="https://artifactory.tidyhq.com/public/membership_levels/57b90dbb32">
+              <div>
+                <div className="text-4xl sm:text-xl text-highlight-1">
+                  <ul className="block w-auto text-center my-4">
+                    <li className="inline-block">
+                      <ImKey2 />
+                    </li>
+                  </ul>
+                </div>
+                <span className="block text-4xl sm:text-xl text-center text-highlight-1">Full</span>
+                <div className="block w-100 text-center my-2 text-highlight-1">
+                  <span className="inline-block text-3xl text-center">$75</span>
+                  <span className="inline-block text-2xl text-center">/mo</span>
+                </div>
+              </div>
+              <div>
+                <ul className="block w-100 text-center">
+                  <li className="text-sm border-b-2 border-gray-400">24/7 Access (with bond)</li>
+                  <li className="text-sm border-b-2 border-gray-400">Personal storage locker</li>
+                  <li className="text-sm border-b-2 border-gray-400">Discounted tool usage fees</li>
+                  <li className="text-sm">Free access to events</li>
                 </ul>
               </div>
-              <span className="block text-4xl sm:text-xl text-center text-highlight-1">Full</span>
-              <div className="block w-100 text-center my-2 text-highlight-1">
-                <span className="inline-block text-3xl text-center">$75</span>
-                <span className="inline-block text-2xl text-center">/mo</span>
-              </div>
-            </div>
-            <div>
-              <ul className="block w-100 text-center">
-                <li className="text-sm border-b-2 border-gray-400">24/7 Access (with bond)</li>
-                <li className="text-sm border-b-2 border-gray-400">Personal storage locker</li>
-                <li className="text-sm border-b-2 border-gray-400">Discounted tool usage fees</li>
-                <li className="text-sm">Free access to events</li>
-              </ul>
-            </div>
+            </a>
           </li>
+
+          {/* Band */}
           <li className="block bg-primary-1 p-6 text-maintext mb-3 sm:mb-0 max-w-xs mx-auto sm:w-1/4 border-2 border-secondary-1 hover:border-4 hover:border-highlight-1">
-            <div>
-              <div className="text-4xl sm:text-xl text-highlight-1">
-                <ul className="block w-auto text-center my-4">
-                  <li className="inline-block">
-                    <BsMusicNoteBeamed />
-                  </li>
+            <a className="block" href="https://artifactory.tidyhq.com/public/membership_levels/NYW9Rg">
+              <div>
+                <div className="text-4xl sm:text-xl text-highlight-1">
+                  <ul className="block w-auto text-center my-4">
+                    <li className="inline-block">
+                      <BsMusicNoteBeamed />
+                    </li>
+                  </ul>
+                </div>
+                <span className="block text-4xl sm:text-xl text-center text-highlight-1">Band</span>
+                <div className="block w-100 text-center my-2 text-highlight-1">
+                  <span className="inline-block text-3xl text-center">$100</span>
+                  <span className="inline-block text-2xl text-center">/mo</span>
+                </div>
+              </div>
+              <div>
+                <ul className="block w-100 text-center">
+                  <li className="text-sm border-b-2 border-gray-400">Rehearsal room</li>
+                  <li className="text-sm border-b-2 border-gray-400">Weekly rehearsal slots</li>
+                  <li className="text-sm border-b-2 border-gray-400">Performance space</li>
+                  <li className="text-sm">24/7 Access (with bond)</li>
                 </ul>
               </div>
-              <span className="block text-4xl sm:text-xl text-center text-highlight-1">Band</span>
-              <div className="block w-100 text-center my-2 text-highlight-1">
-                <span className="inline-block text-3xl text-center">$100</span>
-                <span className="inline-block text-2xl text-center">/mo</span>
-              </div>
-            </div>
-            <div>
-              <ul className="block w-100 text-center">
-                <li className="text-sm border-b-2 border-gray-400">Rehearsal room</li>
-                <li className="text-sm border-b-2 border-gray-400">Weekly rehearsal slots</li>
-                <li className="text-sm border-b-2 border-gray-400">Performance space</li>
-                <li className="text-sm">24/7 Access (with bond)</li>
-              </ul>
-            </div>
+            </a>
           </li>
         </ul>
       </div>
