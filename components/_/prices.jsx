@@ -17,7 +17,7 @@ export default function Prices() {
                   </li>
                 </ul>
               </div>
-              <span className="block text-4xl sm:text-xl text-center text-highlight-1">Casual</span>
+              <span className="block text-4xl sm:text-xl text-center text-highlight-1">Day Pass</span>
               <div className="block w-100 text-center my-2 text-highlight-1">
                 <span className="inline-block text-3xl text-center">$15</span>
                 <span className="inline-block text-2xl text-center">/day</span>

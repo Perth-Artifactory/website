@@ -9,7 +9,7 @@ heroUrl: '/assets/site/gallery/20200125_174436.jpg'
 
 ## Tertiary Students
 
-Thanks to some of our generous donors The Artifactory has an opportunity to provide several fixed length free memberships for tertiary students. This opportunity is open to tertiary students who are interested in design, artistic creativity, engineering, cosplay, music, electronics and who just want to make stuff.  Members of The Artifactory will also support the successful applicants in the areas of their interests.
+Thanks to some of our generous donors the Artifactory has an opportunity to provide several fixed length free memberships for tertiary students. This opportunity is open to tertiary students who are interested in design, artistic creativity, engineering, cosplay, music, electronics and who just want to make stuff.  Members of the Artifactory will also support the successful applicants in the areas of their interests.
 
 Applications are processed on a rolling basis. We endeavour to process all applicants within 14 days.
 
@@ -29,20 +29,20 @@ Interested applicants should [submit](mailto:apply@artifactory.org.au) a 1 page 
 
 ### Notes
 
-* This opportunity is not open to current or past members of the Perth Artifactory Inc
-* You must be a tertiary student for 2022 and be at least 18 years of age.
+* This opportunity is not open to current or past members of the Perth Artifactory Inc.
+* You must be a tertiary student for 2023 and be at least 18 years of age.
 * 24/7 access to the Artifactory can be granted with this membership but it requires a key bond of $135 to be paid. The bond is refundable at the end of your membership or can be carried over if you wish to extend your membership after the sponsorship period.
 * The Perth Artifactory Committee reserves the right to cancel your membership at any time.
 * This membership is an Associate Membership under the Perth Artifactory Inc constitution and has no voting rights.
 * Tool usage fees are payable on some Artifactory tools in line with the fees charged to Concession members.
 * This membership does not give free access to the Rehearsal Room but does allow the holder to access a discounted usage rate.
 
-&nbsp; 
+&nbsp;
 # Resident Artists
 
 ## NoizeMaschin!!
 
-The Perth Artifactory facilitates a rotating artist residency, where the artist in residence performs at the inhouse monthly experimental music night – NoizeMaschin!!
+the Perth Artifactory facilitates a rotating artist residency, where the artist in residence performs at the inhouse monthly experimental music night – NoizeMaschin!!
 
 Over a 3-6 month period, the successful applicant receives:
 
@@ -53,17 +53,17 @@ Over a 3-6 month period, the successful applicant receives:
 
 ### Application Process
 
-While this residency is funded by The Artifactory the selection process is administered by NoizeMaschin!! directly.
+While this residency is funded by the Artifactory the selection process is administered by NoizeMaschin!! directly.
 
 We are looking for applicants that will make good use of our tools and facilities to develop their performance, artistic, and community endeavours. It is ideal if we can see a plan or trajectory of development over the course of the membership. Above all we like to see a spark of creativity and passion for what you do.
 
-The following questions are to help guide your proposal, and are optional
+the following questions are to help guide your proposal, and are optional
 
 * Give a brief rundown of how your residency performances will play out. We are looking for a sense of artistic development over the course of the 3 performances.
 * What Artifactory equipment can you see yourself using as part of your performance development?
-* Is there any community engagement aspect to your residency ie. reaching out to people from diverse backgrounds.
+* Is there any community engagement aspect to your residency i.e., reaching out to people from diverse backgrounds.
 * Are there any workshops/events either currently being held at the space, or in development, that you would like to attend or help facilitate?
 * How will this residency benefit your artistic practice upon completion?
 * Any significant performance/installation/research experience?
 
-Completed applications should be [submitted](mailto:noizemaschinperth@gmail.com) by the middle of April, July, October, January, to be eligible for consideration for the next available residency.
+Completed applications should be [submitted](mailto:noizemaschinperth@gmail.com) by the middle of January, April, July, or October to be eligible for consideration for the next available residency.
