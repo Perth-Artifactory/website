@@ -37,28 +37,30 @@ export default function Prices() {
             </a>
           </li>
           <li className="block bg-primary-1 p-6 text-maintext mb-3 sm:mb-0 max-w-xs mx-auto sm:w-1/4 border-2 border-secondary-1 hover:border-4 hover:border-highlight-1">
-            <div>
-              <div className="text-4xl sm:text-xl text-highlight-1">
-                <ul className="block w-auto text-center my-4">
-                  <li className="inline-block">
-                    <ImKey2 />
-                  </li>
+            <a href="page.html">
+              <div>
+                <div className="text-4xl sm:text-xl text-highlight-1">
+                  <ul className="block w-auto text-center my-4">
+                    <li className="inline-block">
+                      <ImKey2 />
+                    </li>
+                  </ul>
+                </div>
+                <span className="block text-4xl sm:text-xl text-center text-highlight-1">Concession</span>
+                <div className="block w-100 text-center my-2 text-highlight-1">
+                  <span className="inline-block text-3xl text-center">$45</span>
+                  <span className="inline-block text-2xl text-center">/mo</span>
+                </div>
+              </div>
+              <div>
+                <ul className="block w-100 text-center">
+                  <li className="text-sm border-b-2 border-gray-400">24/7 Access (with bond)</li>
+                  <li className="text-sm border-b-2 border-gray-400">Personal storage locker</li>
+                  <li className="text-sm border-b-2 border-gray-400">Discounted tool usage fees</li>
+                  <li className="text-sm">Free access to events</li>
                 </ul>
               </div>
-              <span className="block text-4xl sm:text-xl text-center text-highlight-1">Concession</span>
-              <div className="block w-100 text-center my-2 text-highlight-1">
-                <span className="inline-block text-3xl text-center">$45</span>
-                <span className="inline-block text-2xl text-center">/mo</span>
-              </div>
-            </div>
-            <div>
-              <ul className="block w-100 text-center">
-                <li className="text-sm border-b-2 border-gray-400">24/7 Access (with bond)</li>
-                <li className="text-sm border-b-2 border-gray-400">Personal storage locker</li>
-                <li className="text-sm border-b-2 border-gray-400">Discounted tool usage fees</li>
-                <li className="text-sm">Free access to events</li>
-              </ul>
-            </div>
+            </a>
           </li>
           <li className="block bg-primary-1 p-6 text-maintext mb-3 sm:mb-0 max-w-xs mx-auto sm:w-1/4 border-2 border-secondary-1 hover:border-4 hover:border-highlight-1">
             <div>
