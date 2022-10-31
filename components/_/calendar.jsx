@@ -1,5 +1,7 @@
 import Link from 'next/link';
 
+// work in progress, not currently implemented
+
 export default function EventsWidget() {
   return (
     <>
