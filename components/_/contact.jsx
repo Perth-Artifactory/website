@@ -12,7 +12,7 @@ export default function Contact() {
           {/* Contact Item List Item */}
           <li className="inline-block">
             <a
-              className="block text-highlight-1 fill-current hover:text-secondary-1 text-xl sm:text-2xl md:text-3xl"
+              className="block text-highlight-1 fill-current hover:text-secondary-1 text-xl hover:text-2xl sm:text-2xl md:text-3xl"
               href="https://space.artifactory.org.au/slack">
               <FaSlack />
             </a>
