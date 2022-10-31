@@ -10,30 +10,34 @@ export default function Prices() {
       {/* Container */}
       <div className="block p-2 bg-secondary-1 mb-5 sm:mb-10">
         <ul className="sm:flex sm:flex-wrap sm:space-between">
-          <li className="block bg-primary-1 p-6 text-maintext mb-3 sm:mb-0 max-w-xs mx-auto sm:w-1/4 border-2 border-secondary-1">
-            <div>
-              <div className="text-4xl sm:text-xl text-highlight-1">
-                <ul className="block w-auto text-center my-4">
-                  <li className="inline-block">
-                    <AiOutlineClockCircle />
-                  </li>
-                </ul>
-              </div>
-              <span className="block text-4xl sm:text-xl text-center text-highlight-1">Day Pass</span>
-              <div className="block w-100 text-center my-2 text-highlight-1">
-                <span className="inline-block text-3xl text-center">$15</span>
-                <span className="inline-block text-2xl text-center">/day</span>
-              </div>
-            </div>
-            <div>
-              <ul className="block w-100 text-center">
-                <li className="text-sm border-b-2 border-gray-400">Use of Artifactory tools</li>
-                <li className="text-sm border-b-2 border-gray-400">Access to most events</li>
-                <li className="text-sm border-b-2 border-gray-400">Kitchen facilities</li>
-                <li className="text-sm">Free WiFi</li>
-              </ul>
-            </div>
-          </li>
+          <a href="https://artifactory.tidyhq.com/public/membership_levels/53401b970f"> */}
+            <span style="display: block;">
+              <li className="block bg-primary-1 p-6 text-maintext mb-3 sm:mb-0 max-w-xs mx-auto sm:w-1/4 border-2 border-secondary-1">
+                <div>
+                  <div className="text-4xl sm:text-xl text-highlight-1">
+                    <ul className="block w-auto text-center my-4">
+                      <li className="inline-block">
+                        <AiOutlineClockCircle />
+                      </li>
+                    </ul>
+                  </div>
+                  <span className="block text-4xl sm:text-xl text-center text-highlight-1">Day Pass</span>
+                  <div className="block w-100 text-center my-2 text-highlight-1">
+                    <span className="inline-block text-3xl text-center">$15</span>
+                    <span className="inline-block text-2xl text-center">/day</span>
+                  </div>
+                </div>
+                <div>
+                  <ul className="block w-100 text-center">
+                    <li className="nohover text-maintext text-sm border-b-2 border-gray-400">Use of Artifactory tools</li>
+                    <li className="nohover text-maintext text-sm border-b-2 border-gray-400">Access to most events</li>
+                    <li className="nohover text-maintext text-sm border-b-2 border-gray-400">Kitchen facilities</li>
+                    <li className="nohover text-maintext text-sm">Free WiFi</li>
+                  </ul>
+                </div>
+              </li>
+            </span>
+          </a>
           <li className="block bg-primary-1 p-6 text-maintext mb-3 sm:mb-0 max-w-xs mx-auto sm:w-1/4 border-2 border-secondary-1">
             <div>
               <div className="text-4xl sm:text-xl text-highlight-1">
