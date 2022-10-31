@@ -39,7 +39,7 @@ export default function Prices() {
 
           {/* Concession */}
           <li className="block bg-primary-1 p-6 text-maintext mb-3 sm:mb-0 max-w-xs mx-auto sm:w-1/4 border-2 border-secondary-1 hover:border-4 hover:border-highlight-1">
-            <a className="block" href="https://artifactory.tidyhq.com/public/membership_levels/53401b970f">
+            <a href="https://artifactory.tidyhq.com/public/membership_levels/53401b970f">
               <div>
                 <div className="text-4xl sm:text-xl text-highlight-1">
                   <ul className="block w-auto text-center my-4">
@@ -56,10 +56,10 @@ export default function Prices() {
               </div>
               <div>
                 <ul className="block w-100 text-center">
-                  <li className="text-sm border-b-2 border-gray-400">24/7 Access (with bond)</li>
-                  <li className="text-sm border-b-2 border-gray-400">Personal storage locker</li>
-                  <li className="text-sm border-b-2 border-gray-400">Discounted tool usage fees</li>
-                  <li className="text-sm">Free access to events</li>
+                  <li className="nohover text-maintext text-sm border-b-2 border-gray-400">24/7 Access (with bond)</li>
+                  <li className="nohover text-maintext text-sm border-b-2 border-gray-400">Personal storage locker</li>
+                  <li className="nohover text-maintext text-sm border-b-2 border-gray-400">Discounted tool usage fees</li>
+                  <li className="nohover text-maintext text-sm">Free access to events</li>
                 </ul>
               </div>
             </a>
@@ -67,7 +67,7 @@ export default function Prices() {
 
           {/* Full */}
           <li className="block bg-primary-1 p-6 text-maintext mb-3 sm:mb-0 max-w-xs mx-auto sm:w-1/4 border-2 border-secondary-1 hover:border-4 hover:border-highlight-1">
-            <a className="block" href="https://artifactory.tidyhq.com/public/membership_levels/57b90dbb32">
+            <a href="https://artifactory.tidyhq.com/public/membership_levels/57b90dbb32">
               <div>
                 <div className="text-4xl sm:text-xl text-highlight-1">
                   <ul className="block w-auto text-center my-4">
@@ -84,10 +84,10 @@ export default function Prices() {
               </div>
               <div>
                 <ul className="block w-100 text-center">
-                  <li className="text-sm border-b-2 border-gray-400">24/7 Access (with bond)</li>
-                  <li className="text-sm border-b-2 border-gray-400">Personal storage locker</li>
-                  <li className="text-sm border-b-2 border-gray-400">Discounted tool usage fees</li>
-                  <li className="text-sm">Free access to events</li>
+                  <li className="nohover text-maintext text-sm border-b-2 border-gray-400">24/7 Access (with bond)</li>
+                  <li className="nohover text-maintext text-sm border-b-2 border-gray-400">Personal storage locker</li>
+                  <li className="nohover text-maintext text-sm border-b-2 border-gray-400">Discounted tool usage fees</li>
+                  <li className="nohover text-maintext text-sm">Free access to events</li>
                 </ul>
               </div>
             </a>
@@ -95,7 +95,7 @@ export default function Prices() {
 
           {/* Band */}
           <li className="block bg-primary-1 p-6 text-maintext mb-3 sm:mb-0 max-w-xs mx-auto sm:w-1/4 border-2 border-secondary-1 hover:border-4 hover:border-highlight-1">
-            <a className="block" href="https://artifactory.tidyhq.com/public/membership_levels/NYW9Rg">
+            <a href="https://artifactory.tidyhq.com/public/membership_levels/NYW9Rg">
               <div>
                 <div className="text-4xl sm:text-xl text-highlight-1">
                   <ul className="block w-auto text-center my-4">
@@ -112,10 +112,10 @@ export default function Prices() {
               </div>
               <div>
                 <ul className="block w-100 text-center">
-                  <li className="text-sm border-b-2 border-gray-400">Rehearsal room</li>
-                  <li className="text-sm border-b-2 border-gray-400">Weekly rehearsal slots</li>
-                  <li className="text-sm border-b-2 border-gray-400">Performance space</li>
-                  <li className="text-sm">24/7 Access (with bond)</li>
+                  <li className="nohover text-maintext text-sm border-b-2 border-gray-400">Rehearsal room</li>
+                  <li className="nohover text-maintext text-sm border-b-2 border-gray-400">Weekly rehearsal slots</li>
+                  <li className="nohover text-maintext text-sm border-b-2 border-gray-400">Performance space</li>
+                  <li className="nohover text-maintext text-sm">24/7 Access (with bond)</li>
                 </ul>
               </div>
             </a>
