@@ -28,10 +28,10 @@ export default function Prices() {
             </div>
             <div>
               <ul className="block w-100 text-center">
-                <li className="nohover text-maintext text-sm border-b-2 border-gray-400">Use of Artifactory tools</li>
-                <li className="nohover text-maintext text-sm border-b-2 border-gray-400">Access to most events</li>
-                <li className="nohover text-maintext text-sm border-b-2 border-gray-400">Kitchen facilities</li>
-                <li className="nohover text-maintext text-sm">Free WiFi</li>
+                <li className="text-maintext text-sm border-b-2 border-gray-400">Use of Artifactory tools</li>
+                <li className="text-maintext text-sm border-b-2 border-gray-400">Access to most events</li>
+                <li className="text-maintext text-sm border-b-2 border-gray-400">Kitchen facilities</li>
+                <li className="text-maintext text-sm">Free WiFi</li>
               </ul>
             </div>
           </li>
