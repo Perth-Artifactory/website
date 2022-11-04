@@ -39,7 +39,7 @@ Report any conflicts of interest.
 All attendees are encouraged to proactively report issues as soon as they arise. Reporting of issues in the early stage can help prevent escalation to larger problems. Sometimes an attendee may be unaware of the impact of their actions and so reporting helps correct those behaviours and benefits the community.
 
 Reporting methods:
-* Talk to a [committee member](https://wiki.artifactory.org.au/doku.php?id=committee:start#committee_members)
+* Talk to a [committee member](https://wiki.artifactory.org.au/en/docs/committee/home)
 * [Email](mailto:committee@artifactory.org.au) the management committee
 * [Email](mailto:exec@artifactory.org.au) the executive committee (Chair, Deputy Chair, Secretary Treasurer)
 * Slack direct message to a committee member
