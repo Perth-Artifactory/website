@@ -14,13 +14,9 @@ export default function Address() {
           tabIndex="0"></iframe>
 
         <address className="block mb-2 sm:mb-10">
-          Unit 8 / 16 Guthrie Street,
+          Unit 8 / 16 Guthrie Street
           <br />
-          Osborne Park,
-          <br />
-          Western Australia
-          <br />
-          6017
+          Osborne Park WA 6017
         </address>
       </div>
     </>
