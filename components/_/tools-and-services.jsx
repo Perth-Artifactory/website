@@ -13,8 +13,7 @@ export default function ToolsAndServices() {
             <span className="block w-100 mb-4 text-center text-highlight-1">Laser Cutting</span>
             {/* Donation Description */}
             <p className="block w-100 text-center text-sm">
-              We have multiple industrial laser cutters and an easy to access training program that can get anyone
-              cutting in a flash.
+              We have multiple industrial laser cutters and an easy to access training program that can get anyone cutting in a flash.
             </p>
           </li>
 
@@ -24,7 +23,7 @@ export default function ToolsAndServices() {
             <span className="block w-100 mb-4 text-center text-highlight-1">Electronics Lab</span>
             {/* Donation Description */}
             <p className="block w-100 text-center text-sm">
-              Soldering equipment, components, oscilloscopes, power supplies, lab equipment - we've got it all.
+              Soldering and reflow equipment, multimeters, oscilloscopes, hand tools, power supplies, basic components, and more.
             </p>
           </li>
 
@@ -34,7 +33,7 @@ export default function ToolsAndServices() {
             <span className="block w-100 mb-4 text-center text-highlight-1">Metal Working</span>
             {/* Donation Description */}
             <p className="block w-100 text-center text-sm">
-              MIG/TIG/SMAW welding supplies, plasma cutter, forge, and foundry. If it gets metal hot, we've got it.
+              MIG/TIG/SMAW welding supplies, bridgeport mill, metal bandsaw, plasma cutter, forge, and foundry. If it's made for metal, we've got it.
             </p>
           </li>
 
@@ -44,7 +43,7 @@ export default function ToolsAndServices() {
             <span className="block w-100 mb-4 text-center text-highlight-1">Wood Working</span>
             {/* Donation Description */}
             <p className="block w-100 text-center text-sm">
-              Table saw, router table, CNC mill, band saw, and lathe. Heavy machines for your next project.
+              Tackle some bigger projects with a table saw, router table, CNC mill, band saw, or lathe. Plus all your hand power tools like drills, drivers, circular saws, trim router, and multitool.
             </p>
           </li>
 
@@ -61,9 +60,9 @@ export default function ToolsAndServices() {
           {/* Rehearsal Space */}
           <li className="block border-2 border-secondary-2 max-w-sm p-4 mb-4 sm:flex-1/3 mx-2">
               {/* Donation Title */}
-            <span className="block w-100 mb-4 text-center text-highlight-1">Rehearsal Space</span>
+            <span className="block w-100 mb-4 text-center text-highlight-1">Rehearsal Room</span>
             {/* Donation Description */}
-            <p className="block w-100 text-center text-sm">Rock out to your hearts content, day or night. Treated room with PA to suit up to a four piece.</p>
+            <p className="block w-100 text-center text-sm">Treated room with PA and limited backline, great for rehearsals, practice, or recording music and podcasts. Suits up to a four/five piece. Rock out to your hearts content, day or night. </p>
           </li>
         </ul>
       </div>
