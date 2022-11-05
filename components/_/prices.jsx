@@ -30,7 +30,7 @@ export default function Prices() {
             <div>
               <ul className="block w-100 text-center">
                 <li className="nohover text-maintext text-sm border-b-2 border-gray-400">Use of Artifactory tools</li>
-                <li className="nohover text-maintext text-sm border-b-2 border-gray-400">Access to most events</li>
+                <li className="nohover text-maintext text-sm border-b-2 border-gray-400">Pay by EFTPOS on the day</li>
                 <li className="nohover text-maintext text-sm border-b-2 border-gray-400">Kitchen facilities</li>
                 <li className="nohover text-maintext text-sm">Free WiFi</li>
               </ul>
@@ -112,9 +112,9 @@ export default function Prices() {
               </div>
               <div>
                 <ul className="block w-100 text-center">
-                  <li className="nohover text-maintext text-sm border-b-2 border-gray-400">Rehearsal room</li>
+                  <li className="nohover text-maintext text-sm border-b-2 border-gray-400">Rehearsal room acess</li>
                   <li className="nohover text-maintext text-sm border-b-2 border-gray-400">Weekly rehearsal slots</li>
-                  <li className="nohover text-maintext text-sm border-b-2 border-gray-400">Performance space</li>
+                  <li className="nohover text-maintext text-sm border-b-2 border-gray-400">PA and limited backline</li>
                   <li className="nohover text-maintext text-sm">24/7 Access (with bond)</li>
                 </ul>
               </div>
