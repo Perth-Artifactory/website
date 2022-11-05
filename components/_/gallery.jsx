@@ -23,7 +23,7 @@ export default function Gallery() {
             <li className="block w-1/2 p-1 md:w-1/3">
               {/* Image */}
               <img
-                className="block w-100 h-auto cursor-pointer "
+                className="block w-100 h-auto cursor-pointer hover:border-4 hover:border-highlight-1"
                 src="assets/site/gallery/20190616_121125.jpg"
                 alt=""
                 onClick={(e) => alternateImage(e.currentTarget)}
@@ -31,7 +31,7 @@ export default function Gallery() {
             </li>
             <li className="block w-1/2 p-1 md:w-1/3">
               <img
-                className="block w-100 h-auto cursor-pointer "
+                className="block w-100 h-auto cursor-pointer hover:border-4 hover:border-highlight-1"
                 src="assets/site/gallery/20181020_190202.jpg"
                 alt=""
                 onClick={(e) => alternateImage(e.currentTarget)}
@@ -39,7 +39,7 @@ export default function Gallery() {
             </li>
             <li className="block w-1/2 p-1 md:w-1/3">
               <img
-                className="block w-100 h-auto cursor-pointer "
+                className="block w-100 h-auto cursor-pointer hover:border-4 hover:border-highlight-1"
                 src="assets/site/gallery/20190413_173154.jpg"
                 alt=""
                 onClick={(e) => alternateImage(e.currentTarget)}
@@ -47,7 +47,7 @@ export default function Gallery() {
             </li>
             <li className="block w-1/2 p-1 md:w-1/3">
               <img
-                className="block w-100 h-auto cursor-pointer "
+                className="block w-100 h-auto cursor-pointer hover:border-4 hover:border-highlight-1"
                 src="assets/site/gallery/20181120_210525.jpg"
                 alt=""
                 onClick={(e) => alternateImage(e.currentTarget)}
@@ -55,7 +55,7 @@ export default function Gallery() {
             </li>
             <li className="block w-1/2 p-1 md:w-1/3">
               <img
-                className="block w-100 h-auto cursor-pointer "
+                className="block w-100 h-auto cursor-pointer hover:border-4 hover:border-highlight-1"
                 src="assets/site/gallery/20181123_002935.jpg"
                 alt=""
                 onClick={(e) => alternateImage(e.currentTarget)}
@@ -63,7 +63,7 @@ export default function Gallery() {
             </li>
             <li className="block w-1/2 p-1 md:w-1/3">
               <img
-                className="block w-100 h-auto cursor-pointer "
+                className="block w-100 h-auto cursor-pointer hover:border-4 hover:border-highlight-1"
                 src="assets/site/gallery/20181207_183833.jpg"
                 alt=""
                 onClick={(e) => alternateImage(e.currentTarget)}
