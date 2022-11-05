@@ -8,11 +8,11 @@ export default function Prices() {
   return (
     <>
       {/* Container */}
-      <div className="block p-2 bg-secondary-1 mb-5 sm:mb-10">
-        <ul className="sm:flex sm:flex-wrap sm:space-between">
+      <div className="max-w-sm sm:max-w-none block p-2 bg-secondary-1 mb-5 sm:mb-10">
+        <ul className="justify-center sm:justify-center sm:flex sm:flex-wrap sm:space-between">
 
         {/* Day Pass */}
-          <li className="block bg-primary-1 p-6 text-maintext mb-3 sm:mb-0 max-w-xs mx-auto sm:w-1/4 border-2 border-secondary-1 hover:border-4 hover:border-highlight-1">
+          <li className="block bg-primary-1 p-6 text-maintext mt-1 sm:mt-0 mb-3 sm:mb-0 mx-2 w-full sm:flex-1/4 border-2 border-secondary-1 hover:border-4 hover:border-highlight-1">
             <div>
               <div className="text-4xl sm:text-xl text-highlight-1">
                 <ul className="block w-auto text-center my-4">
@@ -38,7 +38,7 @@ export default function Prices() {
           </li>
 
           {/* Concession */}
-          <li className="block bg-primary-1 p-6 text-maintext mb-3 sm:mb-0 max-w-xs mx-auto sm:w-1/4 border-2 border-secondary-1 hover:border-4 hover:border-highlight-1">
+          <li className="block bg-primary-1 p-6 text-maintext mb-3 sm:mb-0 mx-2 w-full sm:flex-1/4 border-2 border-secondary-1 hover:border-4 hover:border-highlight-1">
             <a href="https://artifactory.tidyhq.com/public/membership_levels/53401b970f">
               <div>
                 <div className="text-4xl sm:text-xl text-highlight-1">
@@ -66,7 +66,7 @@ export default function Prices() {
           </li>
 
           {/* Full */}
-          <li className="block bg-primary-1 p-6 text-maintext mb-3 sm:mb-0 max-w-xs mx-auto sm:w-1/4 border-2 border-secondary-1 hover:border-4 hover:border-highlight-1">
+          <li className="block bg-primary-1 p-6 text-maintext mb-3 sm:mb-0 mx-2 w-full sm:flex-1/4 border-2 border-secondary-1 hover:border-4 hover:border-highlight-1">
             <a href="https://artifactory.tidyhq.com/public/membership_levels/57b90dbb32">
               <div>
                 <div className="text-4xl sm:text-xl text-highlight-1">
@@ -94,7 +94,7 @@ export default function Prices() {
           </li>
 
           {/* Band */}
-          <li className="block bg-primary-1 p-6 text-maintext mb-3 sm:mb-0 max-w-xs mx-auto sm:w-1/4 border-2 border-secondary-1 hover:border-4 hover:border-highlight-1">
+          <li className="block bg-primary-1 p-6 text-maintext mb-1 sm:mb-0  mx-2 w-full sm:flex-1/4 border-2 border-secondary-1 hover:border-4 hover:border-highlight-1">
             <a href="https://artifactory.tidyhq.com/public/membership_levels/NYW9Rg">
               <div>
                 <div className="text-4xl sm:text-xl text-highlight-1">

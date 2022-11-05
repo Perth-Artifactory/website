@@ -1,5 +1,8 @@
 import { AiOutlineSmile } from 'react-icons/ai';
 import { BsFillPeopleFill, BsPersonPlusFill, BsCalendar } from 'react-icons/bs';
+import { FaWalking } from 'react-icons/fa';
+
+
 
 export default function Stats() {
   return (
@@ -60,7 +63,7 @@ export default function Stats() {
               <div className="w-100 flex justify-end">
                 {/* Stat Icon */}
                 <span className="block text-highlight-1 text-6xl flex items-center mr-3">
-                  <AiOutlineSmile />
+                  <FaWalking />
                 </span>
                 {/* Stat Value */}
                 <span className="inline-block text-highlight-1 text-6xl min-w-1/4 text-right font-mono">300+</span>
