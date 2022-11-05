@@ -30,7 +30,7 @@ export default function Footer() {
               </Link>
             </li>
             <li>
-              <Link href="https://wiki.artifactory.org.au/doku.php">
+              <Link href="https://wiki.artifactory.org.au/">
                 <a>Wiki</a>
               </Link>
             </li>

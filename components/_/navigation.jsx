@@ -39,8 +39,8 @@ export default function Navigation() {
           <hr />
           <li className="w-full block">
             <a
-              href="https://wiki.artifactory.org.au/doku.php"
-              className="block px-4 py-2 w-full hover:bg-primary-1 hover:text-secondary-1">
+              href="https://wiki.artifactory.org.au/"
+              className="block px-4 py-2 w-full hover:bg-primary-1 hover:text-highlight-1">
               Wiki
             </a>
           </li>
