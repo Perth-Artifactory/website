@@ -1,3 +1,5 @@
+import { FaSlack } from 'react-icons/fa';
+
 export default function TextBlock2() {
   return (
     <>
@@ -11,7 +13,10 @@ export default function TextBlock2() {
           <br />
           <br />
           You can also join our{' '}
-          <a href="https://space.artifactory.org.au/slack">Slack team</a> and connect with members and like minded makers.
+          <a href="https://space.artifactory.org.au/slack">
+            <span class="inline-flex items-baseline block fill-current hover:text-secondary-1 align-baseline"><FaSlack /></span>
+            <span>{' '}Slack team</span>
+          </a> and connect with members and like minded makers.
         </p>
       </div>
     </>
