@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import Contact from '../../components/_/contact';
+import Socials from '../../components/_/socials';
 
 export default function Header() {
   return (
@@ -21,8 +21,8 @@ export default function Header() {
           </a>
         </Link>
 
-        {/* Contact Component */}
-        <Contact />
+        {/* Socials Component */}
+        <Socials />
       </header>
     </>
   );
