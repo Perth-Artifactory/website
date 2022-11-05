@@ -2,13 +2,14 @@ import Link from 'next/link';
 import { AiOutlineMail } from 'react-icons/ai';
 import { FaFacebook, FaTwitter, FaInstagram, FaYoutube, FaSlack, FaMeetup } from 'react-icons/fa';
 
-export default function Socials() {
+export default function Contact() {
   return (
     <>
+      {/* Container */}
       <div className="">
+        {/* Contact Item List */}
         <ul className="flex justify-between w-100 sm:w-1/2 sm:mx-auto px-4 md:max-w-md mx-auto">
-
-          {/* Slack */}
+          {/* Contact Item List Item */}
           <li className="inline-block">
             <a
               className="block text-highlight-1 fill-current hover:text-secondary-1 text-xl sm:text-2xl md:text-3xl"
@@ -16,8 +17,13 @@ export default function Socials() {
               <FaSlack />
             </a>
           </li>
-
-          {/* Facebook */}
+          {/* <li className="inline-block">
+            <a
+              className="block text-highlight-1 fill-current hover:text-secondary-1 text-xl sm:text-2xl md:text-3xl"
+              href="https://groups.google.com/group/artifactory-core">
+              <AiOutlineMail />
+            </a>
+          </li> */}
           <li className="inline-block">
             <a
               className="block text-highlight-1 fill-current hover:text-secondary-1 text-xl sm:text-2xl md:text-3xl"
@@ -25,8 +31,6 @@ export default function Socials() {
               <FaFacebook />
             </a>
           </li>
-
-          {/* Twitter */}
           <li className="inline-block">
             <a
               className="block text-highlight-1 fill-current hover:text-secondary-1 text-xl sm:text-2xl md:text-3xl"
@@ -34,8 +38,6 @@ export default function Socials() {
               <FaTwitter />
             </a>
           </li>
-
-          {/* Instagram */}
           <li className="inline-block">
             <a
               className="block text-highlight-1 fill-current hover:text-secondary-1 text-xl sm:text-2xl md:text-3xl"
@@ -43,8 +45,6 @@ export default function Socials() {
               <FaInstagram />
             </a>
           </li>
-
-          {/* YouTube */}
           <li className="inline-block">
             <a
               className="block text-highlight-1 fill-current hover:text-secondary-1 text-xl sm:text-2xl md:text-3xl"
@@ -52,8 +52,6 @@ export default function Socials() {
               <FaYoutube />
             </a>
           </li>
-
-          {/* Meetup */}
           <li className="inline-block">
             <a
               className="block text-highlight-1 fill-current hover:text-secondary-1 text-xl sm:text-2xl md:text-3xl"
@@ -61,7 +59,6 @@ export default function Socials() {
               <FaMeetup />
             </a>
           </li>
-
         </ul>
       </div>
     </>
