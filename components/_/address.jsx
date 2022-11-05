@@ -13,7 +13,7 @@ export default function Address() {
           aria-hidden="false"
           tabIndex="0"></iframe>
 
-        <address className="block mb-2 sm:mb-10">
+        <address className="block">
           Unit 8 / 16 Guthrie Street
           <br />
           Osborne Park WA 6017
