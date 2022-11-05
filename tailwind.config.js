@@ -12,8 +12,8 @@ module.exports = {
         //cyan: '#79FFE1', // green cyan
 
         // dark greys
-        'primary-2': '#121212', // main background, darker grey
         'primary-1': '#202020', // component background, dark grey
+        'primary-2': '#121212', // main background, darker grey
         // reds
         'secondary-1': '#bf1b00', // main red
         'secondary-2': '#8c1400', // darker red
