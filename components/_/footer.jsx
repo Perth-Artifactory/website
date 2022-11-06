@@ -59,7 +59,6 @@ export default function Footer() {
               <ul>
                 <li><a className="text-maintext" href="http://www.artsource.net.au/">Artsource</a></li>
                 <li><a className="text-maintext" href="http://blazingswan.com.au/">Blazing Swan</a></li>
-                <li><a className="text-maintext" href="https://www.rflan.org/">Red Flag Lan Fest Inc (RFLAN)</a></li>
                 <li><a className="text-maintext" href="http://swancon.com.au/">Swancon</a></li>
               </ul>
 
