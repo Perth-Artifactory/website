@@ -18,11 +18,11 @@ Joining the Artifactory as a member (as opposed to using the space with a Day Pa
 Full: [$75/mo](https://artifactory.tidyhq.com/public/membership_levels/57b90dbb32)  
 Concession: [$45/mo](https://artifactory.tidyhq.com/public/membership_levels/53401b970f)
 
-- Access to a communal workshop space located in an industrial estate, with indoor and outdoor work areas (excluding rehearsal room)
-- Access to heavy duty tools, machines and facilities (some tools incur [additional costs](https://wiki.artifactory.org.au/en/docs/policies/fees))
-- Discounts or free entry for Artifactory run events and workshops
-- Free WiFi, small kitchenette and toilet facilities
-- Eligible for a 24/7 key (A bond equal to three months membership is required)
+- Access to a communal workshop space located in an industrial estate, with indoor and outdoor work areas (excluding rehearsal room).
+- Access to heavy duty tools, machines and facilities (some tools incur [additional costs](https://wiki.artifactory.org.au/en/docs/policies/fees)).
+- Discounts or free entry for Artifactory run events and workshops.
+- Free WiFi, small kitchenette and toilet facilities.
+- Eligible for a 24/7 key (A bond equal to three months membership is required).
 
 ## Band membership
 

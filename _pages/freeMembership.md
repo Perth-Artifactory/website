@@ -42,7 +42,7 @@ Interested applicants should [submit](mailto:apply@artifactory.org.au) a 1 page 
 
 ## NoizeMaschin!!
 
-the Perth Artifactory facilitates a rotating artist residency, where the artist in residence performs at the inhouse monthly experimental music night – NoizeMaschin!!
+The Perth Artifactory facilitates a rotating artist residency, where the artist in residence performs at the inhouse monthly experimental music night – NoizeMaschin!!
 
 Over a 3-6 month period, the successful applicant receives:
 
@@ -57,7 +57,7 @@ While this residency is funded by the Artifactory the selection process is admin
 
 We are looking for applicants that will make good use of our tools and facilities to develop their performance, artistic, and community endeavours. It is ideal if we can see a plan or trajectory of development over the course of the membership. Above all we like to see a spark of creativity and passion for what you do.
 
-the following questions are to help guide your proposal, and are optional
+The following questions are to help guide your proposal, and are optional
 
 * Give a brief rundown of how your residency performances will play out. We are looking for a sense of artistic development over the course of the 3 performances.
 * What Artifactory equipment can you see yourself using as part of your performance development?
