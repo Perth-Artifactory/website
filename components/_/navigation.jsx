@@ -100,7 +100,7 @@ export default function Navigation() {
             <a
               href="https://www.meetup.com/Perth-Artifactory/"
               className="block px-4 py-2 w-full text-maintext hover:bg-primary-1 hover:text-secondary-1">
-              MeetUp
+              Meetup
             </a>
           </li>
 
