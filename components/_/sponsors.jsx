@@ -8,7 +8,7 @@ export default function Donations() {
         <ul className="flex flex-col sm:flex-row sm:flex-wrap sm:justify-center">
 
           {/* Alby Beer */}
-          <li className="block border-2 border-secondary-2 hover:border-2 hover:border-highlight-1 p-6 mb-4 sm:mx-2 sm:flex-1/3">
+          <li className="block border-2 border-secondary-2 hover:border-2 hover:border-highlight-1 p-6 mb-4 sm:mx-2 sm:flex-1/2 md:flex-1/3">
             <a className="text-highlight-1" href="https://alby.beer/">
               <img className="block w-100 mb-4 mx-auto" src="/assets/site/sponsors/alby.jpg" alt="#" />
               <span className="block nohover text-highlight-1 w-100 mb-4 text-center">Alby Beer</span>
@@ -20,7 +20,7 @@ export default function Donations() {
           </li>
 
           {/* Altronics */}
-          <li className="block border-2 border-secondary-2 hover:border-2 hover:border-highlight-1 p-6 mb-4 sm:mx-2 sm:flex-1/3">
+          <li className="block border-2 border-secondary-2 hover:border-2 hover:border-highlight-1 p-6 mb-4 sm:mx-2 sm:flex-1/2 md:flex-1/3">
             <a className="text-highlight-1" href="https://www.altronics.com.au/">
               <img className="block w-100 mb-4 mx-auto" src="/assets/site/sponsors/altronics.png" alt="#" />
               <span className="block nohover text-highlight-1 w-100 mb-4 text-center">Altronics</span>
@@ -32,7 +32,7 @@ export default function Donations() {
           </li>
 
           {/* Github */}
-          <li className="block border-2 border-secondary-2 hover:border-2 hover:border-highlight-1 p-6 mb-4 sm:mx-2 sm:flex-1/3">
+          <li className="block border-2 border-secondary-2 hover:border-2 hover:border-highlight-1 p-6 mb-4 sm:mx-2 sm:flex-1/2 md:flex-1/3">
             <a className="text-highlight-1" href="https://socialimpact.github.com/">
               <img className="block w-100 mb-4 mx-auto" src="/assets/site/sponsors/github.png" alt="#" />
               <span className="block nohover text-highlight-1 w-100 mb-4 text-center">Github</span>
@@ -43,7 +43,7 @@ export default function Donations() {
           </li>
 
           {/* Google NFP */}
-          <li className="block border-2 border-secondary-2 hover:border-2 hover:border-highlight-1 p-6 mb-4 sm:mx-2 sm:flex-1/3">
+          <li className="block border-2 border-secondary-2 hover:border-2 hover:border-highlight-1 p-6 mb-4 sm:mx-2 sm:flex-1/2 md:flex-1/3">
             <a className="text-highlight-1" href="https://www.google.com/nonprofits/">
               <img className="block w-100 mb-4 mx-auto" src="/assets/site/sponsors/google_nfp.png" alt="#" />
               <span className="block nohover text-highlight-1 w-100 mb-4 text-center">Google NFP</span>
@@ -54,7 +54,7 @@ export default function Donations() {
           </li>
 
           {/* Healthchecks.io */}
-          <li className="block border-2 border-secondary-2 hover:border-2 hover:border-highlight-1 p-6 mb-4 sm:mx-2 sm:flex-1/3">
+          <li className="block border-2 border-secondary-2 hover:border-2 hover:border-highlight-1 p-6 mb-4 sm:mx-2 sm:flex-1/2 md:flex-1/3">
             <a className="text-highlight-1" href="https://healthchecks.io/">
               <img className="block w-100 mb-4 mx-auto" src="/assets/site/sponsors/healthchecks.jpg" alt="#" />
               <span className="block nohover text-highlight-1 w-100 mb-4 text-center">Healthchecks.io</span>
@@ -65,7 +65,7 @@ export default function Donations() {
           </li>
 
           {/* LotteryWest */}
-          <li className="block border-2 border-secondary-2 hover:border-2 hover:border-highlight-1 p-6 mb-4 sm:mx-2 sm:flex-1/3">
+          <li className="block border-2 border-secondary-2 hover:border-2 hover:border-highlight-1 p-6 mb-4 sm:mx-2 sm:flex-1/2 md:flex-1/3">
             <a className="text-highlight-1" href="https://lotterywest.wa.gov.au/">
               <img className="block w-100 mb-4 mx-auto" src="/assets/site/sponsors/lotterywest.jpg" alt="#" />
               <span className="block nohover text-highlight-1 w-100 mb-4 text-center">LotteryWest</span>
@@ -76,7 +76,7 @@ export default function Donations() {
           </li>
 
           {/* St John WA */}
-          <li className="block border-2 border-secondary-2 hover:border-2 hover:border-highlight-1 p-6 mb-4 sm:mx-2 sm:flex-1/3">
+          <li className="block border-2 border-secondary-2 hover:border-2 hover:border-highlight-1 p-6 mb-4 sm:mx-2 sm:flex-1/2 md:flex-1/3">
             <a className="text-highlight-1" href="https://stjohnwa.com.au/">
               <img className="block w-100 mb-4 mx-auto" src="/assets/site/sponsors/SJA.png" alt="#" />
               <span className="block nohover text-highlight-1 w-100 mb-4 text-center">St John WA</span>
@@ -87,7 +87,7 @@ export default function Donations() {
           </li>
 
           {/* Supanova */}
-          <li className="block border-2 border-secondary-2 hover:border-2 hover:border-highlight-1 p-6 mb-4 sm:mx-2 sm:flex-1/3">
+          <li className="block border-2 border-secondary-2 hover:border-2 hover:border-highlight-1 p-6 mb-4 sm:mx-2 sm:flex-1/2 md:flex-1/3">
             <a className="text-highlight-1" href="https://www.supanova.com.au/">
               <img className="block w-100 mb-4 mx-auto" src="/assets/site/sponsors/supanova.jpg" alt="#" />
               <span className="block nohover text-highlight-1 w-100 mb-4 text-center">Supanova</span>
@@ -99,7 +99,7 @@ export default function Donations() {
           </li>
 
           {/* WebInABox */}
-          <li className="block border-2 border-secondary-2 hover:border-2 hover:border-highlight-1 p-6 mb-4 sm:mx-2 sm:flex-1/3">
+          <li className="block border-2 border-secondary-2 hover:border-2 hover:border-highlight-1 p-6 mb-4 sm:mx-2 sm:flex-1/2 md:flex-1/3">
             <a className="text-highlight-1" href="https://www.webinabox.net.au/">
               <img className="block w-100 mb-4 mx-auto" src="/assets/site/sponsors/webinabox.jpg" alt="#" />
               <span className="block nohover text-highlight-1 w-100 mb-4 text-center">WebInABox</span>
@@ -111,7 +111,7 @@ export default function Donations() {
           </li>
 
           {/* Aussie Broadband */}
-          <li className="block border-2 border-secondary-2 hover:border-2 hover:border-highlight-1 p-6 mb-4 sm:mx-2 sm:flex-1/3">
+          <li className="block border-2 border-secondary-2 hover:border-2 hover:border-highlight-1 p-6 mb-4 sm:mx-2 sm:flex-1/2 md:flex-1/3">
             <a className="text-highlight-1" href="https://www.aussiebroadband.com.au/">
               <img className="block w-100 mb-4 mx-auto" src="/assets/site/sponsors/ABB.jpg" alt="#" />
               <span className="block nohover text-highlight-1 w-100 mb-4 text-center">Aussie Broadband</span>
