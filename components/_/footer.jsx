@@ -13,37 +13,13 @@ export default function Footer() {
           {/* Sitemap Link List */}
           <ul>
             {/* Sitemap Link List Item */}
-            <li>
-              {/* Sitemap Link */}
-              <Link href="/">
-                <a className="text-maintext">Home</a>
-              </Link>
-            </li>
-            <li>
-              <Link href="/pages/freeMembership">
-                <a className="text-maintext">Free Membership</a>
-              </Link>
-            </li>
-            <li>
-              <Link href="/pages/membership">
-                <a className="text-maintext">Membership</a>
-              </Link>
-            </li>
-            <li>
-              <Link href="https://wiki.artifactory.org.au/">
-                <a className="text-maintext">Wiki</a>
-              </Link>
-            </li>
-            <li>
-              <Link href="https://space.artifactory.org.au/">
-                <a className="text-maintext">Webcams</a>
-              </Link>
-            </li>
-            <li>
-              <Link href="/pages/code_of_conduct">
-                <a className="text-maintext">Code of Conduct</a>
-              </Link>
-            </li>
+            <li><Link href="/"><a className="text-maintext">Home</a></Link></li>
+            <li><Link href="https://shop.artifactory.org.au/"><a className="text-maintext">Store</a></Link></li>
+            <li><Link href="/pages/freeMembership"><a className="text-maintext">Free Membership</a></Link></li>
+            <li><Link href="/pages/membership"><a className="text-maintext">Membership</a></Link></li>
+            <li><Link href="https://wiki.artifactory.org.au/"><a className="text-maintext">Wiki</a></Link></li>
+            <li><Link href="https://space.artifactory.org.au/"><a className="text-maintext">Webcams</a></Link></li>
+            <li><Link href="/pages/code_of_conduct"><a className="text-maintext">Code of Conduct</a></Link></li>
           </ul>
         </div>
         {/* More Info Container */}
@@ -74,22 +50,15 @@ export default function Footer() {
               <li><a className="text-maintext" href="https://hackmelbourne.com/">VIC: CCHS</a></li>
               <li><a className="text-maintext" href="http://swmakers.org/">WA: South West Makers</a></li>
             </ul>
+
             <span className="text-highlight-1 text-lg sm:text-xl block mb-2 sm:my-4 font-semibold border-b-2 border-secondary-1">
               Friends
             </span>
             <ul>
-              <li>
-                <a className="text-maintext" href="http://www.artsource.net.au/">Artsource</a>
-              </li>
-              <li>
-                <a className="text-maintext" href="http://blazingswan.com.au/">Blazing Swan</a>
-              </li>
-              <li>
-                <a className="text-maintext" href="https://www.rflan.org/">Red Flag Lan Fest Inc (RFLAN)</a>
-              </li>
-              <li>
-                <a className="text-maintext" href="http://swancon.com.au/">Swancon</a>
-              </li>
+              <li><a className="text-maintext" href="http://www.artsource.net.au/">Artsource</a></li>
+              <li><a className="text-maintext" href="http://blazingswan.com.au/">Blazing Swan</a></li>
+              <li><a className="text-maintext" href="https://www.rflan.org/">Red Flag Lan Fest Inc (RFLAN)</a></li>
+              <li><a className="text-maintext" href="http://swancon.com.au/">Swancon</a></li>
             </ul>
 
             {/* Tech Used (?) List */}
@@ -97,24 +66,12 @@ export default function Footer() {
               Affiliated Groups
             </span>
             <ul>
-              <li>
-                <a className="text-maintext" href="http://www.adug.org.au/meetings/overview/">ADUG WA</a>
-              </li>
-              <li>
-                <a className="text-maintext" href="https://www.noizemaschin.com/">NoizeMaschin!!</a>
-              </li>
-              <li>
-                <a className="text-maintext" href="https://www.meetup.com/en-AU/Perth-Django-Users-Group/">Perth Djano and Python Developers</a>
-              </li>
-              <li>
-                <a className="text-maintext" href="https://www.pmlg.org/">Perth Machine Learning Group</a>
-              </li>
-              <li>
-                <a className="text-maintext" href="https://www.meetup.com/Perth-Linux-Users-Group-PLUG/">Perth Linux Users Group</a>
-              </li>
-              <li>
-                <a className="text-maintext" href="https://www.facebook.com/WAMod-West-Australian-Modular-Synthesizers-416747535171732/">WAMod</a>
-              </li>
+              <li><a className="text-maintext" href="http://www.adug.org.au/meetings/overview/">ADUG WA</a></li>
+              <li><a className="text-maintext" href="https://www.noizemaschin.com/">NoizeMaschin!!</a></li>
+              <li><a className="text-maintext" href="https://www.meetup.com/en-AU/Perth-Django-Users-Group/">Perth Djano and Python Developers</a></li>
+              <li><a className="text-maintext" href="https://www.pmlg.org/">Perth Machine Learning Group</a></li>
+              <li><a className="text-maintext" href="https://www.meetup.com/Perth-Linux-Users-Group-PLUG/">Perth Linux Users Group</a></li>
+              <li><a className="text-maintext" href="https://www.facebook.com/WAMod-West-Australian-Modular-Synthesizers-416747535171732/">WAMod</a></li>
             </ul>
           </div>
         </div>

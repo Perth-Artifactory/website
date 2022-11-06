@@ -22,12 +22,22 @@ export default function Navigation() {
         className="hidden top-0 bg-primary-2 w-full h-auto sm:w-1/4 sm:border-2 sm:border-nav sm:right-0"
         style={{zIndex: 9}}>
         <span className="block text-highlight-1 mt-2 ml-4 text-2xl mb-4">Navigation</span>
+
         <ul className="block text-highlight-1 text-sm w-full">
           <li className="w-full block">
             <Link href="/">
               <a className="block px-4 py-2 w-full text-maintext hover:bg-primary-1 hover:text-secondary-1">Home</a>
             </Link>
           </li>
+
+          <li className="w-full block">
+            <a
+              href="https://shop.artifactory.org.au/"
+              className="block px-4 py-2 w-full text-maintext hover:bg-primary-1 hover:text-secondary-1">
+              Store
+            </a>
+          </li>
+
           <hr />
           {process.env.menu.map((item) => (
             <li className="w-full block" key={item.link}>
@@ -37,6 +47,7 @@ export default function Navigation() {
             </li>
           ))}
           <hr />
+
           <li className="w-full block">
             <a
               href="https://wiki.artifactory.org.au/"
@@ -44,6 +55,7 @@ export default function Navigation() {
               Wiki
             </a>
           </li>
+
           <li className="w-full block">
             <a
               href="https://space.artifactory.org.au/"
@@ -51,13 +63,7 @@ export default function Navigation() {
               Webcams
             </a>
           </li>
-          <li className="w-full block">
-            <a
-              href="https://shop.artifactory.org.au/"
-              className="block px-4 py-2 w-full text-maintext hover:bg-primary-1 hover:text-secondary-1">
-              Store
-            </a>
-          </li>
+
           <li className="w-full block">
             <a
               href="https://space.artifactory.org.au/slack/"
@@ -65,6 +71,7 @@ export default function Navigation() {
               Slack
             </a>
           </li>
+
           <li className="w-full block">
             <a
               href="https://m.facebook.com/perthartifactory/"
@@ -72,6 +79,7 @@ export default function Navigation() {
               Facebook
             </a>
           </li>
+
           <li className="w-full block">
             <a
               href="https://www.instagram.com/theperthartifactory/"
@@ -79,6 +87,7 @@ export default function Navigation() {
               Instagram
             </a>
           </li>
+
           <li className="w-full block">
             <a
               href="https://www.youtube.com/channel/UC9N4yG2QzYZV9Naud_IsUfA/"
@@ -86,6 +95,7 @@ export default function Navigation() {
               Youtube
             </a>
           </li>
+          
           <li className="w-full block">
             <a
               href="https://www.meetup.com/Perth-Artifactory/"
@@ -93,6 +103,7 @@ export default function Navigation() {
               MeetUp
             </a>
           </li>
+
         </ul>
       </div>
     </>
