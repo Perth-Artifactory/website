@@ -88,7 +88,7 @@ export default function Donations() {
 
           {/* Supanova */}
           <li className="block border-2 border-secondary-2 hover:border-2 hover:border-highlight-1 p-6 mb-4 sm:mx-2 sm:flex-1/3">
-            <a className="text-highlight-1" href="#">
+            <a className="text-highlight-1" href="https://www.supanova.com.au/">
               <img className="block w-100 mb-4 mx-auto" src="/assets/site/sponsors/supanova.jpg" alt="#" />
               <span className="block nohover text-highlight-1 w-100 mb-4 text-center">Supanova</span>
               <p className="block w-100 text-center text-sm">
