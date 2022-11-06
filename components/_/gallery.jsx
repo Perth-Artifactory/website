@@ -20,17 +20,15 @@ export default function Gallery() {
         <div className="block w-100">
           {/* Image List */}
           <ul className="flex flex-wrap">
-          <div className="group flex justify-center relative overflow-hidden cursor-pointer">
             <li className="block w-1/2 p-1 md:w-1/3 border-2 border-primary-1 hover:border-2 hover:border-highlight-1">
               {/* Image */}
-                <img
-                  className="block w-100 h-auto cursor-pointer ease-in-out duration-500 group-hover:scale-125"
-                  src="assets/site/gallery/20190616_121125.jpg"
-                  alt=""
-                  onClick={(e) => alternateImage(e.currentTarget)}
-                />
+              <img
+                className="block w-100 h-auto cursor-pointer"
+                src="assets/site/gallery/20190616_121125.jpg"
+                alt=""
+                onClick={(e) => alternateImage(e.currentTarget)}
+              />
             </li>
-          </div>
             <li className="block w-1/2 p-1 md:w-1/3 border-2 border-primary-1 hover:border-2 hover:border-highlight-1">
               <img
                 className="block w-100 h-auto cursor-pointer"
