@@ -62,33 +62,17 @@ export default function Footer() {
           <div className="block w-100">
             {/* Similar Places List */}
             <span className="text-highlight-1 text-lg sm:text-xl block mb-2 sm:my-4 font-semibold border-b-2 border-secondary-1">
-              Australian Hackerspaces
+              Australian Makerspaces
             </span>
             <ul>
-              <li>
-                <a className="text-maintext" href="https://www.hackerspace-adelaide.org.au/">ADEL: Hackerspace Adelaide</a>
-              </li>
-              <li>
-                <a className="text-maintext" href="https://hsbne.org/">BRIS: HSBNE</a>
-              </li>
-              <li>
-                <a className="text-maintext" href="https://brisbanemaker.space/">BRIS: Brisbane Makerspace</a>
-              </li>
-              <li>
-                <a className="text-maintext" href="http://swmakers.org/">BUNB: South West Makers</a>
-              </li>
-              <li>
-                <a className="text-maintext" href="https://canberramaker.space/">CANB: Make, Hack, Void</a>
-              </li>
-              <li>
-                <a className="text-maintext" href="https://www.hobarthackerspace.org.au/">HOBART: Hackerspace</a>
-              </li>
-              <li>
-                <a className="text-maintext" href="https://hackmelbourne.com/">MELB: CCHS</a>
-              </li>
-              <li>
-                <a className="text-maintext" href="https://robodino.org/">SYD: Robots &amp; Dinosaurs</a>
-              </li>
+              <li><a className="text-maintext" href="https://canberramaker.space/">ACT: Make, Hack, Void</a></li>
+              <li><a className="text-maintext" href="https://robodino.org/">NSW: Robots & Dinosaurs</a></li>
+              <li><a className="text-maintext" href="https://www.hackerspace-adelaide.org.au/">SA: Hackerspace Adelaide</a></li>
+              <li><a className="text-maintext" href="https://www.hobarthackerspace.org.au/">TAS: Hobart Hackerspace</a></li>
+              <li><a className="text-maintext" href="https://hsbne.org/">QLD: HSBNE</a></li>
+              <li><a className="text-maintext" href="https://brisbanemaker.space/">QLD: Brisbane Makerspace</a></li>
+              <li><a className="text-maintext" href="https://hackmelbourne.com/">VIC: CCHS</a></li>
+              <li><a className="text-maintext" href="http://swmakers.org/">WA: South West Makers</a></li>
             </ul>
             <span className="text-highlight-1 text-lg sm:text-xl block mb-2 sm:my-4 font-semibold border-b-2 border-secondary-1">
               Friends
