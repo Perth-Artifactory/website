@@ -16,32 +16,32 @@ export default function Footer() {
             <li>
               {/* Sitemap Link */}
               <Link href="/">
-                <a>Home</a>
+                <a className="text-maintext">Home</a>
               </Link>
             </li>
             <li>
               <Link href="/pages/freeMembership">
-                <a>Free Membership</a>
+                <a className="text-maintext">Free Membership</a>
               </Link>
             </li>
             <li>
               <Link href="/pages/membership">
-                <a>Membership</a>
+                <a className="text-maintext">Membership</a>
               </Link>
             </li>
             <li>
               <Link href="https://wiki.artifactory.org.au/">
-                <a>Wiki</a>
+                <a className="text-maintext">Wiki</a>
               </Link>
             </li>
             <li>
               <Link href="https://space.artifactory.org.au/">
-                <a>Webcams</a>
+                <a className="text-maintext">Webcams</a>
               </Link>
             </li>
             <li>
               <Link href="/pages/code_of_conduct">
-                <a>Code of Conduct</a>
+                <a className="text-maintext">Code of Conduct</a>
               </Link>
             </li>
           </ul>
@@ -66,28 +66,28 @@ export default function Footer() {
             </span>
             <ul>
               <li>
-                <a href="https://www.hackerspace-adelaide.org.au/">ADEL: Hackerspace Adelaide</a>
+                <a className="text-maintext" href="https://www.hackerspace-adelaide.org.au/">ADEL: Hackerspace Adelaide</a>
               </li>
               <li>
-                <a href="https://hsbne.org/">BRIS: HSBNE</a>
+                <a className="text-maintext" href="https://hsbne.org/">BRIS: HSBNE</a>
               </li>
               <li>
-                <a href="https://brisbanemaker.space/">BRIS: Brisbane Makerspace</a>
+                <a className="text-maintext" href="https://brisbanemaker.space/">BRIS: Brisbane Makerspace</a>
               </li>
               <li>
-                <a href="http://swmakers.org/">BUNB: South West Makers</a>
+                <a className="text-maintext" href="http://swmakers.org/">BUNB: South West Makers</a>
               </li>
               <li>
-                <a href="https://canberramaker.space/">CANB: Make, Hack, Void</a>
+                <a className="text-maintext" href="https://canberramaker.space/">CANB: Make, Hack, Void</a>
               </li>
               <li>
-                <a href="https://www.hobarthackerspace.org.au/">HOBART: Hackerspace</a>
+                <a className="text-maintext" href="https://www.hobarthackerspace.org.au/">HOBART: Hackerspace</a>
               </li>
               <li>
-                <a href="https://hackmelbourne.com/">MELB: CCHS</a>
+                <a className="text-maintext" href="https://hackmelbourne.com/">MELB: CCHS</a>
               </li>
               <li>
-                <a href="https://robodino.org/">SYD: Robots &amp; Dinosaurs</a>
+                <a className="text-maintext" href="https://robodino.org/">SYD: Robots &amp; Dinosaurs</a>
               </li>
             </ul>
             <span className="text-lg sm:text-xl block mb-2 sm:my-4 font-semibold border-b-2 border-secondary-1">
@@ -95,16 +95,16 @@ export default function Footer() {
             </span>
             <ul>
               <li>
-                <a href="http://www.artsource.net.au/">Artsource</a>
+                <a className="text-maintext" href="http://www.artsource.net.au/">Artsource</a>
               </li>
               <li>
-                <a href="http://blazingswan.com.au/">Blazing Swan</a>
+                <a className="text-maintext" href="http://blazingswan.com.au/">Blazing Swan</a>
               </li>
               <li>
-                <a href="https://www.rflan.org/">Red Flag Lan Fest Inc (RFLAN)</a>
+                <a className="text-maintext" href="https://www.rflan.org/">Red Flag Lan Fest Inc (RFLAN)</a>
               </li>
               <li>
-                <a href="http://swancon.com.au/">Swancon</a>
+                <a className="text-maintext" href="http://swancon.com.au/">Swancon</a>
               </li>
             </ul>
 
@@ -114,22 +114,22 @@ export default function Footer() {
             </span>
             <ul>
               <li>
-                <a href="http://www.adug.org.au/meetings/overview/">ADUG WA</a>
+                <a className="text-maintext" href="http://www.adug.org.au/meetings/overview/">ADUG WA</a>
               </li>
               <li>
-                <a href="https://www.noizemaschin.com/">NoizeMaschin!!</a>
+                <a className="text-maintext" href="https://www.noizemaschin.com/">NoizeMaschin!!</a>
               </li>
               <li>
-                <a href="https://www.meetup.com/en-AU/Perth-Django-Users-Group/">Perth Djano and Python Developers</a>
+                <a className="text-maintext" href="https://www.meetup.com/en-AU/Perth-Django-Users-Group/">Perth Djano and Python Developers</a>
               </li>
               <li>
-                <a href="https://www.pmlg.org/">Perth Machine Learning Group</a>
+                <a className="text-maintext" href="https://www.pmlg.org/">Perth Machine Learning Group</a>
               </li>
               <li>
-                <a href="https://www.meetup.com/Perth-Linux-Users-Group-PLUG/">Perth Linux Users Group</a>
+                <a className="text-maintext" href="https://www.meetup.com/Perth-Linux-Users-Group-PLUG/">Perth Linux Users Group</a>
               </li>
               <li>
-                <a href="https://www.facebook.com/WAMod-West-Australian-Modular-Synthesizers-416747535171732/">WAMod</a>
+                <a className="text-maintext" href="https://www.facebook.com/WAMod-West-Australian-Modular-Synthesizers-416747535171732/">WAMod</a>
               </li>
             </ul>
           </div>
