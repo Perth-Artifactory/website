@@ -26,9 +26,11 @@ export default function BaseLayout({ children }) {
         />
       </Head>
 
+
       <div className="bg-primary-2" id="app">
+        {/* This is the banner alert at the top of the page */}
         {/* ALERT */}
-        <Alert />
+        {/* <Alert /> */}
 
         {/* Navigation Component */}
         <Navigation />

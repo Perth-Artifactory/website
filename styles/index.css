@@ -1,4 +1,6 @@
 @tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 @responsive {
   .text-shadow {
@@ -18,5 +20,18 @@
   }
 }
 
-@tailwind components;
-@tailwind utilities;
+@layer base {
+  p {
+    @apply text-maintext;
+  }
+  a {
+    @apply text-secondary-1;
+  }
+  a:hover {
+    @apply hover:text-secondary-3;
+  }
+  a.buttonhover:hover {
+    @apply hover:text-highlight-1;
+  }
+
+}

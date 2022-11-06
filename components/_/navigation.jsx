@@ -6,93 +6,104 @@ export default function Navigation() {
     <>
       <div
         id="menu-close"
-        className="fixed text-secondary-1 p-3 bg-primary-1 top-2 right-2 z-10 border-2 border-white shadow-xl"
+        className="fixed text-highlight-1 p-3 bg-primary-1 top-2 right-2 z-10 border-2 border-nav shadow-xl"
         onClick={closeNavigation}>
         <AiOutlineClose />
       </div>
       <div
         id="menu-open"
-        className="fixed text-secondary-1 p-3 bg-primary-2 top-2 right-2 z-10 border-2 border-white shadow-xl"
+        className="fixed text-highlight-1 p-3 bg-primary-2 top-2 right-2 z-10 border-2 border-nav shadow-xl"
         onClick={openNavigation}>
         <AiOutlineMenu />
       </div>
       {/* Container */}
       <div
         id="menu-navigation"
-        className="hidden top-0 bg-primary-2 w-full h-screen sm:w-1/2 sm:border-2 sm:border-white sm:right-0"
+        className="hidden top-0 bg-primary-2 w-full h-auto sm:w-1/4 sm:border-2 sm:border-nav sm:right-0"
         style={{zIndex: 9}}>
-        <span className="block text-secondary-1 mt-2 ml-4 text-3xl mb-8">Navigation</span>
-        <ul className="block text-secondary-1 text-sm w-full">
+        <span className="block text-highlight-1 mt-2 ml-4 text-2xl mb-4">Navigation</span>
+
+        <ul className="block text-highlight-1 text-sm w-full">
           <li className="w-full block">
             <Link href="/">
-              <a className="block px-4 py-2 w-full hover:bg-primary-1 hover:text-highlight-1">Home</a>
+              <a className="block px-4 py-2 w-full text-maintext hover:bg-primary-1 hover:text-secondary-1">Home</a>
             </Link>
           </li>
+
+          <li className="w-full block">
+            <a
+              href="https://shop.artifactory.org.au/"
+              className="block px-4 py-2 w-full text-maintext hover:bg-primary-1 hover:text-secondary-1">
+              Store
+            </a>
+          </li>
+
           <hr />
           {process.env.menu.map((item) => (
             <li className="w-full block" key={item.link}>
               <Link href={item.link}>
-                <a className="block px-4 py-2 w-full hover:bg-primary-1 hover:text-highlight-1">{item.name}</a>
+                <a className="block px-4 py-2 w-full text-maintext hover:bg-primary-1 hover:text-secondary-1">{item.name}</a>
               </Link>
             </li>
           ))}
           <hr />
+
           <li className="w-full block">
             <a
               href="https://wiki.artifactory.org.au/"
-              className="block px-4 py-2 w-full hover:bg-primary-1 hover:text-highlight-1">
+              className="block px-4 py-2 w-full text-maintext hover:bg-primary-1 hover:text-secondary-1">
               Wiki
             </a>
           </li>
+
           <li className="w-full block">
             <a
               href="https://space.artifactory.org.au/"
-              className="block px-4 py-2 w-full hover:bg-primary-1 hover:text-highlight-1">
+              className="block px-4 py-2 w-full text-maintext hover:bg-primary-1 hover:text-secondary-1">
               Webcams
             </a>
           </li>
-          <li className="w-full block">
-            <a
-              href="https://shop.artifactory.org.au/"
-              className="block px-4 py-2 w-full hover:bg-primary-1 hover:text-highlight-1">
-              Store
-            </a>
-          </li>
+
           <li className="w-full block">
             <a
               href="https://space.artifactory.org.au/slack/"
-              className="block px-4 py-2 w-full hover:bg-primary-1 hover:text-highlight-1">
+              className="block px-4 py-2 w-full text-maintext hover:bg-primary-1 hover:text-secondary-1">
               Slack
             </a>
           </li>
+
           <li className="w-full block">
             <a
               href="https://m.facebook.com/perthartifactory/"
-              className="block px-4 py-2 w-full hover:bg-primary-1 hover:text-highlight-1">
+              className="block px-4 py-2 w-full text-maintext hover:bg-primary-1 hover:text-secondary-1">
               Facebook
             </a>
           </li>
+
           <li className="w-full block">
             <a
               href="https://www.instagram.com/theperthartifactory/"
-              className="block px-4 py-2 w-full hover:bg-primary-1 hover:text-highlight-1">
+              className="block px-4 py-2 w-full text-maintext hover:bg-primary-1 hover:text-secondary-1">
               Instagram
             </a>
           </li>
+
           <li className="w-full block">
             <a
               href="https://www.youtube.com/channel/UC9N4yG2QzYZV9Naud_IsUfA/"
-              className="block px-4 py-2 w-full hover:bg-primary-1 hover:text-highlight-1">
+              className="block px-4 py-2 w-full text-maintext hover:bg-primary-1 hover:text-secondary-1">
               Youtube
             </a>
           </li>
+          
           <li className="w-full block">
             <a
               href="https://www.meetup.com/Perth-Artifactory/"
-              className="block px-4 py-2 w-full hover:bg-primary-1 hover:text-highlight-1">
-              MeetUp
+              className="block px-4 py-2 w-full text-maintext hover:bg-primary-1 hover:text-secondary-1">
+              Meetup
             </a>
           </li>
+
         </ul>
       </div>
     </>

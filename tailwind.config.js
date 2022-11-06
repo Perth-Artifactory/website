@@ -1,37 +1,64 @@
 module.exports = {
   purge: ['./components/**/*.{js,ts,jsx,tsx}', './pages/**/*.{js,ts,jsx,tsx}'],
+  darkMode: 'class',
   theme: {
     extend: {
+      colors: {
+        // unkwown uses
+        //'accent-1': '#FAFAFA',
+        //'accent-2': '#EAEAEA',
+        //'accent-7': '#333',
+        //success: '#0070f3', // blue
+        //cyan: '#79FFE1', // green cyan
+
+        // dark greys
+        'primary-1': '#202020', // component background, dark grey
+        'primary-2': '#121212', // main background, darker grey
+        // reds
+        'secondary-1': '#bf1b00', // main red
+        'secondary-2': '#8c1400', // darker red
+        'secondary-3': '#ff2400', // brighter red
+        'alert': "#ff2400", // alert banner background
+        // whites
+        'highlight-1': '#eee', // #light grey
+        'header': '#eee', // #light grey
+        'maintext': '#ccc', // #grey
+        'nav': '#666', // nav border
+      },
       typography: {
         DEFAULT: {
           css: {
-            color: '#FFF',
+            color: '#ccc', // default text colour
+            // h1: controls text following '#' in _pages docs, e.g., # Code Of Conduct
             h1: {
-              color: '#ff2400', // #7bdfc3
+              color: '#eee', // #e32000
             },
+            // h2: controls text following '##' in _pages docs, e.g., ## Respectful Behaviour
             h2: {
-              color: '#e32000', // #5fb49b
+              color: '#eee', // #e32000
             },
+            // h3: controls text following '###' in _pages docs, e.g., ### Application Process
             h3: {
-              color: '#ff6950', // #90e0c9
+              color: '#eee',
             },
             h4: {
-              color: '#FFF',
+              color: '#eee',
             },
             h5: {
-              color: '#FFF',
+              color: '#eee',
             },
             h6: {
-              color: '#FFF',
+              color: '#eee',
             },
-            strong: {
+            /*strong: {
               color: '#ff2400',
-            },
+            },*/
             code: {
               color: '#ff2400',
             },
+            // em: controls text within ** in _pages docs, e.g., *Treat one another with respect*
             em: {
-              color: '#ff2400',
+              color: '#bf1b00',  // secondary-1
             },
             blockquote: {
               color: '#ff2400',
@@ -45,10 +72,11 @@ module.exports = {
               backgroundColor: '#141414', // #26203b
             },
             a: {
-              color: '#ff2400',
-              hover: {
-                color: '#e32000',
-              },
+              textDecoration: 'no-underline',
+              color: '#bf1b00', // bf1b00 secondary-1
+              //hover: {
+              //  color: '#00ff00', // ff2400 secondary-3
+              //},
             },
           },
         },
@@ -62,36 +90,7 @@ module.exports = {
         map: '500px',
         mapSmall: '250px',
       },
-      colors: {
-        'accent-1': '#FAFAFA',
-        'accent-2': '#EAEAEA',
-        'accent-7': '#333',
-        success: '#0070f3', // #0070f3
-        cyan: '#79FFE1', // #79FFE1
-        'primary-1': '#262626', // #322d44
-        'primary-2': '#141414', // #26203b
-        'secondary-1': '#bf1b00', // #7bdfc3
-        'secondary-2': '#e32000', // #5fb49b
-        'secondary-3': '#ff6950', // #90e0c9
-        'highlight-1': '#ff2400', // #eaa844
-        'highlight-2': '#ffffff', // #eaa844
-      },
-      // colors: {
-      //   success: '#0070f3',
-      //   cyan: '#79FFE1',
-      //   'accent-1': '#FAFAFA',
-      //   'accent-2': '#EAEAEA',
-      //   'accent-7': '#333',
-      //   //
-      //   'primary-1': '#321450',
-      //   'primary-2': '#29132E',
-      //   //
-      //   'secondary-1': '#DE004E',
-      //   'secondary-2': '#860029',
-      //   'secondary-3': '#f887FF',
-      //   //
-      //   'highlight-1': '#DE004E',
-      // },
+
       minWidth: {
         0: '0',
         '1/4': '25%',

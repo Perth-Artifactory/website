@@ -1,6 +1,7 @@
 import ButtonBlock1 from '../components/_/button-block-1';
-import Donations from '../components/_/sponsors';
-import EventsWidget from '../components/_/events-widget';
+import Sponsors from '../components/_/sponsors';
+import GoogleCalendar from '../components/_/calendar-google';
+import Events from '../components/_/events2';
 import Gallery from '../components/_/gallery';
 import Hero from '../components/_/hero';
 import Location from '../components/_/address';
@@ -13,28 +14,17 @@ import ToolsAndServices from '../components/_/tools-and-services';
 export default function HomepageLayout({}) {
   return (
     <>
-      {/* MAIN - HERO */}
       <Hero />
-      {/* MAIN - TEXT */}
       <TextBlock1 />
-      {/* MAIN - STATS */}
       <Stats />
-      {/* MAIN - EVENTS LIST */}
-      <EventsWidget />
-      {/* MAIN - BUTTONS */}
-      <ButtonBlock1 />
-      {/* MAIN - SERVICES */}
+      <GoogleCalendar />
       <ToolsAndServices />
-      {/* MAIN - GALLERY */}
-      <Gallery />
-      {/* MAIN - PRICES */}
       <Prices />
-      {/* MAIN - TEXT */}
+      <ButtonBlock1 />
       <TextBlock2 />
-      {/* MAIN - LOCAIONT */}
       <Location />
-      {/* MAIN - DONATIONS */}
-      <Donations />
+      <Gallery />
+      <Sponsors />
     </>
   );
 }
