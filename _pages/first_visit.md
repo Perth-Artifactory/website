@@ -1,8 +1,8 @@
 ---
-title: Your first visit
-date: 2022-11-09T07:27:40Z
-author: Fletcher Boyd
-heroUrl: https://via.placeholder.com/300x150
+title: 'Your first visit'
+date: '2022-11-09T06:44:02Z'
+author: 'Fletcher Boyd'
+heroUrl: ''
 ---
 
 ## When to come
