@@ -11,7 +11,13 @@ heroUrl: ''
 
 The best time to check out the space is at our monthly Open Day which is held on the first **Saturday** of every month. Drop in any time between **11am and 2pm** and we'll have volunteers on hand to talk you through our facilities, events, and community. If you're planning on coming down to an Open Day there's no need to let us know beforehand.
 
-The next best time is during our General Hacking days (11am to 5pm every Saturday), our **fortnightly** electronics night Arduino U (7:30pm-10:30pm on Wednesday), or our **fortnightly** metal fabrication night Metal Monday (7pm-10pm on Monday). If your first visit will be during one of these events and you have a focused area of interest not covered by the event in question please [get in contact](mailto:info@artifactory.org.au) beforehand so we can make sure there's a volunteer around that can answer your specific questions.
+The next best time is during one of these events:
+
+* General Hacking days, our **weekly** general build days (11am to 5pm every Saturday)
+* Arduino U, our **fortnightly** electronics night (7:30pm-10:30pm on Wednesday)
+* Metal Monday, our **fortnightly** metal fabrication night (7pm-10pm on Monday).
+
+If your first visit will be during one of these events and you have a focused area of interest not covered by the event in question please [get in contact](mailto:info@artifactory.org.au) beforehand so we can make sure there's a volunteer around that can answer your specific questions.
 
 You're also welcome at every other event on our calendar but due to the specialised nature of other events there may not be volunteers around that can answer questions about The Artifactory itself.
 
