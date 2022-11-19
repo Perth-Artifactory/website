@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { AiOutlineMail } from 'react-icons/ai';
-import { FaFacebook, FaTwitter, FaInstagram, FaYoutube, FaSlack, FaMeetup } from 'react-icons/fa';
+import { FaFacebook, FaTwitter, FaInstagram, FaYoutube, FaSlack, FaMeetup, FaGithub } from 'react-icons/fa';
 
 export default function Contact() {
   return (
@@ -17,13 +17,6 @@ export default function Contact() {
               <FaSlack />
             </a>
           </li>
-          {/* <li className="inline-block">
-            <a
-              className="block text-highlight-1 fill-current hover:text-secondary-1 text-xl sm:text-2xl md:text-3xl"
-              href="https://groups.google.com/group/artifactory-core">
-              <AiOutlineMail />
-            </a>
-          </li> */}
           <li className="inline-block">
             <a
               className="block text-highlight-1 fill-current hover:text-secondary-1 text-xl sm:text-2xl md:text-3xl"
@@ -57,6 +50,13 @@ export default function Contact() {
               className="block text-highlight-1 fill-current hover:text-secondary-1 text-xl sm:text-2xl md:text-3xl"
               href="https://www.meetup.com/Perth-Artifactory/">
               <FaMeetup />
+            </a>
+          </li>
+          <li className="inline-block">
+            <a
+              className="block text-highlight-1 fill-current hover:text-secondary-1 text-xl sm:text-2xl md:text-3xl"
+              href="https://github.com/Perth-Artifactory">
+              <FaGithub />
             </a>
           </li>
         </ul>
