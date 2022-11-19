@@ -50,13 +50,14 @@ module.exports = {
             h6: {
               color: '#eee',
             },
-            /*strong: {
-              color: '#ff2400',
-            },*/
+            // strong: controls text within "**" in _pages docs, e.g., **11am and 2pm**
+            strong: {
+              color: '#eee',
+            },
             code: {
               color: '#ff2400',
             },
-            // em: controls text within ** in _pages docs, e.g., *Treat one another with respect*
+            // em: controls text within "*" in _pages docs, e.g., *Treat one another with respect*
             em: {
               color: '#bf1b00',  // secondary-1
             },
