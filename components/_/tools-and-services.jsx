@@ -11,7 +11,7 @@ export default function ToolsAndServices() {
           <li className="block border-2 border-secondary-2 max-w-sm p-4 mb-4 sm:flex-1/3 mx-2">
             <span className="block w-100 mb-4 text-center text-highlight-1">Laser Cutting</span>
             <p className="block w-100 text-center text-sm">
-              We have multiple industrial laser cutters and an easy to access training program that can get anyone cutting in a flash.
+              Cut or engrave 
             </p>
           </li>
 

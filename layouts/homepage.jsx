@@ -10,19 +10,19 @@ import Stats from '../components/_/stats';
 import TextBlock1 from '../components/_/text-block-1';
 import TextBlock2 from '../components/_/text-block-2';
 import ToolsAndServices from '../components/_/tools-and-services';
+import ToolsAndServices2 from '../components/_/tools-and-services';
 
 export default function HomepageLayout({}) {
   return (
     <>
-      <Hero />
-      <TextBlock1 />
-      <Stats />
-      <GoogleCalendar />
-      <ToolsAndServices />
+      <ToolsAndServices2 />
       <Prices />
       <ButtonBlock1 />
-      <TextBlock2 />
       <Location />
+      <Stats />
+      <TextBlock1 />
+      <GoogleCalendar />
+      <TextBlock2 />
       <Gallery />
       <Sponsors />
     </>
