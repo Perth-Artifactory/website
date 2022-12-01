@@ -10,7 +10,7 @@ import Stats from '../components/_/stats';
 import TextBlock1 from '../components/_/text-block-1';
 import TextBlock2 from '../components/_/text-block-2';
 import ToolsAndServices from '../components/_/tools-and-services';
-import ToolsAndServices2 from '../components/_/tools-and-services';
+import ToolsAndServices2 from '../components/_/tools-and-services-2';
 
 export default function HomepageLayout({}) {
   return (

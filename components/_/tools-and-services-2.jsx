@@ -9,7 +9,7 @@ export default function ToolsandServices2() {
 
           {/* Lasers */}
           <li className="block border-2 border-secondary-2 p-6 mb-4 sm:mx-2 sm:flex-1/3">
-            <a href="https://www.facebook.com/groups/noizemaschin/">
+            <a href="#">
               {/* Image */}
               <img className="block w-100 mb-4 mx-auto" src="/assets/site/tools/laser.png" alt="#" />
               {/* Title */}
@@ -23,9 +23,9 @@ export default function ToolsandServices2() {
 
           {/* 3D Printing */}
           <li className="block border-2 border-secondary-2 p-6 mb-4 sm:mx-2 sm:flex-1/3">
-            <a href="https://www.facebook.com/WAMod-West-Australian-Modular-Synthesizers-416747535171732">
+            <a href="#">
               {/* Donation Logo */}
-              <img className="block w-100 mb-4 mx-auto" src="/assets/site/tools/3dprinting.png" alt="#" />
+              <img className="block w-100 mb-4 mx-auto" src="/assets/site/tools/3d.png" alt="#" />
               {/* Donation Title */}
               <span className="block w-100 mb-4 text-center text-highlight-1">3D Printing</span>
               {/* Donation Description */}
