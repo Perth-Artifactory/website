@@ -11,7 +11,7 @@ export default function TextBlock2() {
           <br />
           <br />
           You can also join our{' '}
-          <a href="https://space.artifactory.org.au/slack">Slack team</a> and connect with members and like minded makers.
+          <a href="https://perart.io/slack">Slack team</a> and connect with members and like minded makers.
         </p>
       </div>
     </>
