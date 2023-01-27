@@ -66,7 +66,7 @@ export default function Navigation() {
 
           <li className="w-full block">
             <a
-              href="https://space.artifactory.org.au/slack/"
+              href="https://perart.io/slack"
               className="block px-4 py-2 w-full text-maintext hover:bg-primary-1 hover:text-secondary-1">
               Slack
             </a>
