@@ -13,7 +13,7 @@ export default function Contact() {
           <li className="inline-block">
             <a
               className="block text-highlight-1 fill-current hover:text-secondary-1 text-xl sm:text-2xl md:text-3xl"
-              href="https://space.artifactory.org.au/slack">
+              href="https://perart.io/slack">
               <FaSlack />
             </a>
           </li>
