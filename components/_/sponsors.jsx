@@ -3,7 +3,7 @@ export default function Donations() {
     <>
 
       <div className="block bg-primary-1 p-6 pb-0 text-header mb-2 sm:mb-20">
-        <h2 className="text-center text-2xl mb-4 mt-6 mb-10 sm:text-3xl sm:mb-10 sm:mt-4">Sponsors and Friends</h2>
+        <h2 id="sponsors" className="text-center text-2xl mb-4 mt-6 mb-10 sm:text-3xl sm:mb-10 sm:mt-4">Sponsors and Friends</h2>
 
         <ul className="flex flex-col sm:flex-row sm:flex-wrap sm:justify-center">
 
