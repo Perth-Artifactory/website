@@ -8,7 +8,7 @@ export default function Prices() {
   return (
     <>
       {/* Container */}
-      <div className="block p-2 bg-secondary-1 mb-5 sm:mb-10 mx-auto max-w-sm sm:max-w-none ">
+      <div id="prices" className="block p-2 bg-secondary-1 mb-5 sm:mb-10 mx-auto max-w-sm sm:max-w-none ">
         <ul className="sm:flex sm:space-between justify-center">
 
         {/* Day Pass */}

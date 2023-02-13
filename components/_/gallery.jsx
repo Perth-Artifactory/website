@@ -6,7 +6,7 @@ export default function Gallery() {
       public/assets/site/gallery/20190616_121402.jpg public/assets/site/gallery/20190616_162012.jpg
       public/assets/site/gallery/20190630_212304.jpg */}
       {/* Container */}
-      <div className="flex flex-col align-center mb-5 sm:mb-10 bg-primary-1 p-6">
+      <div id="images" className="flex flex-col align-center mb-5 sm:mb-10 bg-primary-1 p-6">
         {/* Image Container */}
         <div className="block w-100 mb-2 sm:mb-10">
           <img
