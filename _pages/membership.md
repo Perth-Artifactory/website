@@ -1,6 +1,6 @@
 ---
 title: 'Membership'
-date: '2021-12-16T0515:33:00.000Z'
+date: '2023-05-12T0515:33:00.000Z'
 author: Fletcher Boyd
 heroUrl: '/assets/site/gallery/20200129_135304.jpg'
 ---
@@ -41,4 +41,4 @@ Our full/concession membership can be purchased as a gift [here](https://artifac
 
 Any person who is at least 18 years of age and supports the objects of the Association is eligible to apply to become a member. For further information see our [Constitution](https://wiki.artifactory.org.au/en/constitution).
 
-Members’ minors are welcome to use the Artifactory but must remain under parental/guardian supervision. The exact wording on this policy can be found [here](https://wiki.artifactory.org.au/en/docs/policies/bylaws).
+Members’ minors are welcome to use the Artifactory but must remain under parental/guardian supervision. The exact wording on this policy can be found [here](https://wiki.artifactory.org.au/en/docs/policies/bylaws#minors-in-the-space).
