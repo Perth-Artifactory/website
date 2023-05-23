@@ -13,6 +13,8 @@ In the interest of supporting the local community we also have several [free mem
 
 Joining the Artifactory as a member (as opposed to using the space with a Day Pass) requires an application to join. We encourage everyone to tour the space in person at one of our Open Days first before applying to join as a member. Once you have submitted your application and paid the corresponding membership fee you're able to use the space as a member until your application is processed. The only exception is you will need to be approved before you can get a 24/7 key. In the event your application is unsuccessful (rare) we will refund your membership fee.
 
+Note: This means that until you've been approved for a key (typically takes at least two event attendances unless you're a regular day pass user) you will still only be able to access the workshop during events.
+
 ## Full/Concession membership
 
 Full: [$75/mo](https://artifactory.tidyhq.com/public/membership_levels/57b90dbb32)  
