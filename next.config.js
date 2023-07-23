@@ -12,7 +12,6 @@ module.exports = (phase, { defaultConfig }) => {
           fs: 'empty',
         };
       }
-
       return config;
     },
   };
