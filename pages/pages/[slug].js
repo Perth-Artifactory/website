@@ -30,7 +30,7 @@ export default function Post({ post, morePosts, preview }) {
           {/* Content */}
           <div className="prose prose-white max-w-none" dangerouslySetInnerHTML={{ __html: post.content }}></div>
 
-          <div>Written by: {post.author}</div>
+          <div>Meta description bs: {post.description}</div>
 
         </div>
 
