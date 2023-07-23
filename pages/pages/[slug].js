@@ -3,12 +3,7 @@ import { useRouter } from 'next/router';
 import BaseLayout from '../../layouts/base';
 import ErrorPage from 'next/error';
 import markdownToHtml from '../../lib/markdownToHtml';
-import { Metadata } from 'next'
-
-export const metadata = {
-  title: 'asdf',
-  description: 'fdsa',
-}
+import { Helmet } from 'react-helmet';
 
 export default function Post({ post, morePosts, preview }) {
   const router = useRouter();
@@ -38,6 +33,10 @@ export default function Post({ post, morePosts, preview }) {
 
           <div>Meta description bs: {post.description}</div>
           <script>document.head.innerHTML += "<meta name="description" content="{post.description}"></meta>";</script>
+          <Helmet>
+            <title>abcd fml</title>
+            <meta name="description" content="{post.description}" />
+          </Helmet>
         </div>
 
         {/* Button1 */}

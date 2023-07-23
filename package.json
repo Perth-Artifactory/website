@@ -19,6 +19,7 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-icons": "^4.2.0",
+    "react-helmet": "6.1.0",
     "remark": "^13.0.0",
     "remark-html": "^13.0.1",
     "simple-icons": "^4.9.0"
@@ -26,7 +27,8 @@
   "devDependencies": {
     "postcss-preset-env": "^6.7.0",
     "tailwindcss": "^2.0.2",
-    "globby": "^11.0.1"
+    "globby": "^11.0.1",
+    "react-helmet": "6.1.0"
   },
   "license": "MIT"
 }
