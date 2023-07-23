@@ -34,7 +34,7 @@ export default function Post({ post, morePosts, preview }) {
           <div>Meta description bs: {post.description}</div>
           <script>document.head.innerHTML += "<meta name="description" content={post.description}></meta>";</script>
           <Helmet>
-            <title>abcd fml</title>
+            <title>Artifactory | {post.title}</title>
             <meta name="description" content={post.description} />
           </Helmet>
         </div>
