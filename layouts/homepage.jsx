@@ -28,9 +28,15 @@ export default function HomepageLayout({}) {
       <Sponsors />
       <Helmet>
         <title>Perth Artifactory</title>
+        <meta property="og:title" content="Perth Artifactory" />
         <meta name="description" content="Perth's premier Makerspace" />
-        </Helmet>
+        <meta property="og:description" content="Perth's premier Makerspace" />
+        <meta property="og:image" content="https://artifactory.org.au/assets/site/header-light.png" />
+      </Helmet>
     </>
 
   );
 }
+
+
+

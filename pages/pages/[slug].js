@@ -24,7 +24,12 @@ export default function Post({ post, morePosts, preview }) {
         {/* Container */}
         <div className="block bg-primary-1 text-white p-8 sm:mb-2">
           {post.heroUrl && post.heroUrl.length > 0 ? (
+            <>
             <img className="w-full max-w-3xl mx-auto mb-20" src={post.heroUrl} alt={post.title + ' hero'} />
+            <Helmet>
+              <meta property="og:image" content={post.heroUrl} />
+            </Helmet>
+            </>
           ) : (
             ''
           )}
@@ -35,7 +40,9 @@ export default function Post({ post, morePosts, preview }) {
           <script>document.head.innerHTML += "<meta name="description" content={post.description}></meta>";</script>
           <Helmet>
             <title>Artifactory | {post.title}</title>
+            <meta property="og:title" content={"Artifactory | " + post.title} />
             <meta name="description" content={post.description} />
+            <meta property="og:description" content={post.description} />
           </Helmet>
         </div>
 
