@@ -1,4 +1,7 @@
+import { Helmet } from 'react-helmet';
+
 export default function Meta() {
+  const helmet = Helmet.renderStatic();
   return (
     <>
       {/* @TODO: Update this in the near-future. */}
@@ -12,7 +15,7 @@ export default function Meta() {
       <meta name="msapplication-config" content="/favicon/browserconfig.xml" />
       <meta name="theme-color" content="#000" />
       <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
-      <meta name="description" content={`Perth's very own Hackerspace/Makerspace.`} />
+      ${helmet.meta.toString()}
     </>
   );
 }
