@@ -25,6 +25,7 @@ export default function BaseLayout({ children }) {
         `,
           }}
         />
+          <meta name="description" content="{post.description}"></meta>
       </Head>
 
 
