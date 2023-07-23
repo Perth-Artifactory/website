@@ -31,7 +31,9 @@ export default function Post({ post, morePosts, preview }) {
             </Helmet>
             </>
           ) : (
-            ''
+            <Helmet>
+              <meta property="og:image" content="https://artifactory.org.au/assets/site/gallery/opengraph-social-v1.png" />
+            </Helmet>
           )}
           {/* Content */}
           <div className="prose prose-white max-w-none" dangerouslySetInnerHTML={{ __html: post.content }}></div>
