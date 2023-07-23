@@ -16,11 +16,11 @@ export default function Footer() {
             <li><Link href="/pages/first_visit"><a className="text-maintext">Plan your first visit</a></Link></li>
             <li><Link href="/#calendar"><a className="text-maintext">Upcoming events</a></Link></li>
             <li><Link href="/pages/membership"><a className="text-maintext">Membership</a></Link></li>
-            <li><Link href="/pages/freeMembership"><a className="text-maintext">Sponsored Memberships</a></Link></li>
-            <li><Link href="https://wiki.artifactory.org.au/"><a className="text-maintext">Wiki</a></Link></li>
+            <li><Link href="/pages/freeMembership"><a className="text-maintext">Sponsored memberships</a></Link></li>
+            <li><Link href="https://wiki.artifactory.org.au/"><a className="text-maintext">Workshop documentation</a></Link></li>
             <li><Link href="https://space.artifactory.org.au/"><a className="text-maintext">Webcam feed</a></Link></li>
             <li><Link href="/pages/code_of_conduct"><a className="text-maintext">Code of Conduct</a></Link></li>
-            <li><Link href="https://perart.io/vote"><a className="text-maintext">Discussion and Voting</a></Link></li>
+            <li><Link href="https://perart.io/vote"><a className="text-maintext">Discussion and voting</a></Link></li>
           </ul>
         </div>
 
