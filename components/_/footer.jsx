@@ -13,7 +13,6 @@ export default function Footer() {
           </span>
           <ul>
             <li><Link href="/"><a className="text-maintext">Home</a></Link></li>
-            <li><Link href="https://shop.artifactory.org.au/"><a className="text-maintext">Store</a></Link></li>
             <li><Link href="/pages/first_visit"><a className="text-maintext">First Visit</a></Link></li>
             <li><Link href="/#calendar"><a className="text-maintext">Events</a></Link></li>
             <li><Link href="/pages/freeMembership"><a className="text-maintext">Free Membership</a></Link></li>

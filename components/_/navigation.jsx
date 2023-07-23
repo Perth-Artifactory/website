@@ -30,14 +30,6 @@ export default function Navigation() {
             </Link>
           </li>
 
-          <li className="w-full block">
-            <a
-              href="https://shop.artifactory.org.au/"
-              className="block px-4 py-2 w-full text-maintext hover:bg-primary-1 hover:text-secondary-1">
-              Store
-            </a>
-          </li>
-
           <hr />
           {process.env.menu.map((item) => (
             <li className="w-full block" key={item.link}>
