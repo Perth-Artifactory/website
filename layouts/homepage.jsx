@@ -10,6 +10,7 @@ import Stats from '../components/_/stats';
 import TextBlock1 from '../components/_/text-block-1';
 import TextBlock2 from '../components/_/text-block-2';
 import ToolsAndServices from '../components/_/tools-and-services';
+import { Helmet } from 'react-helmet';
 
 export default function HomepageLayout({}) {
   return (
@@ -25,6 +26,13 @@ export default function HomepageLayout({}) {
       <Location />
       <Gallery />
       <Sponsors />
+      <Helmet>
+        <title>Perth Artifactory</title>
+        <meta property="og:title" content="Perth Artifactory" />
+        <meta name="description" content="Perth's premier Makerspace" />
+        <meta property="og:description" content="Perth's premier Makerspace" />
+        <meta property="og:image" content="https://artifactory.org.au/assets/site/gallery/opengraph-social-v1.png" />
+      </Helmet>
     </>
   );
 }
