@@ -28,6 +28,7 @@ export default function HomepageLayout({}) {
       <Gallery />
       <Sponsors />
       <front_meta />
+      <div>elephant test</div>
     </>
 
   );
