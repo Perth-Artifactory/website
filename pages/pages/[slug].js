@@ -27,7 +27,7 @@ export default function Post({ post, morePosts, preview }) {
             <>
             <img className="w-full max-w-3xl mx-auto mb-20" src={post.heroUrl} alt={post.title + ' hero'} />
             <Helmet>
-              <meta property="og:image" content={post.heroUrl} />
+              <meta property="og:image" content={"https://artifactory.org.au/"+post.heroUrl} />
             </Helmet>
             </>
           ) : (
