@@ -16,6 +16,7 @@ export default function Meta() {
       <meta name="theme-color" content="#000" />
       <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
       {helmet.meta.toComponent()}
+      {helmet.title.toComponent()}
     </>
   );
 }
