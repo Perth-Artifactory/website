@@ -13,6 +13,10 @@ module.exports = (phase, { defaultConfig }) => {
         };
       }
 
+      if (isServer) {
+        require('./scripts/generate-sitemap')
+      }
+
       return config;
     },
   };
