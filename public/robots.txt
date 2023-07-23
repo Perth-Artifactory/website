@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: 
+Sitemap: https://artifactory.org.au/sitemap.xml
