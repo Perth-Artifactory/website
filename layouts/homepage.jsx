@@ -31,7 +31,7 @@ export default function HomepageLayout({}) {
         <meta property="og:title" content="Perth Artifactory" />
         <meta name="description" content="Perth's premier Makerspace" />
         <meta property="og:description" content="Perth's premier Makerspace" />
-        <meta property="og:image" content="https://artifactory.org.au/assets/site/header-light.png" />
+        <meta property="og:image" content="https://artifactory.org.au/assets/site/gallery/opengraph-social-v1.png" />
       </Helmet>
     </>
 
