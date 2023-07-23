@@ -36,8 +36,6 @@ export default function Post({ post, morePosts, preview }) {
           {/* Content */}
           <div className="prose prose-white max-w-none" dangerouslySetInnerHTML={{ __html: post.content }}></div>
 
-          <div>Meta description bs: {post.description}</div>
-          <script>document.head.innerHTML += "<meta name="description" content={post.description}></meta>";</script>
           <Helmet>
             <title>Artifactory | {post.title}</title>
             <meta property="og:title" content={"Artifactory | " + post.title} />
