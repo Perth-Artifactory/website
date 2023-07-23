@@ -3,6 +3,7 @@ title: 'Code of Conduct'
 date: '2021-11-04T15:53:29Z'
 author: 'Artifactory Management Committee'
 heroUrl: ''
+description: 'Our code of conduct gives guidance on what is expected at Artifactory premises, events, and on our online platforms.'
 ---
 
 # Code Of Conduct

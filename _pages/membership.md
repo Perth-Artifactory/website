@@ -3,6 +3,7 @@ title: 'Membership'
 date: '2023-05-12T0515:33:00.000Z'
 author: Fletcher Boyd
 heroUrl: '/assets/site/gallery/20200129_135304.jpg'
+description: 'Access unique tools, shared workspace, and join our creativity-driven community. Start making today!'
 ---
 
 # Membership

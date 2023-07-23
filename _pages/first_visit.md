@@ -1,12 +1,12 @@
 ---
-title: 'Your first visit'
+title: 'First Visit'
 date: '2022-11-09T06:44:02Z'
 author: 'Fletcher Boyd'
 heroUrl: ''
-description: 'This is a test'
+description: 'All the information you need to plan your first visit to our workshop'
 ---
 
-# Your first visit
+# Plan your first visit
 
 ## When to come
 
