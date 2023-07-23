@@ -14,9 +14,8 @@ module.exports = (phase, { defaultConfig }) => {
       }
 
       if (isServer) {
-        require('./scripts/generate-sitemap.js')
+        require('./lib/generate-sitemap.js')
       }
-
       return config;
     },
   };
