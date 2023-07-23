@@ -44,7 +44,7 @@ export default function Navigation() {
             <a
               href="https://wiki.artifactory.org.au/"
               className="block px-4 py-2 w-full text-maintext hover:bg-primary-1 hover:text-secondary-1">
-              Wiki
+              In depth information
             </a>
           </li>
 
@@ -52,7 +52,7 @@ export default function Navigation() {
             <a
               href="https://space.artifactory.org.au/"
               className="block px-4 py-2 w-full text-maintext hover:bg-primary-1 hover:text-secondary-1">
-              Webcams
+              Live webcam feed of the workshop
             </a>
           </li>
 
@@ -60,7 +60,15 @@ export default function Navigation() {
             <a
               href="https://perart.io/slack"
               className="block px-4 py-2 w-full text-maintext hover:bg-primary-1 hover:text-secondary-1">
-              Slack
+              Engage with our community on Slack
+            </a>
+          </li>
+
+          <li className="w-full block">
+            <a
+              href="https://perart.io/vote"
+              className="block px-4 py-2 w-full text-maintext hover:bg-primary-1 hover:text-secondary-1">
+              Have your say on our discussion and voting platform
             </a>
           </li>
 

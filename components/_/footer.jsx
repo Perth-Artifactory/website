@@ -20,6 +20,7 @@ export default function Footer() {
             <li><Link href="https://wiki.artifactory.org.au/"><a className="text-maintext">Wiki</a></Link></li>
             <li><Link href="https://space.artifactory.org.au/"><a className="text-maintext">Webcam feed</a></Link></li>
             <li><Link href="/pages/code_of_conduct"><a className="text-maintext">Code of Conduct</a></Link></li>
+            <li><Link href="https://perart.io/vote"><a className="text-maintext">Discussion and Voting</a></Link></li>
           </ul>
         </div>
 
