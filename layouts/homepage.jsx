@@ -10,7 +10,6 @@ import Stats from '../components/_/stats';
 import TextBlock1 from '../components/_/text-block-1';
 import TextBlock2 from '../components/_/text-block-2';
 import ToolsAndServices from '../components/_/tools-and-services';
-import front_meta from '../components/_/front_meta';
 import { Helmet } from 'react-helmet';
 
 export default function HomepageLayout({}) {
@@ -27,8 +26,10 @@ export default function HomepageLayout({}) {
       <Location />
       <Gallery />
       <Sponsors />
-      <front_meta />
-      <div>elephant test</div>
+      <Helmet>
+        <title>Perth Artifactory</title>
+        <meta name="description" content="Perth's premier Makerspace" />
+        </Helmet>
     </>
 
   );
