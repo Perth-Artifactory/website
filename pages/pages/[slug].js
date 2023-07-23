@@ -3,6 +3,12 @@ import { useRouter } from 'next/router';
 import BaseLayout from '../../layouts/base';
 import ErrorPage from 'next/error';
 import markdownToHtml from '../../lib/markdownToHtml';
+import { Metadata } from 'next'
+
+export const metadata = {
+  title: 'asdf',
+  description: 'fdsa',
+}
 
 export default function Post({ post, morePosts, preview }) {
   const router = useRouter();
