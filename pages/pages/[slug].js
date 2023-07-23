@@ -29,6 +29,18 @@ export default function Post({ post, morePosts, preview }) {
           )}
           {/* Content */}
           <div className="prose prose-white max-w-none" dangerouslySetInnerHTML={{ __html: post.content }}></div>
+          {post.description ? (
+            <div>dangerouslySetInnerHTML={{ __html: post.description }}</div>
+          ) : (
+            ''
+          )}
+
+          {post.author ? (
+            <div>dangerouslySetInnerHTML={{ __html: post.author }}</div>
+          ) : (
+            ''
+          )}
+          
         </div>
 
         {/* Button1 */}
@@ -39,7 +51,7 @@ export default function Post({ post, morePosts, preview }) {
 }
 
 export async function getStaticProps({ params }) {
-  const post = getPostBySlug(params.slug, ['title', 'date', 'slug', 'author', 'content', 'heroUrl']);
+  const post = getPostBySlug(params.slug, ['title', 'date', 'slug', 'author', 'content', 'heroUrl', 'description']);
   const content = await markdownToHtml(post.content || '');
   return {
     props: {
