@@ -14,6 +14,7 @@ export default function BaseLayout({ children }) {
         <title>Artifactory</title>
         <Meta />
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-G5L8KSNKCF" />
+        <script defer data-domain="artifactory.org.au" src="https://a.artifactory.org.au/js/script.js"></script>
         <script
           dangerouslySetInnerHTML={{
             __html: `
