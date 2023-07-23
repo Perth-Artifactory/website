@@ -34,9 +34,5 @@ export default function HomepageLayout({}) {
         <meta property="og:image" content="https://artifactory.org.au/assets/site/gallery/opengraph-social-v1.png" />
       </Helmet>
     </>
-
   );
 }
-
-
-
