@@ -31,7 +31,7 @@ export default function Post({ post, morePosts, preview }) {
           <div className="prose prose-white max-w-none" dangerouslySetInnerHTML={{ __html: post.content }}></div>
 
           <div>Meta description bs: {post.description}</div>
-
+          <script>document.head.innerHTML += "<meta name="description" content="{post.description}"></meta>";</script>
         </div>
 
         {/* Button1 */}
