@@ -32,7 +32,7 @@ export default function Post({ post, morePosts, preview }) {
           <div className="prose prose-white max-w-none" dangerouslySetInnerHTML={{ __html: post.content }}></div>
 
           <div>Meta description bs: {post.description}</div>
-          <script>document.head.innerHTML += "<meta name="description" content="{post.description}"></meta>";</script>
+          <script>document.head.innerHTML += "<meta name="description" content={post.description}></meta>";</script>
           <Helmet>
             <title>abcd fml</title>
             <meta name="description" content="{post.description}" />
