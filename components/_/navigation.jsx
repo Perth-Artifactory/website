@@ -43,7 +43,7 @@ export default function Navigation() {
           <li className="w-full block">
             <a
               href="https://wiki.artifactory.org.au/"
-              className="block px-4 py-2 w-full text-maintext hover:bg-primary-1 hover:text-secondary-1">
+              className="block px-4 py-2 w-full text-maintext hover:bg-primary-1 hover:text-secondary-1 plausible-event-name=Wiki+Menu">
               In depth information
             </a>
           </li>
@@ -51,7 +51,7 @@ export default function Navigation() {
           <li className="w-full block">
             <a
               href="https://space.artifactory.org.au/"
-              className="block px-4 py-2 w-full text-maintext hover:bg-primary-1 hover:text-secondary-1">
+              className="block px-4 py-2 w-full text-maintext hover:bg-primary-1 hover:text-secondary-1 plausible-event-name=Webcam+Menu">
               Live webcam feed of the workshop
             </a>
           </li>
@@ -59,7 +59,7 @@ export default function Navigation() {
           <li className="w-full block">
             <a
               href="https://perart.io/slack"
-              className="block px-4 py-2 w-full text-maintext hover:bg-primary-1 hover:text-secondary-1">
+              className="block px-4 py-2 w-full text-maintext hover:bg-primary-1 hover:text-secondary-1 plausible-event-name=Slack+Menu">
               Engage with our community on Slack
             </a>
           </li>
@@ -67,7 +67,7 @@ export default function Navigation() {
           <li className="w-full block">
             <a
               href="https://perart.io/vote"
-              className="block px-4 py-2 w-full text-maintext hover:bg-primary-1 hover:text-secondary-1">
+              className="block px-4 py-2 w-full text-maintext hover:bg-primary-1 hover:text-secondary-1 plausible-event-name=Loomio+Menu">
               Have your say on our discussion and voting platform
             </a>
           </li>
@@ -75,7 +75,7 @@ export default function Navigation() {
           <li className="w-full block">
             <a
               href="https://m.facebook.com/perthartifactory/"
-              className="block px-4 py-2 w-full text-maintext hover:bg-primary-1 hover:text-secondary-1">
+              className="block px-4 py-2 w-full text-maintext hover:bg-primary-1 hover:text-secondary-1 plausible-event-name=Facebook+Menu">
               Facebook
             </a>
           </li>
@@ -83,7 +83,7 @@ export default function Navigation() {
           <li className="w-full block">
             <a
               href="https://www.instagram.com/theperthartifactory/"
-              className="block px-4 py-2 w-full text-maintext hover:bg-primary-1 hover:text-secondary-1">
+              className="block px-4 py-2 w-full text-maintext hover:bg-primary-1 hover:text-secondary-1 plausible-event-name=Instagram+Menu">
               Instagram
             </a>
           </li>
@@ -91,7 +91,7 @@ export default function Navigation() {
           <li className="w-full block">
             <a
               href="https://www.youtube.com/channel/UC9N4yG2QzYZV9Naud_IsUfA/"
-              className="block px-4 py-2 w-full text-maintext hover:bg-primary-1 hover:text-secondary-1">
+              className="block px-4 py-2 w-full text-maintext hover:bg-primary-1 hover:text-secondary-1 plausible-event-name=Youtube+Menu">
               Youtube
             </a>
           </li>
@@ -99,7 +99,7 @@ export default function Navigation() {
           <li className="w-full block">
             <a
               href="https://www.meetup.com/Perth-Artifactory/"
-              className="block px-4 py-2 w-full text-maintext hover:bg-primary-1 hover:text-secondary-1">
+              className="block px-4 py-2 w-full text-maintext hover:bg-primary-1 hover:text-secondary-1 plausible-event-name=Meetup+Menu">
               Meetup
             </a>
           </li>
