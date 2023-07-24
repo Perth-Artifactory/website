@@ -44,7 +44,7 @@ export default function Navigation() {
             <a
               href="https://wiki.artifactory.org.au/"
               className="block px-4 py-2 w-full text-maintext hover:bg-primary-1 hover:text-secondary-1">
-              In depth information
+              In depth information about our workshop
             </a>
           </li>
 
