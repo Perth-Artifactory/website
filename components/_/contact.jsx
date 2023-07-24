@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { AiOutlineMail } from 'react-icons/ai';
-import { FaFacebook, FaTwitter, FaInstagram, FaYoutube, FaSlack, FaMeetup, FaGithub } from 'react-icons/fa';
+import { FaFacebook, FaInstagram, FaYoutube, FaSlack, FaMeetup, FaGithub } from 'react-icons/fa';
 
 export default function Contact() {
   return (
@@ -22,13 +22,6 @@ export default function Contact() {
               className="block text-highlight-1 fill-current hover:text-secondary-1 text-xl sm:text-2xl md:text-3xl"
               href="https://www.facebook.com/pages/The-Perth-Artifactory/178514525501368">
               <FaFacebook />
-            </a>
-          </li>
-          <li className="inline-block">
-            <a
-              className="block text-highlight-1 fill-current hover:text-secondary-1 text-xl sm:text-2xl md:text-3xl"
-              href="https://twitter.com/perthartifact">
-              <FaTwitter />
             </a>
           </li>
           <li className="inline-block">
