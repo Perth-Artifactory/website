@@ -22,7 +22,6 @@ export default function HomepageLayout({}) {
       <ToolsAndServices />
       <Prices />
       <ButtonBlock1 />
-      <TextBlock2 />
       <Location />
       <Gallery />
       <Sponsors />
