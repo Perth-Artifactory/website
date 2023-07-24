@@ -39,7 +39,7 @@ export default function Prices() {
 
           {/* Concession */}
           <li className="block bg-primary-1 p-6 text-maintext mb-3 sm:mb-0 mx-auto max-w-sm sm:flex-1/4 border-2 border-secondary-1 hover:border-4 hover:border-highlight-1">
-            <a href="https://artifactory.tidyhq.com/public/membership_levels/53401b970f" className="plausible-event-name=Concession+MembershipButton">
+            <a href="https://artifactory.tidyhq.com/public/membership_levels/53401b970f" className="plausible-event-name=Membership plausible-event-position=Comparison+Table plausible-event-membertype=Concession">
               <div>
                 <div className="text-4xl sm:text-xl text-highlight-1">
                   <ul className="block w-auto text-center my-4">
@@ -67,7 +67,7 @@ export default function Prices() {
 
           {/* Full */}
           <li className="block bg-primary-1 p-6 text-maintext mb-3 sm:mb-0 mx-auto max-w-sm sm:flex-1/4 border-2 border-secondary-1 hover:border-4 hover:border-highlight-1">
-            <a href="https://artifactory.tidyhq.com/public/membership_levels/57b90dbb32" className="plausible-event-name=Full+MembershipButton">
+            <a href="https://artifactory.tidyhq.com/public/membership_levels/57b90dbb32" className="plausible-event-name=Membership plausible-event-position=Comparison+Table plausible-event-membertype=Full">
               <div>
                 <div className="text-4xl sm:text-xl text-highlight-1">
                   <ul className="block w-auto text-center my-4">
@@ -95,7 +95,7 @@ export default function Prices() {
 
           {/* Band */}
           <li className="block bg-primary-1 p-6 text-maintext mb-1 sm:mb-0  mx-auto max-w-sm sm:flex-1/4 border-2 border-secondary-1 hover:border-4 hover:border-highlight-1">
-            <a href="https://artifactory.tidyhq.com/public/membership_levels/NYW9Rg" className="plausible-event-name=Band+MembershipButton">
+            <a href="https://artifactory.tidyhq.com/public/membership_levels/NYW9Rg" className="plausible-event-name=Membership plausible-event-position=Comparison+Table plausible-event-membertype=Band">
               <div>
                 <div className="text-4xl sm:text-xl text-highlight-1">
                   <ul className="block w-auto text-center my-4">
