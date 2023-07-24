@@ -12,14 +12,14 @@ export default function Contact() {
           {/* Contact Item List Item */}
           <li className="inline-block">
             <a
-              className="block text-highlight-1 fill-current hover:text-secondary-1 text-xl sm:text-2xl md:text-3xl"
+              className="block text-highlight-1 fill-current hover:text-secondary-1 text-xl sm:text-2xl md:text-3xl plausible-event-name=Slack+TButton"
               href="https://perart.io/slack">
               <FaSlack />
             </a>
           </li>
           <li className="inline-block">
             <a
-              className="block text-highlight-1 fill-current hover:text-secondary-1 text-xl sm:text-2xl md:text-3xl"
+              className="block text-highlight-1 fill-current hover:text-secondary-1 text-xl sm:text-2xl md:text-3xl plausible-event-name=Facebook+TButton"
               href="https://www.facebook.com/pages/The-Perth-Artifactory/178514525501368">
               <FaFacebook />
             </a>
@@ -33,21 +33,21 @@ export default function Contact() {
           </li>
           <li className="inline-block">
             <a
-              className="block text-highlight-1 fill-current hover:text-secondary-1 text-xl sm:text-2xl md:text-3xl"
+              className="block text-highlight-1 fill-current hover:text-secondary-1 text-xl sm:text-2xl md:text-3xl plausible-event-name=Youtube+TButton"
               href="https://www.youtube.com/channel/UC9N4yG2QzYZV9Naud_IsUfA">
               <FaYoutube />
             </a>
           </li>
           <li className="inline-block">
             <a
-              className="block text-highlight-1 fill-current hover:text-secondary-1 text-xl sm:text-2xl md:text-3xl"
+              className="block text-highlight-1 fill-current hover:text-secondary-1 text-xl sm:text-2xl md:text-3xl plausible-event-name=Meetup+TButton"
               href="https://www.meetup.com/Perth-Artifactory/">
               <FaMeetup />
             </a>
           </li>
           <li className="inline-block">
             <a
-              className="block text-highlight-1 fill-current hover:text-secondary-1 text-xl sm:text-2xl md:text-3xl"
+              className="block text-highlight-1 fill-current hover:text-secondary-1 text-xl sm:text-2xl md:text-3xl plausible-event-name=Github+TButton"
               href="https://github.com/Perth-Artifactory">
               <FaGithub />
             </a>
