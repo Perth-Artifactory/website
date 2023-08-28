@@ -15,4 +15,4 @@ To do/Known issues:
 To implement:
 - Gallery
 - Sponsor display
-- Calendar style
+- Calendar style 
