@@ -7,6 +7,9 @@ To do/Known issues:
   - Plausible
   - sitemap
   - opengraph
+- Accessability
+  - Alt text on images
+  - titles on iframes
 - Triple check for Astrowind references
 
 To implement:
