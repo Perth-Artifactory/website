@@ -4,6 +4,9 @@ To do/Known issues:
 - Pricing: "POPULAR" ribbon not positioned correctly on PC
 - External links do not open in new tab
 - Metadata/SEO optimisation
+  - Plausible
+  - sitemap
+  - opengraph
 - Triple check for Astrowind references
 
 To implement:
