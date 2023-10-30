@@ -31,7 +31,7 @@ Interested applicants should [submit](mailto:apply@artifactory.org.au) a 1 page 
 
 * This opportunity is not open to current or past members of the Perth Artifactory Inc.
 * You must be a tertiary student for 2023 and be at least 18 years of age.
-* 24/7 access to the Artifactory can be granted with this membership but it requires a key bond of $135 to be paid. The bond is refundable at the end of your membership or can be carried over if you wish to extend your membership after the sponsorship period.
+* 24/7 access to the Artifactory can be granted with this membership but it requires a key bond of $135 to be paid. The bond is refundable at the end of your membership or can be carried over if you wish to extend your membership after the sponsorship period. You will need to meet several suitability requirements to get a key.
 * The Perth Artifactory Committee reserves the right to cancel your membership at any time.
 * This membership is an Associate Membership under the Perth Artifactory Inc constitution and has no voting rights.
 * Tool usage fees are payable on some Artifactory tools in line with the fees charged to Concession members.
