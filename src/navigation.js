@@ -49,6 +49,10 @@ export const headerData = {
           href: getPermalink('/#slack'),
           //href: 'https://perart.io/slack',
         },
+        {
+          text: 'Sponsored Events',
+          href: getPermalink('/sponsored_events'),
+        },
       ],
     },
 
