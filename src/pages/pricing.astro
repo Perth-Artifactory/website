@@ -1,7 +1,5 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
-
-import HeroText from '~/components/widgets/HeroText.astro';
 import Prices from '~/components/widgets/Pricing.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
 import Features3 from '~/components/widgets/Features3.astro';
@@ -13,21 +11,14 @@ const metadata = {
 ---
 
 <Layout metadata={metadata}>
-  <!-- HeroText Widget ******************* -->
-{/* 
-  <HeroText
-    tagline="Membership"
-    title="Choose the perfect option for your goals."
-    subtitle="Only pay for what you need"
-  />
-*/}
+
   <!-- Pricing Widget ******************* -->
 
   <Prices
   id=prices
   tagline="Membership"
   title="Choose the perfect option for your goals"
-  subtitle="Only pay for what you need"
+    subtitle="Only pay for what you need"
     prices={[
       {
         title: 'day pass',
@@ -51,8 +42,8 @@ const metadata = {
           href: '/first_visit',
         },
       },
-      {
-        title: 'concession',
+          {
+            title: 'concession',
         subtitle: 'For students and concession holders',
         price: 45,
         period: 'per month',
@@ -205,15 +196,19 @@ const metadata = {
 
   <CallToAction
     title="Ready to join our community?"
-    callToAction={{
-      text: 'Become a member',
-      href: '#prices',
-      icon: 'tabler:users',
-    }}
-    callToAction2={{
-      text: 'Plan your first visit',
-      href: '/first_visit',
-    }}
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Become a member',
+        href: '#prices',
+        icon: 'tabler:users',
+      },
+      {
+        variant: 'secondary',
+        text: 'Plan your first visit',
+        href: '/first_visit',
+      },
+    ]}
   />
-
+  
 </Layout>

@@ -1,6 +1,5 @@
 ---
 import { Icon } from 'astro-icon/components';
-import { SITE_CONFIG } from '~/utils/config';
 import { getHomePermalink } from '~/utils/permalinks';
 import Logo from "~/components/Logo.astro";
 
@@ -37,7 +36,7 @@ const { socialLinks = [], secondaryLinks = [], links = [], footNote = '', theme 
             <a style="font-family:GothamRounded" class="flex items-center" href={getHomePermalink()}>
                 <Logo image={{ src: '~/assets/images/aflogo_header.png', alt: 'Perth Artifactory' }} /> ARTIFACTORY
             </a>
-          </span>
+</span>
         </div>
         <div class="text-sm text-muted">
           {

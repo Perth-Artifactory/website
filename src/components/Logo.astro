@@ -1,15 +1,13 @@
 ---
-import { SITE_CONFIG } from '~/utils/config';
+import { SITE } from '~/utils/config';
 import Image from '~/components/common/Image.astro';
 
 const {
   image = await Astro.slots.render('image'),
-} = Astro.props;
----
-
+} = Astro.props;---
 
 <span class="self-center ml-0 mr-2 rtl:ml-0 rtl:mr-2 text-2xl md:text-xl font-bold text-neutral-900 whitespace-nowrap dark:text-white">
-
+  
       <div>
         {
           image && (

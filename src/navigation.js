@@ -4,11 +4,11 @@ export const headerData = {
   links: [
     {
       text: 'Events',
-      href: getPermalink('/events'),
-    },
-
-    {
-      text: 'Membership',
+          href: getPermalink('/events'),
+        },
+        
+        {
+          text: 'Membership',
       links: [
         {
           text: 'What we offer',
@@ -47,7 +47,7 @@ export const headerData = {
         {
           text: 'Slack',
           href: getPermalink('/#slack'),
-          //href: 'https://perart.io/slack',
+        //href: 'https://perart.io/slack',
         },
         {
           text: 'Sponsored Events',
@@ -78,7 +78,7 @@ export const headerData = {
         },
       ],
     },
-  ],
+      ],
   actions: [{ type: 'button', text: 'Sign Up', href: '/pricing' }],
 };
 
@@ -155,6 +155,6 @@ export const footerData = {
     { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/Perth-Artifactory' },
   ],
   footNote: `
-  Perth Artifactory Inc is a not-for-profit incorporated association in Western Australia and <span class="md:inline-block">registered as a charity with the Australian Charities and Not-for-profits Commission.</span>
+    Perth Artifactory Inc is a not-for-profit incorporated association in Western Australia and <span class="md:inline-block">registered as a charity with the Australian Charities and Not-for-profits Commission.</span>
   `,
 };

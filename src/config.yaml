@@ -60,6 +60,9 @@ apps:
       robots:
         index: false
 
+    isRelatedPostsEnabled: true
+    relatedPostsCount: 4
+
 analytics:
   vendors:
     googleAnalytics:
@@ -79,8 +82,6 @@ ui:
         heading: rgb(0 0 0)
         muted: rgb(40 40 40)
         bgPage: rgb(255 255 255)
-        #primary: rgb(220 38 38)
-        #secondary: rgb(185 28 28)
         primary: rgb(255 36 0)
         secondary: rgb(196 28 0)
         accent: rgb(245 158 11)
@@ -97,8 +98,6 @@ ui:
         heading: rgb(247, 248, 248)
         muted: rgb(200, 188, 208)
         bgPage: rgb(18 18 18)
-        #primary: rgb(220 38 38)
-        #secondary: rgb(185 28 28)
         primary: rgb(255 36 0)
         secondary: rgb(196 28 0)
         accent: rgb(245 158 11)

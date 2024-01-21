@@ -1,6 +1,6 @@
 ---
 import { Icon } from 'astro-icon/components';
-import CTA from '~/components/ui/CTA.astro';
+import Button from '~/components/ui/Button.astro';
 import Headline from '~/components/ui/Headline.astro';
 import WidgetWrapper from '~/components/ui/WidgetWrapper.astro';
 import type { Pricing } from '~/types';
@@ -10,7 +10,6 @@ const {
   subtitle = '',
   tagline = '',
   prices = [],
-  callToAction = await Astro.slots.render('callToAction'),
 
   id,
   isDark = false,
@@ -64,27 +63,17 @@ const {
                       </ul>
                     )}
                   </div>
-
+                  
                       {
                         callToAction && (
-                          <div class="flex w-full sm:w-auto">
-                            {typeof callToAction === 'string' ? (
-                              <Fragment set:html={callToAction} />
-                            ) : (
-                              <a class={`btn w-full ${hasRibbon ? 'btn-primary' : ''}`} href={callToAction?.href}>
-                                {callToAction?.icon && (
-                                  <>
-                                    <Icon name={callToAction.icon} class="w-5 h-5 mr-1 -ml-1.5" />
-                                    &nbsp;
-                                  </>
-                                )}
-                                {callToAction.text}
-                              </a>
-                            )}
-                          </div>
-                        )
-                      }
-
+                    <div class="flex w-full sm:w-auto">
+                      {typeof callToAction === 'string' ? (
+                        <Fragment set:html={callToAction} />
+                      ) : (
+                        callToAction && callToAction.href && <Button {...hasRibbon ? { variant:'primary' } : {}} {...callToAction}/>
+                      )}
+                    </div>
+                  )}
                 </div>
               )}
             </div>
