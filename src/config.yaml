@@ -17,10 +17,6 @@ metadata:
     follow: true
   openGraph:
     site_name: Artifactory
-    images:
-      - url: '~/assets/favicon/Artifactory_logo_COMBO-VERT_ORANGE.png'
-        width: 1200
-        height: 628
     type: website
   twitter:
     handle: '@onwidget'
