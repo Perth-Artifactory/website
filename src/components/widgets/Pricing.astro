@@ -66,11 +66,11 @@ const {
                   
                       {
                         callToAction && (
-                    <div class="flex w-full sm:w-auto">
+                    <div class="flex w-full justify-center sm:w-auto">
                       {typeof callToAction === 'string' ? (
                         <Fragment set:html={callToAction} />
                       ) : (
-                        callToAction && callToAction.href && <Button {...hasRibbon ? { variant:'primary' } : {}} {...callToAction}/>
+                        callToAction && callToAction.href && <Button {...hasRibbon ? { variant:'primary' } : {}} {...callToAction} class="w-full"/>
                       )}
                     </div>
                   )}
