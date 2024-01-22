@@ -5,6 +5,7 @@ import Hero from '~/components/widgets/Hero.astro';
 import Features from '~/components/widgets/Features.astro';
 import Content from '~/components/widgets/Content.astro';
 import Stats from '~/components/widgets/Stats.astro';
+import Brands from '~/components/widgets/Brands.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const metadata = {
@@ -163,7 +164,7 @@ const metadata = {
         variant: 'primary',
         text: 'Become a member',
         href: '/pricing',
-        icon: 'tabler:users',
+        icon: 'tabler:users'
       },
       {
         variant: 'secondary',
@@ -172,4 +173,21 @@ const metadata = {
       },
     ]}
   />
+
+  <!-- Brands ******************* -->
+
+  <Brands
+    subtitle="Our partners & collaborators"
+    logos={[
+      { icon: 'altronics', href: 'https://www.altronics.com.au/' },
+      { icon: 'aussiebb', href: 'https://www.aussiebroadband.com.au/' },
+      { icon: 'google', href: 'https://www.google.com.au/nonprofits/' },
+      { icon: 'lotterywest', href: 'https://www.lotterywest.wa.gov.au/' },
+      { icon: 'stjohn', href: 'https://stjohnwa.com.au/' },
+      //{ icon: 'taubmans', href: 'https://www.taubmans.com.au/' },
+      { icon: 'webinabox', href: 'https://www.webinabox.net.au/' },
+      ]}
+    images={[]}
+  />
+
 </Layout>
