@@ -18,8 +18,21 @@ const {
 } = Astro.props as Brands;
 ---
 
-<WidgetWrapper id={id} isDark={isDark} containerClass={`max-w-6xl mx-auto pt-0 ${classes?.container ?? ''}`} bg={bg}>
-  <Headline title={title} subtitle={subtitle} tagline={tagline} />
+<WidgetWrapper
+  id={id}
+  isDark={isDark}
+  bg={bg}
+  containerClass={`max-w-6xl mx-auto pt-2 md:pt-4 lg:pt-6 ${classes?.container ?? ''}`}
+>
+
+  <Headline
+    title={title}
+    subtitle={subtitle}
+    tagline={tagline}
+    classes={{
+      container: `mb-4 md:mb-6`,
+    }}
+  />
 
   <div class="flex flex-wrap justify-center 2xl:mx-24 md:gap-x-6 lg:gap-x-12">
     {logos && 
