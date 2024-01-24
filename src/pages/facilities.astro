@@ -102,16 +102,19 @@ const metadata = {
 
   <CallToAction
     title="Join our community today!"
-    callToAction={{
-      text: 'Become a member',
-      href: '/pricing',
-      icon: 'tabler:users',
-    }}
-    callToAction2={{
-      text: 'Plan your first visit',
-      href: '/first_visit',
-    }}
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Become a member',
+        href: '/pricing',
+        icon: 'tabler:users',
+      },
+      {
+        variant: 'secondary',
+        text: 'Plan your first visit',
+        href: '/first_visit',
+      },
+    ]}
   />
-
 
 </Layout>
