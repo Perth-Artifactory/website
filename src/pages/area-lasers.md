@@ -12,7 +12,7 @@ At the Artifactory, we believe that laser cutting should be accessible for every
 ## Material types
 
 * **Acrylics**: Acrylic is one of the best materials for laser cutting—offering a smooth, clean finish.
-* **Wood**: We can laser cut many types of wood, such as ply, veneer, and solid woods, each offering a unique finish due to its grain and natural imperfections.
+* **Wood**: We can laser cut many types of wood, such as ply, MDF, veneer, and solid woods, each offering a unique finish due to its grain and natural imperfections.
 * **Paper and Card Stock**: Perfect for invitation cards, architectural models, and crafts.
 * **Fabric**: Our lasers can cut through natural fibre fabric cleanly and without fraying.
 * **Anodized Aluminum**: Our lasers can etch designs onto anodized aluminum—great for creating labels, badges, and more. This includes personalised water bottles.
