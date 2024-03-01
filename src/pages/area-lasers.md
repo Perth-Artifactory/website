@@ -11,17 +11,17 @@ At the Artifactory, we believe that laser cutting should be accessible for every
 
 ## Material types
 
-* **Acrylics**: Acrylic is one of the best materials for laser cutting—offering a smooth, clean finish.
-* **Wood**: We can laser cut many types of wood, such as ply, MDF, veneer, and solid woods, each offering a unique finish due to its grain and natural imperfections.
+* **Acrylics**: Acrylic is one of the best materials for laser cutting — offering a smooth, clean finish.
+* **Wood**: We can laser cut many types of wood, such as plywood, MDF, veneer, and solid woods, each offering a unique finish due to its grain and natural imperfections.
 * **Paper and Card Stock**: Perfect for invitation cards, architectural models, and crafts.
 * **Fabric**: Our lasers can cut through natural fibre fabric cleanly and without fraying.
-* **Anodized Aluminum**: Our lasers can etch designs onto anodized aluminum—great for creating labels, badges, and more. This includes personalised water bottles.
-- **Leather**: Leather's a popular material for custom projects like footwear, fashion accessories, and more.
+* **Anodized Aluminum**: Our lasers can etch designs onto anodized aluminum — great for creating labels, badges, and more. This includes personalised water bottles.
+- **Leather**: Our lasers can cut and engrave vegetable tanned leather. Leather's a popular material for custom projects like footwear, fashion accessories, and more.
 - **Glass**: While we can't cut glass, our laser cutters can etch designs onto its surface.
 
 For a comprehensive list and for specifics on any material not mentioned here, please feel free to get in touch with us. Each project is unique, and we're here to ensure you get the best result with your chosen material.
 
-Please note that certain materials, often due to toxic fume production, are unsuitable or unsafe for laser cutting, such as PVC, polycarbonate, and metals not mentioned above.
+Please note that certain materials, often due to toxic fume production, are unsuitable or unsafe for laser cutting, such as PVC, polycarbonate, chrome-tanned leather, and metals not mentioned above.
 
 ## Things you can make
 
@@ -37,6 +37,8 @@ Are you new to laser cutting, or just looking for inspiration for your next proj
 8. **Identity Engraving**: Protect your valuables by engraving your name or a unique identifier onto them. Ideal for security, it's a popular choice for personal belongings such as laptops, audio equipment, musical instruments, tools, and more. An engraved item is less likely to be stolen and easier to recover if lost.
 9. **Fashion and Apparel**: Design unique patterns for fabric, leather accessories, or embellishments.
 10. **Prototypes**: For inventors or businesses, laser cutting is often the fastest and most cost-effective way to create prototypes of a new product or part.
+11. **Jigs, fixtures, and templates**: It's easy to laser-cut precise patterns and shapes to help with woodworking and metalworking tasks.
+12. **Storage and display**: Make eye-catching display stands or snug storage solutions for your collectables - with custom designs, it's easy to get the exact dimensions you need.
 
 Remember, with laser cutting, the only limit is your imagination. If you have an idea outside of these examples or need help bringing a unique vision to life, we're here to help!
 
@@ -44,7 +46,7 @@ Remember, with laser cutting, the only limit is your imagination. If you have an
 
 Regardless of your experience level, we're here to help you make the most of our laser cutting services. If you're doing a one-off project, we recommend having our expert team handle your laser cutting needs. Our trained operators will help ensure your design is executed flawlessly, maintaining the highest level of safety and precision.
 
-However, if you wish to make laser cutting a regular facet of your creativity or work, we encourage you to join one of our hands-on training courses. Our comprehensive lessons go beyond the basics—we endeavour to take you from never having touched a laser cutter to operating it safely, effectively, and unsupervised.
+However, if you wish to make laser cutting a regular facet of your creativity or work, we encourage you to join one of our hands-on training courses. Our comprehensive lessons go beyond the basics — we endeavour to take you from never having touched a laser cutter to operating it safely, effectively, and unsupervised.
 
 Our training covers:
 * Safety procedures and guidelines
@@ -53,11 +55,12 @@ Our training covers:
 * Operating the laser cutter and handling materials
 
 Upon completion of the training, you'll have the confidence and knowledge to create your projects with our laser cutters during your Artifactory visits.
-Remember, support is always available. Our friendly volunteers are ready to assist you whether you've completed our laser cutting course or are using our service for the first time.
+Remember, support is always available. Our friendly volunteers are ready to assist you whether you've completed our laser cutting course or are using our laser cutters for the first time.
 
 ## Pricing
 
-Whether you're a member of the Artifactory or a one-day visitor, our laser-cutting service is open for you to utilize. Non-members can use our services at nominal day pass rates and for members, our services are drastically discounted as part of your monthly subscription.
+Whether you're a member of the Artifactory or a one-day visitor, our laser cutters are open for you to use. Non-members can use our services at nominal day pass rates and for members, our services are drastically discounted as part of your monthly subscription.
 
-* **Day Pass** ($15) + $5 per 10 minutes of cutting (contact us for a time estimates if unsure)
+* **We cut for you** - No training required! $15 + $5 per 10 minutes of setup and cutting time. (Contact us for a time estimate if unsure.)
+* **Day Pass** - for trained operators. $15 + $5 per 10 minutes of cutting (contact us for a time estimates if unsure)
 * **Members** 20c per minute (60% discount compared to day pass)
