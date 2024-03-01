@@ -35,18 +35,18 @@ const {
     classes={classes?.headline}
   />
 
-  <div class="entry">
-    <ul class="entry__entries" id="carouselTargetList">
+  <div>
+    <ul class="grid justify-center align-middle gap-8 m-0 p-0" id="carouselTargetList">
       {
         images.map((img, i) => {
           return (
-            <li class="entry__elem">
+            <li>
               <a
                 href={`./?image=${i}`}
                 data-carousel-index={i}
-                class="entry__link"
+                class="block"
               >
-                <img src={img} alt="" class="entry__img"/>
+                <img src={img} alt="" class="w-full"/>
               </a>
             </li>
           );
@@ -58,7 +58,7 @@ const {
         {
           images.map((img: any) => (
             <li class:list={["carousel__slide"]}>
-              <img src={img} alt="" class="entry__img"/>
+              <img src={img} alt="" class="w-full"/>
             </li>
           ))
         }
@@ -67,34 +67,3 @@ const {
   </div>
 
 </WidgetWrapper>
-
-<style lang="scss" is:global>
-  .entry {
-
-    &__entries {
-      display: grid;
-	  grid-template-columns: 1fr 1fr 1fr;
-	  justify-content: center;
-	  align-items: center;
-	  gap: 8px;
-      margin: 0;
-      padding: 0;
-      list-style: none;
-    }
-
-    &__elem {
-      &:hover {
-        cursor: pointer;
-      }
-    }
-
-	&__img {
-		width: 100%;
-	}
-
-    &__link {
-      display: block;
-    }
-
-  }
-</style>
