@@ -2,7 +2,6 @@
 title: 'Laser cutting'
 date: '2021-02-07T17:35:02.322Z'
 author: Fletcher Boyd
-heroUrl: '/assets/site/gallery/20200125_174436.jpg'
 description: 'DIY Laser cutting in Perth | The Artifactory offers precision cutting for a variety of materials.. Experience innovative fabrication and bring your designs to life!'
 layout: '~/layouts/MarkdownLayout.astro'
 ---
@@ -24,6 +23,8 @@ For a comprehensive list and for specifics on any material not mentioned here, p
 Please note that certain materials, often due to toxic fume production, are unsuitable or unsafe for laser cutting, such as PVC, polycarbonate, chrome-tanned leather, and metals not mentioned above.
 
 ## Things you can make
+
+![Alt text](~/assets/images/gallery/20181005_203737.jpg "Mouseover text")
 
 Are you new to laser cutting, or just looking for inspiration for your next project? We've seen a vast array of wonderful creations brought to life with our machines. The possibilities really are endless, limited only by your imagination. To get your creative juices flowing, here are some examples of what you can make with laser cutting:
 
