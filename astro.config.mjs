@@ -60,7 +60,6 @@ export default defineConfig({
     ),
 
     tasks(),
-    carousel(),
   ],
 
   image: {
