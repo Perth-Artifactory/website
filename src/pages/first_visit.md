@@ -15,7 +15,8 @@ The next best time is during one of these events:
 
 * General Hacking days, our **weekly** general build days (11am to 5pm every Saturday)
 * Arduino U, our **fortnightly** electronics night (7:30pm-10:30pm on Wednesday)
-* Metal Monday, our **fortnightly** metal fabrication night (7pm-10pm on Monday).
+* Metal Monday, our **fortnightly** metal fabrication night (7pm-10pm on Monday)
+* Wednesday Morning Woodworking for Women, our **weekly** women's woodworking group (9am-12pm on Wednesday - **Women only**, Trans/NB friendly)
 
 If your first visit will be during one of these events and you have a focused area of interest not covered by the event in question please [get in contact](mailto:info@artifactory.org.au) beforehand so we can make sure there's a volunteer around that can answer your specific questions.
 
