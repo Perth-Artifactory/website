@@ -73,6 +73,10 @@ export const headerData = {
           href: getPermalink('/about/#contact'),
         },
         {
+          text: 'Support Us',
+          href: getPermalink('/support'),
+        },
+        {
           text: 'Code of Conduct',
           href: getPermalink('/code_of_conduct'),
         },
@@ -112,6 +116,7 @@ export const footerData = {
         { text: 'Code of Conduct', href: '/code_of_conduct' },
         { text: 'Discussion and Voting', href: 'https://perart.io/vote' },
         { text: 'Contact Us', href: '/about/#contact' },
+        { text: 'Support Us', href: '/support' },
         { text: 'Slack', href: '/#slack' },
         { text: 'Meetup', href: 'https://www.meetup.com/Perth-Artifactory/' },
       ],
