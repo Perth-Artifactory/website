@@ -73,12 +73,12 @@ export const headerData = {
           href: getPermalink('/about/#contact'),
         },
         {
-          text: 'Code of Conduct',
-          href: getPermalink('/code_of_conduct'),
-        },
-        {
           text: 'Support Us',
           href: getPermalink('/support'),
+        },
+        {
+          text: 'Code of Conduct',
+          href: getPermalink('/code_of_conduct'),
         },
       ],
     },
