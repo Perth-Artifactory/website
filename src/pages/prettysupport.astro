@@ -79,10 +79,10 @@ const metadata = {
     </Fragment>
   </Content>
 
-  <!-- Donate **************** -->
+  <!-- Donate items **************** -->
 
   <Content
-    id="donate"
+    id="donatestuff"
     isAfterContent
     isReversed
     items={[
@@ -95,9 +95,26 @@ const metadata = {
       {
         title: 'Donate eligible drink containers',
         description:
-          "We are registered with the <a href='https://www.containersforchange.com.au/wa/'>Containers for Change</a> scheme and containers can be donated to us in two ways:<ul><li>If you're already dropping in for an event let one of our volunteers know and we can process the donation directly (We are unable to provide a receipt for containers donated on site)</li><li>You can take containers to any <a href='https://www.containersforchange.com.au/wa/return-locations'>donation point</a> and quote our scheme ID C10494301.</li></ul> Donations over $2 made at a listed collection point in our name are tax deductible.",
+          "We are registered with the <a href='https://www.containersforchange.com.au/wa/'>Containers for Change</a> scheme and containers can be donated to us in two ways:</br>If you're already dropping in for an event let one of our volunteers know and we can process the donation directly (We are unable to provide a receipt for containers donated on site)</br>You can take containers to any <a href='https://www.containersforchange.com.au/wa/return-locations'>donation point</a> and quote our scheme ID C10494301.</br>Donations over $2 made at a listed collection point in our name are tax deductible.",
         icon: 'tabler:grid-dots',
       },
+    ]}
+    image={{
+      src: '~/assets/images/gallery/20190616_162012.jpg',
+      alt: 'Spaces Image',
+    }}
+  >
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Donate items</h3>
+    </Fragment>
+  </Content>
+
+  <!-- Donate money **************** -->
+
+  <Content
+    id="donatemoney"
+    isAfterContent
+    items={[
       {
         title: 'Donate funds directly',
         description:
@@ -117,7 +134,8 @@ const metadata = {
     }}
   >
     <Fragment slot="content">
-      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Donations</h3>
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Donate money</h3>
     </Fragment>
   </Content>
+
 </Layout>
