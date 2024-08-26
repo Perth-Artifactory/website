@@ -1,0 +1,161 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+
+import Hero from '~/components/widgets/Hero.astro';
+import Content from '~/components/widgets/Content.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Support us',
+};
+---
+
+<Layout metadata={metadata}>
+
+  <!-- Promotion **************** -->
+
+  <Content
+    isReversed
+    tagline="Support our community"
+    title="Explore ways you can contribute"
+    subtitle="We are a non profit group run entirely by volunteers and supported by people like you. If you believe in what we're doing or we've helped you here are some ways you can support us."
+    id="promo"
+    items={[
+      {
+        title: 'Tell your friends',
+        description:
+          'Do you know of a person, group, or community that could thrive at the Artifactory? Let them know!',
+        icon: 'tabler:speakerphone',
+      },
+      {
+        title: 'Bring someone to the space',
+        description:
+          "There's no better way to support our community than by helping it grow. Our First Visit guide has some resources that your guest may find useful.",
+        icon: 'tabler:friends',
+      },
+      {
+        title: 'Leave a review',
+        description:
+          "After you've used our workshop please leave a review on <a href='https://maps.app.goo.gl/hU6H6zJKj8GiJVr39'>Google</a> or <a href='https://www.facebook.com/perthartifactory'>Facebook</a>, it's a great way to show others that you've enjoyed your time at our workshop.",
+        icon: 'tabler:ballpen',
+      },
+    ]}
+    image={{
+      src: '~/assets/images/gallery/modsynth.png',
+      alt: 'Tools Image',
+    }}
+  >
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Help us spread the word</h3>
+    </Fragment>
+  </Content>
+
+  <!-- Events **************** -->
+
+  <Content
+    id="events"
+    isAfterContent
+    items={[
+      {
+        title: 'Skill sharing and information workshops',
+        description:
+          "We're always looking for volunteers to run events in the space. Are you knowledgeable in an area you think our community might be interested in? Get in touch!",
+        icon: 'tabler:school',
+      },
+      {
+        title: 'External events',
+        description:
+          "New places and groups to visit and talk about what we do are our jam. Reach out if you organise a fair, festival, market, or convention and you think your attendees would be interested in the Artifactory.",
+        icon: 'tabler:balloon',
+      },
+      {
+        title: 'Organise an excursion or incursion',
+        description:
+          "Does your university club, high school class, or community group have an interest in making? We may be able to provide a tailored activity to suit.",
+        icon: 'tabler:building-community',
+      },
+    ]}
+    image={{
+      src: '~/assets/images/gallery/supanova.png',
+      alt: 'Spaces Image',
+    }}
+  >
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Events</h3>
+    </Fragment>
+  </Content>
+
+  <!-- Donate items **************** -->
+
+  <Content
+    id="donatestuff"
+    isAfterContent
+    isReversed
+    items={[
+      {
+        title: 'Donate equipment or consumables',
+        description:
+          "The facilities we offer to the community are only possible because of the equipment and consumables donated by our supporters. We are also set up to distribute donated equipment to worthy causes when we are unable to use the item ourselves.</br><sub>Please contact us first before bringing in equipment or consumables. We will also be able to advise whether the donation is tax deductible.</sub>",
+        icon: 'tabler:tools',
+      },
+      {
+        title: 'Donate eligible drink containers',
+        description:
+          "We are registered with the <a href='https://www.containersforchange.com.au/wa/'>Containers for Change</a> scheme and containers can be donated to us at any <a href='https://www.containersforchange.com.au/wa/return-locations'>collection point</a> by quoting our scheme ID: <strong>C10494301</strong>. If you're already dropping in for an event let one of our volunteers know and we can process the donation directly.</br><sub>Container donations over $2 at registered collection points are tax deductible. Donations on site are not but may be more convenient for event attendees.</sub>",
+        icon: 'tabler:bottle',
+      },
+    ]}
+    image={{
+      src: '~/assets/images/gallery/3dprinters.png',
+      alt: 'Spaces Image',
+    }}
+  >
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Donate items</h3>
+    </Fragment>
+  </Content>
+
+  <!-- Donate money **************** -->
+
+  <Content
+    id="donatemoney"
+    isAfterContent
+    items={[
+      {
+        title: 'Donate funds directly',
+        description:
+          "Direct monetary donations can be sent to the following account:</br>Name: Perth Artifactory Inc</br>BSB: 086 366</br>Account: 329 833 366</br><sub>Donations over $2 sent to this account are tax deductible. Please contact us for a receipt if you're not an existing member.</sub>",
+        icon: 'tabler:currency-dollar',
+      },
+      {
+        title: 'Wills and estates',
+        description:
+          "By making a bequest to us you are directly supporting a diverse community of makers, artists, and creatives. Your generosity ensures equal opportunities for all, regardless of background or experience, to learn, make, and share within our cooperative environment. Please contact us for more details.",
+        icon: 'tabler:grave',
+      },
+    ]}
+    image={{
+      src: '~/assets/images/gallery/woodworking_course.png',
+      alt: 'Spaces Image',
+    }}
+  >
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Donate money</h3>
+    </Fragment>
+  </Content>
+
+  <!-- Contact *********** -->
+
+  <CallToAction
+    title="Have questions?"
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Contact us',
+        href: '/about#contact',
+        icon: 'tabler:message-circle',
+      },
+    ]}
+  />
+
+</Layout>
