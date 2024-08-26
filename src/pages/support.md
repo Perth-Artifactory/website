@@ -36,8 +36,8 @@ Please [contact us](https://artifactory.org.au/about#contact) first before bring
 
 We are registered with the [Containers for Change](https://www.containersforchange.com.au/wa/) scheme and containers can be donated to us in two ways:
 
-* If you're already dropping in for an event let one of our volunteers know and we can process the donation directly (We are unable to provide a receipt for containers donated on site)
-* You can take containers to any [donation point](https://www.containersforchange.com.au/wa/return-locations) and quote our scheme ID **C10494301**. Donations made to a listed collection point in our name are [tax deductible](https://wiki.artifactory.org.au/en/docs/donating)
+* If you're already dropping in for an event let one of our volunteers know and we can process the donation directly (We are unable to provide a receipt for containers donated on site).
+* You can take containers to any [donation point](https://www.containersforchange.com.au/wa/return-locations) and quote our scheme ID **C10494301**. Donations over $2 made at a listed collection point in our name are [tax deductible](https://wiki.artifactory.org.au/en/docs/donating).
 
 ### Donate funds directly
 
