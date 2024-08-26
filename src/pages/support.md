@@ -22,7 +22,17 @@ There's no better way to support our community than by helping it grow. Our [Fir
 
 After you've used our workshop please leave a review on [Google](https://maps.app.goo.gl/hU6H6zJKj8GiJVr39) and/or [Facebook](https://www.facebook.com/perthartifactory), it's a great way to show others that you've enjoyed your time at our workshop.
 
-## Doantions
+## Events
+
+### Skill sharing and information workshops
+
+We're always looking for volunteers to run events in the space. Are you knowledgeable in an area you think our community might be interested in? [Get in touch](https://artifactory.org.au/about#contact)!
+
+### External events
+
+We're always looking for new places and groups to visit and talk about what we do. [Reach out](https://artifactory.org.au/about#contact) if you organise a fair, festival, market, or convention and you think your attendees would be interested in the Artifactory. 
+
+## Donations
 
 The Artifactory survives and thrives through the support of people like you.
 
