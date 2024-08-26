@@ -126,6 +126,7 @@ export const footerData = {
       links: [
         { text: 'ACT: Make, Hack, Void', href: 'https://canberramaker.space/', target: '_blank'},
         { text: 'NSW: Robots & Dinosaurs', href: 'https://robodino.org/', target: '_blank'},
+        { text: 'SA: Makerspace Adelaide', href: 'https://makerspaceadelaide.org/', target: '_blank'},
         { text: 'SA: Hackerspace Adelaide', href: 'https://www.hackerspace-adelaide.org.au/', target: '_blank'},
         { text: 'TAS: Hobart Hackerspace', href: 'https://www.hobarthackerspace.org.au/', target: '_blank'},
         { text: 'QLD: Brisbane Makerspace', href: 'https://brisbanemaker.space/', target: '_blank'},
