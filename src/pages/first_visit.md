@@ -34,4 +34,4 @@ You don't need to bring anything if you just want to check out the workshop. If 
 
 ## Cost
 
-There's no cost to come by for a tour during any of our events. If you want to stick around afterwards and make use of the facilities or participate in an event then you'll need to pay the Day Pass rate ($15).
+There's no cost to come by for a tour during any of our events. If you want to stick around afterwards and make use of the facilities or participate in an event then you'll need to pay the Day Pass rate ($20).
