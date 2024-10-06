@@ -22,6 +22,12 @@ If your first visit will be during one of these events and you have a focused ar
 
 You're also welcome at every other event on our calendar but due to the specialised nature of other events there may not be volunteers around that can answer questions about The Artifactory itself.
 
+## What to do beforehand
+
+Before you work on a project in the space for the first time or receive training you need to [register as a visitor](https://perart.io/visitor). This will allow us to collect your emergency contact information and assign inductions you complete to your profile.
+
+This is not applicable if you're only coming down for a look around, signed up as a visitor before, or held a membership with us in the past.
+
 ## What to bring
 
 You don't need to bring anything if you just want to check out the workshop. If you want to bring a project to work on that's okay too. Please [get in contact](mailto:info@artifactory.org.au) if you're not sure whether we have the tools required for your project in particular or you need to arrange training/induction on a particular tool.
