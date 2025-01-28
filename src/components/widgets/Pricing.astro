@@ -50,13 +50,18 @@ const {
                     {items && (
                       <ul role="list" class="my-8 md:my-10 space-y-2 text-left">
                         {items.map(
-                          ({ description, icon }) =>
+                          ({ description, icon, tip }) =>
                             description && (
                               <li class="mb-1.5 flex items-start space-x-3 leading-7">
                                 <div class="rounded-full bg-primary mt-1">
                                   <Icon name={icon ? icon : 'tabler:check'} class="w-5 h-5 font-bold p-1 text-white" />
                                 </div>
-                                <span>{description}</span>
+                                <div>
+                                  <span set:html={description}></span>
+                                  {tip && (
+                                   <span title={tip} class="ml-0 cursor-pointer"> ⓘ</span>
+                                  )}
+                               </div>
                               </li>
                             )
                         )}

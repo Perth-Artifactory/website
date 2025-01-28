@@ -4,6 +4,8 @@ import Prices from '~/components/widgets/Pricing.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
 import Features3 from '~/components/widgets/Features3.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
+import { Icon } from 'astro-icon/components';
+import { textSpanContainsPosition } from 'typescript';
 
 const metadata = {
   title: 'Membership',
@@ -71,7 +73,8 @@ const metadata = {
             description: 'Full use of Artifactory facilities',
           },
           {
-            description: '24/7 Access (with bond and on successful application)',
+            description: '24/7 Access (with bond)',
+            tip: 'Subject to <a href="https://wiki.artifactory.org.au/docs/policies/bylaws#rfid-keys-for-members" target="_blank" class="underline text-neutral-100 hover:text-primary">eligibility criteria</a>',
           },
           {
             description: 'Personal storage locker',
@@ -98,7 +101,8 @@ const metadata = {
         period: 'Per Month',
         items: [
           {
-            description: '24/7 Access (with bond and on successful application)',
+            description: '24/7 Access (with bond)',
+            tip: 'Subject to <a href="https://wiki.artifactory.org.au/docs/policies/bylaws#rfid-keys-for-members" target="_blank" class="underline text-neutral-100 hover:text-primary">eligibility criteria</a>',
           },
           {
             description: 'Rehearsal room access',
