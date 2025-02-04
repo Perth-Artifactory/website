@@ -1,6 +1,6 @@
 # website-v2
 
-[![Open in Coder](https://code.artifactory.org.au/open-in-coder.svg)](https://code.artifactory.org.au/templates/vscode/workspace?param.Repository=https://github.com/perth-Artifactory/website&param.Pre-installed%20extensions=%5B%22Markdown%22%2C%22Astro%22%5D&name=website)
+[![Open in Coder](https://code.artifactory.org.au/open-in-coder.svg)](https://code.artifactory.org.au/templates/vscode/workspace?param.Repository=https://github.com/perth-Artifactory/website&param.Pre-installed%20extensions=%5B%22Markdown%22%2C%22Astro%22%2C%22afweb%22%5D&name=website)
 
 To do/Known issues:
 - Testimonials: Circlular borders too large on PC
