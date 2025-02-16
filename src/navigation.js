@@ -157,7 +157,7 @@ export const footerData = {
   socialLinks: [
     { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: 'https://www.facebook.com/pages/The-Perth-Artifactory/178514525501368' },
     { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: 'https://www.instagram.com/theperthartifactory/' },
-    { ariaLabel: 'Youtube', icon: 'tabler:brand-youtube', href: 'https://www.facebook.com/pages/The-Perth-Artifactory/178514525501368' },
+    { ariaLabel: 'Slack', icon: 'tabler:brand-slack', href: 'https://perart.io/slack' },
     { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/Perth-Artifactory' },
   ],
   footNote: `
