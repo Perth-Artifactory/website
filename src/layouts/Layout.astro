@@ -11,6 +11,8 @@ import Metadata from '~/components/common/Metadata.astro';
 import SiteVerification from '~/components/common/SiteVerification.astro';
 import Analytics from '~/components/common/Analytics.astro';
 import BasicScripts from '~/components/common/BasicScripts.astro';
+import { Tooltips } from 'astro-tooltips';
+import 'tippy.js/animations/shift-away.css';
 
 // Uncomment line below to activate View Transitions
 // import { ViewTransitions } from 'astro:transitions';
@@ -35,7 +37,16 @@ const { language, textDirection } = I18N;
     <Metadata {...metadata} />
     <SiteVerification />
     <Analytics />
+    <Tooltips
+      interactive="true"
+      interactiveBorder="30"
+      allowHTML="true"
 
+      animation="shift-away"
+      delay={[15, 30]}
+      placement="top-end"
+    />
+    
     <!-- Uncomment line below to activate View Transitions -->
     <!-- <ViewTransitions fallback="swap" /> -->
   </head>

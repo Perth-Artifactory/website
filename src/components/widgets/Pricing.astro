@@ -21,7 +21,7 @@ const {
 <WidgetWrapper id={id} isDark={isDark} containerClass={`max-w-7xl mx-auto ${classes?.container ?? ''}`} bg={bg}>
   <Headline title={title} subtitle={subtitle} tagline={tagline} />
   <div class="flex items-stretch justify-center">
-    <div class="grid grid-cols-3 gap-4 dark:text-white sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4">
+    <div class="grid grid-cols-3 gap-4 dark:text-white sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3">
       {
         prices &&
           prices.map(({ title, subtitle, price, period, items, callToAction, hasRibbon = false, ribbonTitle }) => (
@@ -50,13 +50,18 @@ const {
                     {items && (
                       <ul role="list" class="my-8 md:my-10 space-y-2 text-left">
                         {items.map(
-                          ({ description, icon }) =>
+                          ({ description, icon, tip }) =>
                             description && (
                               <li class="mb-1.5 flex items-start space-x-3 leading-7">
                                 <div class="rounded-full bg-primary mt-1">
                                   <Icon name={icon ? icon : 'tabler:check'} class="w-5 h-5 font-bold p-1 text-white" />
                                 </div>
-                                <span>{description}</span>
+                                <div>
+                                  <span set:html={description}></span>
+                                  {tip && (
+                                   <span title={tip} class="ml-0 cursor-pointer"> ⓘ</span>
+                                  )}
+                               </div>
                               </li>
                             )
                         )}
