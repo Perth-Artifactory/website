@@ -16,5 +16,11 @@
   },
   "yaml.schemas": {
     "./.vscode/astrowind/config-schema.json": "/src/config.yaml"
-  }
+  },
+  "cSpell.words": [
+    "EFTPOS",
+    "makerspace",
+    "partytown",
+    "tabler"
+  ]
 }
