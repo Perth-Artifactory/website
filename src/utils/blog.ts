@@ -1,8 +1,8 @@
 import type { PaginateFunction } from 'astro';
-import { getCollection } from 'astro:content';
+import { getCollection, render } from 'astro:content';
 import type { CollectionEntry } from 'astro:content';
 import type { Post } from '~/types';
-import { APP_BLOG } from '~/utils/config';
+import { APP_BLOG } from 'astrowind:config';
 import { cleanSlug, trimSlash, BLOG_BASE, POST_PERMALINK_PATTERN, CATEGORY_BASE, TAG_BASE } from './permalinks';
 
 const generatePermalink = async ({
@@ -41,8 +41,8 @@ const generatePermalink = async ({
 };
 
 const getNormalizedPost = async (post: CollectionEntry<'post'>): Promise<Post> => {
-  const { id, slug: rawSlug = '', data } = post;
-  const { Content, remarkPluginFrontmatter } = await post.render();
+  const { id, data } = post;
+  const { Content, remarkPluginFrontmatter } = await render(post);
 
   const {
     publishDate: rawPublishDate = new Date(),
@@ -57,16 +57,26 @@ const getNormalizedPost = async (post: CollectionEntry<'post'>): Promise<Post> =
     metadata = {},
   } = data;
 
-  const slug = cleanSlug(rawSlug); // cleanSlug(rawSlug.split('/').pop());
+  const slug = cleanSlug(id); // cleanSlug(rawSlug.split('/').pop());
   const publishDate = new Date(rawPublishDate);
   const updateDate = rawUpdateDate ? new Date(rawUpdateDate) : undefined;
-  const category = rawCategory ? cleanSlug(rawCategory) : undefined;
-  const tags = rawTags.map((tag: string) => cleanSlug(tag));
+
+  const category = rawCategory
+    ? {
+        slug: cleanSlug(rawCategory),
+        title: rawCategory,
+      }
+    : undefined;
+
+  const tags = rawTags.map((tag: string) => ({
+    slug: cleanSlug(tag),
+    title: tag,
+  }));
 
   return {
     id: id,
     slug: slug,
-    permalink: await generatePermalink({ id, slug, publishDate, category }),
+    permalink: await generatePermalink({ id, slug, publishDate, category: category?.slug }),
 
     publishDate: publishDate,
     updateDate: updateDate,
@@ -88,18 +98,6 @@ const getNormalizedPost = async (post: CollectionEntry<'post'>): Promise<Post> =
 
     readingTime: remarkPluginFrontmatter?.readingTime,
   };
-};
-
-const getRandomizedPosts = (array: Post[], num: number) => {
-  const newArray: Post[] = [];
-
-  while (newArray.length < num && array.length > 0) {
-    const randomIndex = Math.floor(Math.random() * array.length);
-    newArray.push(array[randomIndex]);
-    array.splice(randomIndex, 1);
-  }
-
-  return newArray;
 };
 
 const load = async function (): Promise<Array<Post>> {
@@ -200,18 +198,20 @@ export const getStaticPathsBlogCategory = async ({ paginate }: { paginate: Pagin
   if (!isBlogEnabled || !isBlogCategoryRouteEnabled) return [];
 
   const posts = await fetchPosts();
-  const categories = new Set<string>();
+  const categories = {};
   posts.map((post) => {
-    typeof post.category === 'string' && categories.add(post.category.toLowerCase());
+    if (post.category?.slug) {
+      categories[post.category?.slug] = post.category;
+    }
   });
 
-  return Array.from(categories).flatMap((category) =>
+  return Array.from(Object.keys(categories)).flatMap((categorySlug) =>
     paginate(
-      posts.filter((post) => typeof post.category === 'string' && category === post.category.toLowerCase()),
+      posts.filter((post) => post.category?.slug && categorySlug === post.category?.slug),
       {
-        params: { category: category, blog: CATEGORY_BASE || undefined },
+        params: { category: categorySlug, blog: CATEGORY_BASE || undefined },
         pageSize: blogPostsPerPage,
-        props: { category },
+        props: { category: categories[categorySlug] },
       }
     )
   );
@@ -222,39 +222,60 @@ export const getStaticPathsBlogTag = async ({ paginate }: { paginate: PaginateFu
   if (!isBlogEnabled || !isBlogTagRouteEnabled) return [];
 
   const posts = await fetchPosts();
-  const tags = new Set<string>();
+  const tags = {};
   posts.map((post) => {
-    Array.isArray(post.tags) && post.tags.map((tag) => tags.add(tag.toLowerCase()));
+    if (Array.isArray(post.tags)) {
+      post.tags.map((tag) => {
+        tags[tag?.slug] = tag;
+      });
+    }
   });
 
-  return Array.from(tags).flatMap((tag) =>
+  return Array.from(Object.keys(tags)).flatMap((tagSlug) =>
     paginate(
-      posts.filter((post) => Array.isArray(post.tags) && post.tags.find((elem) => elem.toLowerCase() === tag)),
+      posts.filter((post) => Array.isArray(post.tags) && post.tags.find((elem) => elem.slug === tagSlug)),
       {
-        params: { tag: tag, blog: TAG_BASE || undefined },
+        params: { tag: tagSlug, blog: TAG_BASE || undefined },
         pageSize: blogPostsPerPage,
-        props: { tag },
+        props: { tag: tags[tagSlug] },
       }
     )
   );
 };
 
 /** */
-export function getRelatedPosts(allPosts: Post[], currentSlug: string, currentTags: string[]) {
-  if (!isBlogEnabled || !isRelatedPostsEnabled) return [];
+export async function getRelatedPosts(originalPost: Post, maxResults: number = 4): Promise<Post[]> {
+  const allPosts = await fetchPosts();
+  const originalTagsSet = new Set(originalPost.tags ? originalPost.tags.map((tag) => tag.slug) : []);
 
-  const relatedPosts = getRandomizedPosts(
-    allPosts.filter((post) => post.slug !== currentSlug && post.tags?.some((tag) => currentTags.includes(tag))),
-    APP_BLOG.relatedPostsCount
-  );
+  const postsWithScores = allPosts.reduce((acc: { post: Post; score: number }[], iteratedPost: Post) => {
+    if (iteratedPost.slug === originalPost.slug) return acc;
 
-  if (relatedPosts.length < APP_BLOG.relatedPostsCount) {
-    const morePosts = getRandomizedPosts(
-      allPosts.filter((post) => post.slug !== currentSlug && !post.tags?.some((tag) => currentTags.includes(tag))),
-      APP_BLOG.relatedPostsCount - relatedPosts.length
-    );
-    relatedPosts.push(...morePosts);
+    let score = 0;
+    if (iteratedPost.category && originalPost.category && iteratedPost.category.slug === originalPost.category.slug) {
+      score += 5;
+    }
+
+    if (iteratedPost.tags) {
+      iteratedPost.tags.forEach((tag) => {
+        if (originalTagsSet.has(tag.slug)) {
+          score += 1;
+        }
+      });
+    }
+
+    acc.push({ post: iteratedPost, score });
+    return acc;
+  }, []);
+
+  postsWithScores.sort((a, b) => b.score - a.score);
+
+  const selectedPosts: Post[] = [];
+  let i = 0;
+  while (selectedPosts.length < maxResults && i < postsWithScores.length) {
+    selectedPosts.push(postsWithScores[i].post);
+    i++;
   }
 
-  return relatedPosts;
+  return selectedPosts;
 }
