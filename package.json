@@ -30,10 +30,10 @@
     "astro": "^5.5.2",
     "astro-embed": "^0.9.0",
     "astro-icon": "^1.1.5",
+    "astro-tooltips": "^0.6.2",
     "limax": "4.1.0",
     "lodash.merge": "^4.6.2",
     "tippy.js": "^6.3.7",
-    "astro-tooltips": "^0.6.2",
     "unpic": "^4.1.2"
   },
   "devDependencies": {
