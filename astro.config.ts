@@ -86,5 +86,8 @@ export default defineConfig({
         '~': path.resolve(__dirname, './src'),
       },
     },
+    server: {
+      allowedHosts: [".code.artifactory.org.au"]
+    }
   },
 });

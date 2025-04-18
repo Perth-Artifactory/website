@@ -24,3 +24,5 @@ pnpm-lock.yaml
 
 .astro
 filebrowser.db
+
+yarn.lock
