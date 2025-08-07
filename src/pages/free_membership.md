@@ -22,7 +22,7 @@ Interested applicants should [submit](mailto:apply@artifactory.org.au) a 1 page 
 * What opportunities does the Perth Artifactory offer you?
 * What equipment can you see yourself using as part of your membership and for what?
 * What sort of assistance do you think you will need from the existing Artifactory Members for your projects?
-* Do you belong to any other Hacker/Maker spaces? If so, which?
+* Do you belong to any other makerspaces or community workshops/sheds? If so, which?
 * What campus will you attend in 2025?
 * Are there any workshops/events being held at the Artifactory that you would like to attend or help facilitate?
 * Could you see yourself running any sort of workshop in the future at the Artifactory? If so what?
@@ -35,4 +35,3 @@ Interested applicants should [submit](mailto:apply@artifactory.org.au) a 1 page 
 * The Perth Artifactory Committee reserves the right to cancel your membership at any time.
 * This membership is an Associate Membership under our constitution and has no voting rights.
 * Tool usage fees are payable on some Artifactory tools in line with the fees charged to Concession members.
-* This membership does not give free access to our rehearsal space but does allow the holder to access a discounted usage rate.
