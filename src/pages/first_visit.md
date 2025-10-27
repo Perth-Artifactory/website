@@ -38,4 +38,4 @@ There's no cost to come by for a tour during any of our events. If you want to s
 
 ## Smoking
 
-To protect the health of our community we do not allow attendees to smoke anywhere on our premises or in our neighbour's carparks.
+To protect the health of our community we do not allow attendees to smoke anywhere on our premises or in our neighbour's carparks. [View exclusion zone](https://wiki.artifactory.org.au/no_smoking.png)
