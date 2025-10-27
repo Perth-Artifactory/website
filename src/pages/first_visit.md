@@ -20,7 +20,7 @@ The next best time is during one of these events:
 
 If your first visit will be during one of these events and you have a focused area of interest not covered by the event in question please [get in contact](mailto:info@artifactory.org.au) beforehand so we can make sure there's a volunteer around that can answer your specific questions.
 
-You're also welcome at every other event on our calendar but due to the specialised nature of other events there may not be volunteers around that can answer questions about The Artifactory itself.
+You're also welcome at every other event on our [calendar](/events) but due to the specialised nature of other events there may not be volunteers around that can answer questions about the Artifactory itself.
 
 ## What to do beforehand
 
@@ -35,3 +35,7 @@ You don't need to bring anything if you just want to check out the workshop. If 
 ## Cost
 
 There's no cost to come by for a tour during any of our events. If you want to stick around afterwards and make use of the facilities or participate in an event then you'll need to pay the Day Pass rate ($20).
+
+## Smoking
+
+To protect the health of our community we do not allow attendees to smoke anywhere on our premises or in our neighbour's carparks.
