@@ -43,7 +43,7 @@ Are you new to laser cutting, or just looking for inspiration for your next proj
 
 Remember, with laser cutting, the only limit is your imagination. If you have an idea outside of these examples or need help bringing a unique vision to life, we're here to help!
 
-## Training provided
+## Training provided 
 
 Regardless of your experience level, we're here to help you make the most of our laser cutting services. If you're doing a one-off project, we recommend having our expert team handle your laser cutting needs. Our trained operators will help ensure your design is executed flawlessly, maintaining the highest level of safety and precision.
 
