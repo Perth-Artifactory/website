@@ -1,6 +1,6 @@
 ---
 title: 'Plan your first visit'
-date: '2022-11-09T06:44:02Z'
+date: '2026-02-05T06:44:02Z'
 author: 'Fletcher Boyd'
 heroUrl: ''
 description: 'All the information you need to plan your first visit to our workshop'
@@ -9,14 +9,14 @@ layout: '~/layouts/MarkdownLayout.astro'
 
 ## When to come
 
-The best time to check out the space is at our monthly Open Day which is held on the first **Saturday** of every month. Drop in any time between **11am and 2pm** and we'll have volunteers on hand to talk you through our facilities, events, and community. If you're planning on coming down to an Open Day there's no need to let us know beforehand.
+The best time to check out the space is at our monthly [Open Day](/events#event-openday) which is held on the first **Saturday** of every month. Drop in any time between **11am and 2pm** and we'll have volunteers on hand to talk you through our facilities, events, and community. If you're planning on coming down to an Open Day there's no need to let us know beforehand.
 
 The next best time is during one of these events:
 
-* General Hacking days, our **weekly** general build days (11am to 5pm every Saturday)
-* Arduino U, our **fortnightly** electronics night (7:30pm-10:30pm on Wednesday)
-* Metal Monday, our **fortnightly** metal fabrication night (7pm-10pm on Monday)
-* Wednesday Morning Woodworking for Women, our **weekly** women's woodworking group (9am-12pm on Wednesday - **Women only**, Trans/NB friendly)
+* [General Hacking days](/events#event-generalhackingday), our **weekly** general build days (11am to 5pm every Saturday)
+* [Arduino U](/events#event-arduinou), our **fortnightly** electronics night (7:30pm-10:30pm on Wednesday)
+* [Metal Monday](/events#event-metalmonday), our **fortnightly** metal fabrication night (7pm-10pm on Monday)
+* [Women's Woodworking](/events#event-womenswoodworking), our **weekly** women's woodworking group (9am-12pm on Wednesday - **Women only**, Trans/NB friendly)
 
 If your first visit will be during one of these events and you have a focused area of interest not covered by the event in question please [get in contact](mailto:info@artifactory.org.au) beforehand so we can make sure there's a volunteer around that can answer your specific questions.
 
