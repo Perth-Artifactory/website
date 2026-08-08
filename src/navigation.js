@@ -97,6 +97,7 @@ export const footerData = {
         { text: 'Plan your first visit', href: '/first_visit' },
         { text: 'Upcoming Events', href: '/events' },
         { text: 'FAQs', href: '/faq' },
+        { text: 'Member Portal', href: 'https://members.artifactory.org.au/' },
         { text: 'Wiki', href: 'https://wiki.artifactory.org.au/' },
         { text: 'Webcams', href: 'https://space.artifactory.org.au/' },
       ],
