@@ -60,8 +60,12 @@
   top: 100%;
   left: 0;
   right: 0;
-  height: calc(100vh - 100% - 120px);
+  height: calc(100dvh - 100% - 120px);
   padding: 0 5px;
+}
+
+#header.expanded.scroll nav {
+  height: calc(100dvh - 100% - 70px);
 }
 
 .dropdown:hover .dropdown-menu {
