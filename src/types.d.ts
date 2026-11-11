@@ -255,6 +255,7 @@ export interface Faqs extends Headline, Widget {
   iconDown?: string;
   items?: Array<Item>;
   columns?: number;
+  callToAction?: CallToAction;
 }
 
 export interface Steps extends Headline, Widget {
